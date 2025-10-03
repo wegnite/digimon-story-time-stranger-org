@@ -101,6 +101,26 @@ export function DigimonHero() {
           </CardContent>
         </Card>
       </div>
+
+      {/* Copyright Disclaimer Banner */}
+      <div className="relative z-10 container mx-auto mt-12 px-4">
+        <div className="rounded-lg border border-amber-500/30 bg-amber-950/30 backdrop-blur-sm p-4 shadow-lg">
+          <div className="flex items-start gap-3">
+            <span className="text-amber-400 text-xl flex-none mt-0.5">⚠️</span>
+            <div className="space-y-1">
+              <p className="text-sm font-semibold text-amber-300">
+                {t('disclaimer.title', { defaultValue: 'UNOFFICIAL FAN SITE - NOT AFFILIATED WITH BANDAI NAMCO' })}
+              </p>
+              <p className="text-xs text-amber-200/80 leading-relaxed">
+                {t('disclaimer.content', {
+                  defaultValue:
+                    'This is an independent fan-created guide. We are NOT affiliated with Bandai Namco Entertainment or official Digimon entities. We do not distribute game files, ROMs, or cracked versions. This site provides informational content only under fair use for educational purposes.',
+                })}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
