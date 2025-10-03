@@ -36,7 +36,7 @@ export function useImageExport() {
         scale: options.scale || exportSettings.scale,
         includeWatermark:
           options.includeWatermark ?? exportSettings.includeWatermark,
-        watermarkText: options.watermarkText || 'aipolaroidphoto.org',
+        watermarkText: options.watermarkText || 'digimonstorytimestranger.com',
         watermarkPosition: options.watermarkPosition || 'bottom-right',
       };
 
