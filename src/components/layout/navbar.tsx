@@ -61,9 +61,9 @@ export function Navbar({ scroll }: NavBarProps) {
         'sticky inset-x-0 top-0 z-40 py-4 transition-all duration-500',
         scroll
           ? scrolled
-            ? 'border-b border-white/10 bg-[#030516]/90 shadow-[0_18px_40px_-28px_rgba(70,88,255,0.75)] backdrop-blur-xl'
+            ? 'border-b border-blue-500/20 bg-[#030516]/95 shadow-[0_8px_32px_-8px_rgba(59,130,246,0.3)] backdrop-blur-xl'
             : 'border-b border-transparent bg-transparent'
-          : 'border-b border-white/10 bg-[#030516]/90 backdrop-blur-xl'
+          : 'border-b border-blue-500/20 bg-[#030516]/95 backdrop-blur-xl'
       )}
     >
       <Container className="px-4">
@@ -71,11 +71,16 @@ export function Navbar({ scroll }: NavBarProps) {
         <nav className="hidden lg:flex">
           {/* logo and name */}
           <div className="flex items-center">
-            <LocaleLink href="/" className="flex items-center space-x-2">
-              <Logo />
-              <span className="text-xl font-semibold">
-                {t('Metadata.name')}
-              </span>
+            <LocaleLink href="/" className="flex items-center space-x-3 group">
+              <Logo className="group-hover:scale-110 transition-transform duration-200" />
+              <div className="flex flex-col">
+                <span className="text-base font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+                  Digimon Story
+                </span>
+                <span className="text-xs text-slate-300 -mt-0.5">
+                  Time Stranger Guide
+                </span>
+              </div>
             </LocaleLink>
           </div>
 

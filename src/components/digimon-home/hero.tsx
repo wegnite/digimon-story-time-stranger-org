@@ -14,24 +14,27 @@ export function DigimonHero() {
   const secondaryHref = t('secondaryHref');
 
   return (
-    <section className="relative overflow-hidden border-b border-white/10 bg-[#040610] pb-20 pt-24">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(78,103,255,0.2),transparent_65%)]" />
-      <div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(67,20,153,0.25)_0%,rgba(20,24,95,0.2)_45%,rgba(8,12,40,0.85)_100%)]" />
+    <section className="relative overflow-hidden border-b border-blue-500/20 bg-gradient-to-b from-[#0a0f24] via-[#0d1428] to-[#040610] pb-20 pt-24">
+      {/* Animated digital pattern background */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(59,130,246,0.15),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_rgba(168,85,247,0.1),transparent_50%)]" />
+      {/* Digital grid pattern */}
+      <div className="absolute inset-0 bg-[linear-gradient(rgba(59,130,246,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(59,130,246,0.03)_1px,transparent_1px)] bg-[size:50px_50px] [mask-image:radial-gradient(ellipse_at_center,black_20%,transparent_80%)]" />
 
       <div className="relative z-10 container mx-auto flex flex-col gap-12 px-4 lg:flex-row lg:items-center lg:justify-center">
         <div className="max-w-2xl space-y-6 lg:flex-1">
           <Badge
             variant="outline"
-            className="w-fit border-blue-500/60 bg-blue-500/10 text-xs uppercase tracking-wide"
+            className="w-fit border-blue-400/60 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-xs uppercase tracking-wide text-blue-300 shadow-[0_0_20px_rgba(59,130,246,0.3)]"
           >
             <Globe2 className="mr-2 h-3.5 w-3.5" />
             {t('featureLabel')}
           </Badge>
           <div className="space-y-4">
-            <h1 className="text-4xl font-bold leading-tight text-white md:text-5xl">
+            <h1 className="text-4xl font-bold leading-tight bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent md:text-5xl">
               {t('title')}
             </h1>
-            <p className="text-lg text-slate-200 md:text-xl">
+            <p className="text-lg text-slate-300 md:text-xl">
               {t('description')}
             </p>
           </div>
@@ -40,7 +43,7 @@ export function DigimonHero() {
             <Button
               size="lg"
               asChild
-              className="bg-blue-500 text-white hover:bg-blue-600"
+              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:from-blue-600 hover:to-purple-700 shadow-[0_0_30px_rgba(59,130,246,0.4)] transition-all duration-300 hover:shadow-[0_0_40px_rgba(59,130,246,0.6)]"
             >
               <LocaleLink href={primaryHref}>
                 {t('primaryCta')}
@@ -51,7 +54,7 @@ export function DigimonHero() {
               size="lg"
               variant="outline"
               asChild
-              className="border-slate-500/60 bg-white/5 text-white hover:bg-white/10"
+              className="border-blue-400/60 bg-blue-500/10 text-blue-200 hover:bg-blue-500/20 hover:border-blue-400 transition-all duration-300"
             >
               <LocaleLink href={secondaryHref}>{t('secondaryCta')}</LocaleLink>
             </Button>
@@ -61,31 +64,31 @@ export function DigimonHero() {
             {features.map((feature, index) => (
               <div
                 key={`${feature}-${index}`}
-                className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/5 p-4"
+                className="group flex items-start gap-3 rounded-xl border border-blue-500/20 bg-gradient-to-br from-blue-500/10 to-purple-500/5 p-4 transition-all duration-300 hover:border-blue-400/40 hover:shadow-[0_0_20px_rgba(59,130,246,0.2)]"
               >
-                <CheckCircle className="mt-1 h-5 w-5 flex-none text-emerald-400" />
-                <p className="text-sm text-slate-200">{feature}</p>
+                <CheckCircle className="mt-1 h-5 w-5 flex-none text-blue-400 group-hover:text-blue-300 transition-colors" />
+                <p className="text-sm text-slate-200 group-hover:text-white transition-colors">{feature}</p>
               </div>
             ))}
           </div>
         </div>
 
-        <Card className="w-full max-w-md border-blue-500/30 bg-white/5 backdrop-blur lg:flex-1">
+        <Card className="w-full max-w-md border-blue-400/30 bg-gradient-to-br from-blue-500/10 via-purple-500/5 to-pink-500/5 backdrop-blur-xl shadow-[0_0_40px_rgba(59,130,246,0.15)] lg:flex-1">
           <CardContent className="space-y-4 p-6">
             <div className="space-y-2">
-              <p className="text-sm uppercase tracking-wider text-blue-200">
+              <p className="text-sm uppercase tracking-wider text-blue-300 font-semibold">
                 {t('subtitle')}
               </p>
-              <h2 className="text-2xl font-semibold text-white">
+              <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-200 to-purple-200 bg-clip-text text-transparent">
                 Digimon Story Time Stranger Global Guide
               </h2>
-              <p className="text-sm text-slate-200">
+              <p className="text-sm text-slate-300">
                 {t('cardDescription', { defaultValue: t('description') })}
               </p>
             </div>
-            <div className="rounded-lg border border-white/10 bg-white/5 p-4">
-              <p className="text-sm text-slate-300">{t('subtitle')}</p>
-              <p className="mt-2 text-sm text-slate-200">
+            <div className="rounded-lg border border-blue-400/30 bg-gradient-to-br from-blue-500/15 to-purple-500/10 p-4 shadow-inner">
+              <p className="text-sm text-blue-300 font-medium">{t('subtitle')}</p>
+              <p className="mt-2 text-sm text-slate-200 font-mono">
                 https://digimonstorytimestranger.com
               </p>
             </div>
