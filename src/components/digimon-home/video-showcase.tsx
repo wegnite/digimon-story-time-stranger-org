@@ -23,16 +23,24 @@ export function VideoShowcaseSection({
       thumbnail: 'https://img.youtube.com/vi/HRkN-3QM9Gk/maxresdefault.jpg',
     },
     {
-      id: 'gameplay-systems',
-      title: 'Gameplay Systems Overview',
-      description: 'Deep dive into game mechanics and features',
-      thumbnail: '/imgs/digimon-gameplay.jpg',
+      id: 'dGumjAt2qY4',
+      title: 'Combat & Timeline Systems Explained',
+      description:
+        'Deep dive into stagger windows, Burst gauge and Chrono control.',
+      thumbnail: 'https://img.youtube.com/vi/dGumjAt2qY4/maxresdefault.jpg',
     },
     {
-      id: 'digimon-moves',
-      title: 'Digimon Special Moves',
-      description: 'Showcase of signature attacks and abilities',
-      thumbnail: '/imgs/digimon-moves.jpg',
+      id: 'SkHV7x_GX8g',
+      title: 'Evolution Planner Walkthrough',
+      description:
+        'How to route Rookie to Mega forms without wasting resources.',
+      thumbnail: 'https://img.youtube.com/vi/SkHV7x_GX8g/maxresdefault.jpg',
+    },
+    {
+      id: 'iUuumoefRgM',
+      title: 'Late-Game Raid Showcase',
+      description: 'Tempest raid mechanics and recommended team rotations.',
+      thumbnail: 'https://img.youtube.com/vi/iUuumoefRgM/maxresdefault.jpg',
     },
   ];
 
@@ -43,7 +51,9 @@ export function VideoShowcaseSection({
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold bg-gradient-to-r from-white via-purple-100 to-pink-200 bg-clip-text text-transparent md:text-4xl">{title}</h2>
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-white via-purple-100 to-pink-200 bg-clip-text text-transparent md:text-4xl">
+            {title}
+          </h2>
           <p className="mt-4 text-lg text-slate-300">{description}</p>
         </div>
 
@@ -81,7 +91,9 @@ export function VideoShowcaseSection({
 
           {/* Video Playlist */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold bg-gradient-to-r from-blue-200 to-purple-200 bg-clip-text text-transparent">More Videos</h3>
+            <h3 className="text-lg font-semibold bg-gradient-to-r from-blue-200 to-purple-200 bg-clip-text text-transparent">
+              More Videos
+            </h3>
             {videos.map((video, index) => (
               <button
                 type="button"

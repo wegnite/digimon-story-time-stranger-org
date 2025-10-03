@@ -21,8 +21,8 @@ export const websiteConfig: WebsiteConfig = {
   metadata: {
     images: {
       ogImage: '/og.png',
-      logoLight: '/logo.png',
-      logoDark: '/logo-dark.png',
+      logoLight: '/digimon/android-chrome-192x192.png',
+      logoDark: '/digimon/android-chrome-192x192.png',
     },
     social: {
       github: 'https://github.com/digimonstorytimestranger',

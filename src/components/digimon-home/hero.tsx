@@ -67,7 +67,9 @@ export function DigimonHero() {
                 className="group flex items-start gap-3 rounded-xl border border-blue-500/20 bg-gradient-to-br from-blue-500/10 to-purple-500/5 p-4 transition-all duration-300 hover:border-blue-400/40 hover:shadow-[0_0_20px_rgba(59,130,246,0.2)]"
               >
                 <CheckCircle className="mt-1 h-5 w-5 flex-none text-blue-400 group-hover:text-blue-300 transition-colors" />
-                <p className="text-sm text-slate-200 group-hover:text-white transition-colors">{feature}</p>
+                <p className="text-sm text-slate-200 group-hover:text-white transition-colors">
+                  {feature}
+                </p>
               </div>
             ))}
           </div>
@@ -87,7 +89,9 @@ export function DigimonHero() {
               </p>
             </div>
             <div className="rounded-lg border border-blue-400/30 bg-gradient-to-br from-blue-500/15 to-purple-500/10 p-4 shadow-inner">
-              <p className="text-sm text-blue-300 font-medium">{t('subtitle')}</p>
+              <p className="text-sm text-blue-300 font-medium">
+                {t('subtitle')}
+              </p>
               <p className="mt-2 text-sm text-slate-200 font-mono">
                 https://digimonstorytimestranger.com
               </p>
@@ -109,7 +113,10 @@ export function DigimonHero() {
             <span className="text-amber-400 text-xl flex-none mt-0.5">⚠️</span>
             <div className="space-y-1">
               <p className="text-sm font-semibold text-amber-300">
-                {t('disclaimer.title', { defaultValue: 'UNOFFICIAL FAN SITE - NOT AFFILIATED WITH BANDAI NAMCO' })}
+                {t('disclaimer.title', {
+                  defaultValue:
+                    'UNOFFICIAL FAN SITE - NOT AFFILIATED WITH BANDAI NAMCO',
+                })}
               </p>
               <p className="text-xs text-amber-200/80 leading-relaxed">
                 {t('disclaimer.content', {

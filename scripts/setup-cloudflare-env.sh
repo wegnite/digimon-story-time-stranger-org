@@ -198,13 +198,13 @@ create_cloudflare_resources() {
         # 创建 R2 存储桶
         print_info "创建 R2 存储桶..."
         
-        if wrangler r2 bucket create aipolaroidphoto-cache 2>/dev/null; then
+        if wrangler r2 bucket create digimonstorytimestranger-cache 2>/dev/null; then
             print_success "缓存存储桶创建成功"
         else
             print_warning "缓存存储桶可能已存在"
         fi
         
-        if wrangler r2 bucket create aipolaroidphoto-files 2>/dev/null; then
+        if wrangler r2 bucket create digimonstorytimestranger-files 2>/dev/null; then
             print_success "文件存储桶创建成功"
         else
             print_warning "文件存储桶可能已存在"

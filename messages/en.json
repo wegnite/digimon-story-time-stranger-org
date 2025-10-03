@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "name": "Digimon Story Time Stranger Global Guide",
-    "title": "Digimon Story Time Stranger Global Guide — Walkthroughs, Database & Team Tools",
-    "description": "Master Digimon Story Time Stranger with structured walkthroughs, data-driven strategy tools, and multilingual coverage for every region."
+    "title": "Digimon Story Time Stranger Guide – Walkthroughs & Tools",
+    "description": "Command the timeline with structured walkthroughs, Digimon databases, patch intel, and planning tools built for dedicated Story Time Stranger tamers worldwide."
   },
   "Common": {
     "login": "Log in",
@@ -441,6 +441,7 @@
       "community": {
         "title": "Community",
         "items": {
+          "blog": "Blog",
           "hub": "Community Hub",
           "submit": "Submit Guide",
           "updates": "Patch Tracker",
@@ -742,8 +743,8 @@
     }
   },
   "HomePage": {
-    "title": "Digimon Story Time Stranger Global Guide — Walkthroughs, Database & Tools",
-    "description": "All-in-one Digimon Story Time Stranger companion with curated walkthroughs, multilingual coverage, and battle-ready planning utilities.",
+    "title": "Digimon Story Time Stranger Guide – Walkthroughs & Tools",
+    "description": "Command the timeline with structured walkthroughs, Digimon databases, patch intel, and planning tools built for dedicated Story Time Stranger tamers worldwide.",
     "hero": {
       "badge": "Global Digimon strategy hub",
       "title": "Crack every mystery in Digimon Story Time Stranger",

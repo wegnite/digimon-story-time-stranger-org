@@ -56,20 +56,20 @@ export function constructMetadata({
     ...(keywords && { keywords }),
     icons: {
       icon: [
-        { url: '/favicon.ico' },
+        { url: '/digimon/favicon.ico' },
         {
-          url: '/favicon-32x32.png',
+          url: '/digimon/favicon-32x32.png',
           type: 'image/png',
           sizes: '32x32',
         },
         {
-          url: '/favicon-16x16.png',
+          url: '/digimon/favicon-16x16.png',
           type: 'image/png',
           sizes: '16x16',
         },
       ],
-      shortcut: '/favicon-32x32.png',
-      apple: '/apple-touch-icon.png',
+      shortcut: '/digimon/favicon-32x32.png',
+      apple: '/digimon/apple-touch-icon.png',
     },
     metadataBase: new URL(getBaseUrl()),
     manifest: `${getBaseUrl()}/manifest.webmanifest`,

@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "name": "数码宝贝故事 时之陌生人 全球指南",
-    "title": "数码宝贝故事 时之陌生人 全球指南 — 攻略、数据库与队伍工具",
-    "description": "掌握《数码宝贝故事 时之陌生人》的结构化攻略、数据驱动策略工具和多语言覆盖。"
+    "title": "数码宝贝时之陌生人攻略指南 – 通关与工具",
+    "description": "统筹每个章节的攻略路线、数码兽数据库、版本更新情报、阵容模拟、事件提醒与多语言支援工具，为全球《数码宝贝故事 时之陌生人》玩家提供深度支持、队伍协作参考与赛事准备指南。"
   },
   "Common": {
     "login": "登录",
@@ -311,30 +311,40 @@
       }
     },
     "footer": {
-      "product": {
-        "title": "产品",
+      "tagline": "全球首个数码宝贝故事时之陌生人策略大全，实时数据更新。",
+      "guides": {
+        "title": "攻略",
         "items": {
-          "generator": "生成器",
-          "templates": "模板",
-          "vintage": "复古模式"
+          "beginner": "新手指南",
+          "walkthrough": "剧情攻略",
+          "boss": "BOSS战略"
         }
       },
-      "resources": {
-        "title": "资源",
+      "database": {
+        "title": "数据库",
         "items": {
-          "gallery": "作品集",
-          "tutorials": "教程",
-          "docs": "文档",
-          "blog": "博客"
+          "digimon": "数码宝贝图鉴",
+          "items": "道具目录",
+          "maps": "地图"
         }
       },
-      "company": {
-        "title": "团队",
+      "tools": {
+        "title": "工具",
         "items": {
-          "about": "关于我们",
-          "contact": "联系我们",
-          "changelog": "更新日志",
-          "waitlist": "候补名单"
+          "evolutionTree": "进化树",
+          "skillPlanner": "技能规划",
+          "teamBuilder": "队伍构建"
+        }
+      },
+      "community": {
+        "title": "社区",
+        "items": {
+          "blog": "博客",
+          "hub": "社区中心",
+          "submit": "提交攻略",
+          "updates": "补丁追踪",
+          "blueprint": "产品蓝图",
+          "contact": "联系与合作"
         }
       },
       "legal": {
