@@ -98,6 +98,20 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
         </div>
       </Container>
 
+      {/* Disclaimer Banner */}
+      <div className="relative border-t border-amber-500/30 bg-amber-950/20 py-4">
+        <Container className="relative z-10 px-4">
+          <div className="flex flex-col gap-2 text-center md:text-left">
+            <p className="text-sm font-semibold text-amber-400">
+              ⚠️ {t('Marketing.footer.disclaimer.title')}
+            </p>
+            <p className="text-xs text-amber-200/80 leading-relaxed">
+              {t('Marketing.footer.disclaimer.content')}
+            </p>
+          </div>
+        </Container>
+      </div>
+
       <div className="relative border-t border-white/10 py-8">
         <Container className="relative z-10 px-4">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">

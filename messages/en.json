@@ -455,6 +455,10 @@
           "privacyPolicy": "Privacy Policy",
           "termsOfService": "Terms of Service"
         }
+      },
+      "disclaimer": {
+        "title": "UNOFFICIAL FAN SITE - NOT AFFILIATED WITH BANDAI NAMCO",
+        "content": "This is an independent fan-created guide and community resource. We are NOT affiliated with, endorsed by, or connected to Bandai Namco Entertainment, Digimon, or any official Digimon franchise entities. All game content, names, logos, and trademarks are property of their respective owners. We do not distribute game files, ROMs, or cracked versions. This site provides informational content only under fair use for educational and commentary purposes."
       }
     },
     "avatar": {
@@ -979,7 +983,11 @@
         "Localized communities coordinating updates"
       ],
       "footerNote": "Translated launch content across four languages with community expansion slots.",
-      "cardDescription": "Global strategy infrastructure connecting walkthroughs, data, and planning utilities."
+      "cardDescription": "Global strategy infrastructure connecting walkthroughs, data, and planning utilities.",
+      "disclaimer": {
+        "title": "UNOFFICIAL FAN SITE - NOT AFFILIATED WITH BANDAI NAMCO",
+        "content": "This is an independent fan-created guide and community resource. We are NOT affiliated with, endorsed by, or connected to Bandai Namco Entertainment, Digimon, or any official Digimon franchise entities. All game content, names, logos, and trademarks are property of their respective owners. We do not distribute game files, ROMs, or cracked versions. This site provides informational content only under fair use for educational and commentary purposes."
+      }
     },
     "pillars": {
       "title": "Everything your squad needs in one knowledge base",
