@@ -9,19 +9,30 @@ import { getBaseUrl } from '../lib/urls/urls';
 type Href = Parameters<typeof getLocalePathname>[0]['href'];
 
 /**
- * Static routes prioritized for AI Polaroid Photo
+ * Static routes for Digimon Story Time Stranger
  */
 const staticRoutes = [
   '/',
-  '/ai/image',
-  '/ai/polaroid',
-  '/ai/polaroid/generator',
-  '/ai/polaroid/templates',
-  '/ai/vintage-photo',
+  '/database',
+  '/database/digimon',
+  '/database/items',
+  '/database/maps',
   '/tools',
-  '/gallery',
-  '/tutorials',
-  '/policy/ugc',
+  '/tools/team-builder',
+  '/tools/evolution-tree',
+  '/tools/skill-planner',
+  '/guides',
+  '/guides/beginner',
+  '/guides/walkthrough',
+  '/guides/boss',
+  '/guides/secrets',
+  '/guides/side-quests',
+  '/news',
+  '/news/updates',
+  '/news/events',
+  '/community',
+  '/community/discussion',
+  '/community/share-guide',
   // legal/basic pages
   '/privacy',
   '/terms',
@@ -30,7 +41,6 @@ const staticRoutes = [
   '/about',
   '/contact',
   '/changelog',
-  '/wan-2-2',
 ];
 
 /**
@@ -51,22 +61,32 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   > = {
     '/': { priority: 1.0, changeFrequency: 'weekly' },
-    '/ai/image': { priority: 1.0, changeFrequency: 'weekly' },
-    '/ai/polaroid': { priority: 1.0, changeFrequency: 'weekly' },
-    '/ai/polaroid/generator': { priority: 0.95, changeFrequency: 'weekly' },
-    '/ai/polaroid/templates': { priority: 0.9, changeFrequency: 'weekly' },
-    '/ai/vintage-photo': { priority: 0.9, changeFrequency: 'weekly' },
-    '/tools': { priority: 0.8, changeFrequency: 'monthly' },
-    '/gallery': { priority: 0.8, changeFrequency: 'daily' },
-    '/tutorials': { priority: 0.7, changeFrequency: 'weekly' },
-    '/policy/ugc': { priority: 0.6, changeFrequency: 'yearly' },
+    '/database': { priority: 0.95, changeFrequency: 'weekly' },
+    '/database/digimon': { priority: 0.9, changeFrequency: 'weekly' },
+    '/database/items': { priority: 0.9, changeFrequency: 'weekly' },
+    '/database/maps': { priority: 0.9, changeFrequency: 'weekly' },
+    '/tools': { priority: 0.9, changeFrequency: 'monthly' },
+    '/tools/team-builder': { priority: 0.85, changeFrequency: 'monthly' },
+    '/tools/evolution-tree': { priority: 0.85, changeFrequency: 'monthly' },
+    '/tools/skill-planner': { priority: 0.85, changeFrequency: 'monthly' },
+    '/guides': { priority: 0.9, changeFrequency: 'weekly' },
+    '/guides/beginner': { priority: 0.85, changeFrequency: 'weekly' },
+    '/guides/walkthrough': { priority: 0.85, changeFrequency: 'weekly' },
+    '/guides/boss': { priority: 0.85, changeFrequency: 'weekly' },
+    '/guides/secrets': { priority: 0.85, changeFrequency: 'weekly' },
+    '/guides/side-quests': { priority: 0.85, changeFrequency: 'weekly' },
+    '/news': { priority: 0.8, changeFrequency: 'daily' },
+    '/news/updates': { priority: 0.75, changeFrequency: 'weekly' },
+    '/news/events': { priority: 0.75, changeFrequency: 'weekly' },
+    '/community': { priority: 0.7, changeFrequency: 'daily' },
+    '/community/discussion': { priority: 0.65, changeFrequency: 'daily' },
+    '/community/share-guide': { priority: 0.65, changeFrequency: 'daily' },
     '/privacy': { priority: 0.5, changeFrequency: 'yearly' },
     '/terms': { priority: 0.5, changeFrequency: 'yearly' },
     '/cookie': { priority: 0.5, changeFrequency: 'yearly' },
     '/about': { priority: 0.3, changeFrequency: 'yearly' },
     '/contact': { priority: 0.3, changeFrequency: 'yearly' },
     '/changelog': { priority: 0.3, changeFrequency: 'monthly' },
-    '/wan-2-2': { priority: 0.6, changeFrequency: 'weekly' },
   };
 
   // add static routes
@@ -82,7 +102,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   );
 
   // Blog routes temporarily disabled to avoid 404 pages in sitemap
-  // TODO: Re-enable when blog content is ready for AI Polaroid Photo
+  // TODO: Re-enable when blog content is ready for Digimon Story Time Stranger
   /*
   if (websiteConfig.blog.enable) {
     // add categories
@@ -171,7 +191,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   */
 
   // Docs routes temporarily disabled to avoid 404 pages in sitemap
-  // TODO: Re-enable when docs content is relevant for AI Polaroid Photo
+  // TODO: Re-enable when docs content is relevant for Digimon Story Time Stranger
   /*
   if (websiteConfig.docs.enable) {
     const docsParams = source.generateParams();
