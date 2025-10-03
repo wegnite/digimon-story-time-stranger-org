@@ -18,8 +18,8 @@ export function DigimonHero() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(78,103,255,0.2),transparent_65%)]" />
       <div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(67,20,153,0.25)_0%,rgba(20,24,95,0.2)_45%,rgba(8,12,40,0.85)_100%)]" />
 
-      <div className="relative z-10 container mx-auto flex flex-col gap-12 px-4 lg:flex-row lg:items-center">
-        <div className="max-w-2xl space-y-6">
+      <div className="relative z-10 container mx-auto flex flex-col gap-12 px-4 lg:flex-row lg:items-center lg:justify-center">
+        <div className="max-w-2xl space-y-6 lg:flex-1">
           <Badge
             variant="outline"
             className="w-fit border-blue-500/60 bg-blue-500/10 text-xs uppercase tracking-wide"
@@ -70,7 +70,7 @@ export function DigimonHero() {
           </div>
         </div>
 
-        <Card className="w-full max-w-md border-blue-500/30 bg-white/5 backdrop-blur">
+        <Card className="w-full max-w-md border-blue-500/30 bg-white/5 backdrop-blur lg:flex-1">
           <CardContent className="space-y-4 p-6">
             <div className="space-y-2">
               <p className="text-sm uppercase tracking-wider text-blue-200">
