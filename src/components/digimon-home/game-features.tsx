@@ -106,7 +106,7 @@ export function GameFeaturesSection() {
           {features.map((feature, index) => (
             <Card
               key={`${feature.title}-${index}`}
-              className="group border-blue-500/20 bg-gradient-to-br from-blue-500/10 to-purple-500/5 backdrop-blur-xl transition-all duration-300 hover:border-blue-400/50 hover:shadow-[0_0_30px_rgba(59,130,246,0.2)] hover:-translate-y-1"
+              className="group border-blue-500/20 bg-gradient-to-br from-blue-500/10 to-purple-500/5 backdrop-blur-xl transition-all duration-300 hover:border-blue-400/50 hover:shadow-[0_0_30px_rgba(59,130,246,0.2)] hover:-translate-y-1 cursor-default"
             >
               <CardContent className="space-y-4 p-6">
                 <div

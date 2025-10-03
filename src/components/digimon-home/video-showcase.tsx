@@ -95,8 +95,13 @@ export function VideoShowcaseSection({
               >
                 <div className="flex gap-3 p-3">
                   <div className="relative h-16 w-24 flex-none overflow-hidden rounded bg-slate-800">
-                    <div className="flex h-full items-center justify-center">
-                      <Play className="h-6 w-6 text-blue-400 transition-transform group-hover:scale-110" />
+                    <img
+                      src={video.thumbnail}
+                      alt={video.title}
+                      className="h-full w-full object-cover"
+                    />
+                    <div className="absolute inset-0 flex items-center justify-center bg-black/40 transition-all group-hover:bg-black/20">
+                      <Play className="h-6 w-6 text-white transition-transform group-hover:scale-125" />
                     </div>
                   </div>
                   <div className="flex-1 space-y-1 text-left">
