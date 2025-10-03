@@ -1448,7 +1448,7 @@
           ],
           "cta": {
             "label": "Open Beginner Compass",
-            "href": "/guides/beginner"
+            "href": "/guides/beginner/field-manual"
           }
         },
         {
@@ -1461,7 +1461,7 @@
           ],
           "cta": {
             "label": "Main Story Walkthrough",
-            "href": "/guides/walkthrough"
+            "href": "/guides/walkthrough/main-arc"
           }
         },
         {
@@ -1474,7 +1474,7 @@
           ],
           "cta": {
             "label": "Secrets & 100% route",
-            "href": "/guides/secrets"
+            "href": "/guides/secrets/lost-chronicle"
           }
         },
         {
@@ -1487,7 +1487,7 @@
           ],
           "cta": {
             "label": "Boss Strategy Archive",
-            "href": "/guides/boss"
+            "href": "/guides/boss/apex-dossiers"
           }
         }
       ],
@@ -1565,7 +1565,7 @@
       "actions": {
         "primary": {
           "label": "Follow walkthrough arc 1",
-          "href": "/guides/walkthrough"
+          "href": "/guides/walkthrough/main-arc"
         },
         "secondary": {
           "label": "Ask questions in community hub",
@@ -1634,7 +1634,7 @@
         },
         {
           "title": "Team Builder presets",
-          "href": "/tools/team-builder",
+          "href": "/tools/team-builder/synergy-matrix",
           "description": "Recommended squads for each arc with swap notes."
         }
       ]
@@ -1675,7 +1675,7 @@
           ],
           "cta": {
             "label": "Check events calendar",
-            "href": "/news/events"
+            "href": "/news/events/luminous-tides-briefing"
           }
         }
       ],
@@ -1733,7 +1733,7 @@
       "resources": [
         {
           "title": "Skill Planner",
-          "href": "/tools/skill-planner",
+          "href": "/tools/skill-planner/combo-theory",
           "description": "Optimise ability upgrades before heading in."
         },
         {
@@ -1771,7 +1771,7 @@
           ],
           "cta": {
             "label": "Evolution tree planner",
-            "href": "/tools/evolution-tree"
+            "href": "/tools/evolution-tree/planner-basics"
           }
         },
         {
@@ -1983,7 +1983,7 @@
           "description": "Drag-and-drop planner that tracks requirements, costs, and stat previews across branches.",
           "cta": {
             "label": "Open Evolution Tree",
-            "href": "/tools/evolution-tree"
+            "href": "/tools/evolution-tree/planner-basics"
           }
         },
         {
@@ -1991,7 +1991,7 @@
           "description": "Allocate ability points, preview multipliers, and detect conflicts before committing.",
           "cta": {
             "label": "Launch Skill Planner",
-            "href": "/tools/skill-planner"
+            "href": "/tools/skill-planner/combo-theory"
           }
         },
         {
@@ -1999,18 +1999,18 @@
           "description": "Compose squads with aura coverage, resistance analysis, and exportable presets.",
           "cta": {
             "label": "Build a Team",
-            "href": "/tools/team-builder"
+            "href": "/tools/team-builder/synergy-matrix"
           }
         }
       ],
       "actions": {
         "primary": {
           "label": "Start with team builder",
-          "href": "/tools/team-builder"
+          "href": "/tools/team-builder/synergy-matrix"
         },
         "secondary": {
           "label": "View boss counterplay",
-          "href": "/guides/boss"
+          "href": "/guides/boss/apex-dossiers"
         }
       }
     }
@@ -2053,7 +2053,7 @@
       "actions": {
         "primary": {
           "label": "Plan skills next",
-          "href": "/tools/skill-planner"
+          "href": "/tools/skill-planner/combo-theory"
         },
         "secondary": {
           "label": "Check Digimon stats",
@@ -2100,7 +2100,17 @@
             "href": "/tools/team-builder"
           }
         }
-      ]
+      ],
+      "actions": {
+        "primary": {
+          "label": "Send to team builder",
+          "href": "/tools/team-builder/synergy-matrix"
+        },
+        "secondary": {
+          "label": "Review patch context",
+          "href": "/news/updates/chronoshift-1-1-2"
+        }
+      }
     }
   },
   "ToolsTeamBuilder": {
@@ -2141,7 +2151,17 @@
             "href": "/news/updates"
           }
         }
-      ]
+      ],
+      "actions": {
+        "primary": {
+          "label": "Submit build for review",
+          "href": "/community/discussion"
+        },
+        "secondary": {
+          "label": "Return to news center",
+          "href": "/news/events/luminous-tides-briefing"
+        }
+      }
     }
   },
   "NewsOverview": {
@@ -2159,7 +2179,7 @@
           "description": "Rapid synopsis of balance changes, bug fixes, and quality-of-life improvements.",
           "cta": {
             "label": "View patch feed",
-            "href": "/news/updates"
+            "href": "/news/updates/chronoshift-1-1-2"
           }
         },
         {
@@ -2167,7 +2187,7 @@
           "description": "Global schedule for raids, collaborations, and community livestreams.",
           "cta": {
             "label": "Browse events",
-            "href": "/news/events"
+            "href": "/news/events/luminous-tides-briefing"
           }
         },
         {
@@ -2264,7 +2284,7 @@
         },
         "secondary": {
           "label": "Track patch context",
-          "href": "/news/updates"
+          "href": "/news/updates/chronoshift-1-1-2"
         }
       }
     }
