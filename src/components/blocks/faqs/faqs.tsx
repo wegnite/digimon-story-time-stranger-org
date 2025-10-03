@@ -19,7 +19,7 @@ type FAQItem = {
 
 export default function FaqSection() {
   const locale = useLocale();
-  const t = useTranslations('HomePage.faq');
+  const t = useTranslations('DigimonHome.faq');
 
   const faqItems: FAQItem[] = [
     {

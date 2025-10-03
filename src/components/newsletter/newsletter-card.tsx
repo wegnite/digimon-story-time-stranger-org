@@ -14,7 +14,7 @@ export function NewsletterCard() {
   const t = useTranslations('Newsletter');
 
   return (
-    <div className="w-full p-16 rounded-lg bg-muted/50">
+    <div id="newsletter" className="w-full rounded-lg bg-muted/50 p-16">
       <div className="flex flex-col items-center justify-center gap-8">
         {/* Header */}
         <HeaderSection

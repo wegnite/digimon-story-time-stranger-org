@@ -3,18 +3,24 @@
 import { Routes } from '@/routes';
 import type { NestedMenuItem } from '@/types';
 import {
-  BuildingIcon,
-  ComponentIcon,
-  CookieIcon,
-  FileTextIcon,
-  FlameIcon,
-  ListChecksIcon,
-  MailIcon,
-  MailboxIcon,
-  RocketIcon,
-  ShieldCheckIcon,
-  SquareKanbanIcon,
-  WandSparklesIcon,
+  CalendarDays,
+  Compass,
+  Database,
+  FileText,
+  Flag,
+  GitBranch,
+  Globe2,
+  Info,
+  Mail,
+  Map,
+  MapPinned,
+  Megaphone,
+  MessageCircle,
+  PackageSearch,
+  PenSquare,
+  Sparkles,
+  Swords,
+  Users,
 } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { websiteConfig } from './website';
@@ -23,237 +29,195 @@ import { websiteConfig } from './website';
  * Get navbar config with translations
  *
  * NOTICE: used in client components only
- *
- * docs:
- * https://aipolaroidphoto.org/docs/config/navbar
- *
- * @returns The navbar config with translated titles and descriptions
  */
 export function getNavbarLinks(): NestedMenuItem[] {
   const t = useTranslations('Marketing.navbar');
 
+  const resourcesItems: NestedMenuItem['items'] = [
+    {
+      title: t('resources.items.prd.title'),
+      description: t('resources.items.prd.description'),
+      icon: <FileText className="size-4 shrink-0" />,
+      href: Routes.ProductBlueprint,
+      external: false,
+    },
+    {
+      title: t('resources.items.about.title'),
+      description: t('resources.items.about.description'),
+      icon: <Info className="size-4 shrink-0" />,
+      href: Routes.About,
+      external: false,
+    },
+    {
+      title: t('resources.items.contact.title'),
+      description: t('resources.items.contact.description'),
+      icon: <Mail className="size-4 shrink-0" />,
+      href: Routes.Contact,
+      external: false,
+    },
+  ];
+
+  if (websiteConfig.blog.enable) {
+    resourcesItems.push({
+      title: t('resources.items.blog.title'),
+      description: t('resources.items.blog.description'),
+      icon: <Sparkles className="size-4 shrink-0" />,
+      href: Routes.Blog,
+      external: false,
+    });
+  }
+
+  if (websiteConfig.docs.enable) {
+    resourcesItems.push({
+      title: t('resources.items.docs.title'),
+      description: t('resources.items.docs.description'),
+      icon: <FileText className="size-4 shrink-0" />,
+      href: Routes.Docs,
+      external: false,
+    });
+  }
+
   return [
     {
-      title: t('generator.title'),
-      href: Routes.AiPolaroidGenerator,
-      external: false,
-    },
-    {
-      title: t('templates.title'),
-      href: Routes.AiPolaroidTemplates,
-      external: false,
-    },
-    {
-      title: t('vintage.title'),
-      href: Routes.AiVintagePhoto,
-      external: false,
-    },
-    {
-      title: t('gallery.title'),
-      href: Routes.Gallery,
-      external: false,
-    },
-    {
-      title: t('tutorials.title'),
-      href: Routes.Tutorials,
-      external: false,
-    },
-    ...(websiteConfig.blog.enable
-      ? [
-          {
-            title: t('blog.title'),
-            href: Routes.Blog,
-            external: false,
-          },
-        ]
-      : []),
-    {
-      title: t('pages.title'),
+      title: t('guides.title'),
       items: [
         {
-          title: t('pages.items.tools.title'),
-          description: t('pages.items.tools.description'),
-          icon: <WandSparklesIcon className="size-4 shrink-0" />,
-          href: Routes.Tools,
+          title: t('guides.items.beginner.title'),
+          description: t('guides.items.beginner.description'),
+          icon: <Compass className="size-4 shrink-0" />,
+          href: Routes.GuidesBeginner,
           external: false,
         },
         {
-          title: t('pages.items.wan22.title'),
-          description: t('pages.items.wan22.description'),
-          icon: <RocketIcon className="size-4 shrink-0" />,
-          href: Routes.Wan22,
+          title: t('guides.items.walkthrough.title'),
+          description: t('guides.items.walkthrough.description'),
+          icon: <Map className="size-4 shrink-0" />,
+          href: Routes.GuidesWalkthrough,
           external: false,
         },
         {
-          title: t('pages.items.about.title'),
-          description: t('pages.items.about.description'),
-          icon: <BuildingIcon className="size-4 shrink-0" />,
-          href: Routes.About,
+          title: t('guides.items.sideQuests.title'),
+          description: t('guides.items.sideQuests.description'),
+          icon: <Flag className="size-4 shrink-0" />,
+          href: Routes.GuidesSideQuests,
           external: false,
         },
         {
-          title: t('pages.items.contact.title'),
-          description: t('pages.items.contact.description'),
-          icon: <MailIcon className="size-4 shrink-0" />,
-          href: Routes.Contact,
+          title: t('guides.items.boss.title'),
+          description: t('guides.items.boss.description'),
+          icon: <Swords className="size-4 shrink-0" />,
+          href: Routes.GuidesBoss,
           external: false,
         },
         {
-          title: t('pages.items.waitlist.title'),
-          description: t('pages.items.waitlist.description'),
-          icon: <MailboxIcon className="size-4 shrink-0" />,
-          href: Routes.Waitlist,
-          external: false,
-        },
-        {
-          title: t('pages.items.roadmap.title'),
-          description: t('pages.items.roadmap.description'),
-          icon: <SquareKanbanIcon className="size-4 shrink-0" />,
-          href: Routes.Roadmap,
-          external: true,
-        },
-        {
-          title: t('pages.items.changelog.title'),
-          description: t('pages.items.changelog.description'),
-          icon: <ListChecksIcon className="size-4 shrink-0" />,
-          href: Routes.Changelog,
-          external: false,
-        },
-        {
-          title: t('pages.items.cookiePolicy.title'),
-          description: t('pages.items.cookiePolicy.description'),
-          icon: <CookieIcon className="size-4 shrink-0" />,
-          href: Routes.CookiePolicy,
-          external: false,
-        },
-        {
-          title: t('pages.items.privacyPolicy.title'),
-          description: t('pages.items.privacyPolicy.description'),
-          icon: <ShieldCheckIcon className="size-4 shrink-0" />,
-          href: Routes.PrivacyPolicy,
-          external: false,
-        },
-        {
-          title: t('pages.items.termsOfService.title'),
-          description: t('pages.items.termsOfService.description'),
-          icon: <FileTextIcon className="size-4 shrink-0" />,
-          href: Routes.TermsOfService,
+          title: t('guides.items.secrets.title'),
+          description: t('guides.items.secrets.description'),
+          icon: <Sparkles className="size-4 shrink-0" />,
+          href: Routes.GuidesSecrets,
           external: false,
         },
       ],
     },
-    // {
-    //   title: t('blocks.title'),
-    //   items: [
-    //     {
-    //       title: t('blocks.items.magicui.title'),
-    //       icon: <ComponentIcon className="size-4 shrink-0" />,
-    //       href: Routes.MagicuiBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.hero-section.title'),
-    //       icon: <FlameIcon className="size-4 shrink-0" />,
-    //       href: Routes.HeroBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.logo-cloud.title'),
-    //       icon: <SquareCodeIcon className="size-4 shrink-0" />,
-    //       href: Routes.LogoCloudBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.features.title'),
-    //       icon: <WandSparklesIcon className="size-4 shrink-0" />,
-    //       href: Routes.FeaturesBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.integrations.title'),
-    //       icon: <SnowflakeIcon className="size-4 shrink-0" />,
-    //       href: Routes.IntegrationsBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.content.title'),
-    //       icon: <NewspaperIcon className="size-4 shrink-0" />,
-    //       href: Routes.ContentBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.stats.title'),
-    //       icon: <ChartNoAxesCombinedIcon className="size-4 shrink-0" />,
-    //       href: Routes.StatsBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.team.title'),
-    //       icon: <UsersIcon className="size-4 shrink-0" />,
-    //       href: Routes.TeamBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.testimonials.title'),
-    //       icon: <ThumbsUpIcon className="size-4 shrink-0" />,
-    //       href: Routes.TestimonialsBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.callToAction.title'),
-    //       icon: <RocketIcon className="size-4 shrink-0" />,
-    //       href: Routes.CallToActionBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.footer.title'),
-    //       icon: <FootprintsIcon className="size-4 shrink-0" />,
-    //       href: Routes.FooterBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.pricing.title'),
-    //       icon: <CircleDollarSignIcon className="size-4 shrink-0" />,
-    //       href: Routes.PricingBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.comparator.title'),
-    //       icon: <SplitSquareVerticalIcon className="size-4 shrink-0" />,
-    //       href: Routes.ComparatorBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.faq.title'),
-    //       icon: <CircleHelpIcon className="size-4 shrink-0" />,
-    //       href: Routes.FAQBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.login.title'),
-    //       icon: <LogInIcon className="size-4 shrink-0" />,
-    //       href: Routes.LoginBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.signup.title'),
-    //       icon: <UserPlusIcon className="size-4 shrink-0" />,
-    //       href: Routes.SignupBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.forgot-password.title'),
-    //       icon: <LockKeyholeIcon className="size-4 shrink-0" />,
-    //       href: Routes.ForgotPasswordBlocks,
-    //       external: false,
-    //     },
-    //     {
-    //       title: t('blocks.items.contact.title'),
-    //       icon: <MailIcon className="size-4 shrink-0" />,
-    //       href: Routes.ContactBlocks,
-    //       external: false,
-    //     },
-    //   ],
-    // },
+    {
+      title: t('database.title'),
+      items: [
+        {
+          title: t('database.items.digimon.title'),
+          description: t('database.items.digimon.description'),
+          icon: <Database className="size-4 shrink-0" />,
+          href: Routes.DatabaseDigimon,
+          external: false,
+        },
+        {
+          title: t('database.items.items.title'),
+          description: t('database.items.items.description'),
+          icon: <PackageSearch className="size-4 shrink-0" />,
+          href: Routes.DatabaseItems,
+          external: false,
+        },
+        {
+          title: t('database.items.maps.title'),
+          description: t('database.items.maps.description'),
+          icon: <MapPinned className="size-4 shrink-0" />,
+          href: Routes.DatabaseMaps,
+          external: false,
+        },
+      ],
+    },
+    {
+      title: t('tools.title'),
+      items: [
+        {
+          title: t('tools.items.evolutionTree.title'),
+          description: t('tools.items.evolutionTree.description'),
+          icon: <GitBranch className="size-4 shrink-0" />,
+          href: Routes.ToolsEvolutionTree,
+          external: false,
+        },
+        {
+          title: t('tools.items.skillPlanner.title'),
+          description: t('tools.items.skillPlanner.description'),
+          icon: <Sparkles className="size-4 shrink-0" />,
+          href: Routes.ToolsSkillPlanner,
+          external: false,
+        },
+        {
+          title: t('tools.items.teamBuilder.title'),
+          description: t('tools.items.teamBuilder.description'),
+          icon: <Users className="size-4 shrink-0" />,
+          href: Routes.ToolsTeamBuilder,
+          external: false,
+        },
+      ],
+    },
+    {
+      title: t('news.title'),
+      items: [
+        {
+          title: t('news.items.updates.title'),
+          description: t('news.items.updates.description'),
+          icon: <Megaphone className="size-4 shrink-0" />,
+          href: Routes.NewsUpdates,
+          external: false,
+        },
+        {
+          title: t('news.items.events.title'),
+          description: t('news.items.events.description'),
+          icon: <CalendarDays className="size-4 shrink-0" />,
+          href: Routes.NewsEvents,
+          external: false,
+        },
+      ],
+    },
+    {
+      title: t('community.title'),
+      items: [
+        {
+          title: t('community.items.hub.title'),
+          description: t('community.items.hub.description'),
+          icon: <Globe2 className="size-4 shrink-0" />,
+          href: Routes.Community,
+          external: false,
+        },
+        {
+          title: t('community.items.submit.title'),
+          description: t('community.items.submit.description'),
+          icon: <PenSquare className="size-4 shrink-0" />,
+          href: Routes.CommunitySubmit,
+          external: false,
+        },
+        {
+          title: t('community.items.discussion.title'),
+          description: t('community.items.discussion.description'),
+          icon: <MessageCircle className="size-4 shrink-0" />,
+          href: Routes.CommunityDiscussion,
+          external: false,
+        },
+      ],
+    },
+    {
+      title: t('resources.title'),
+      items: resourcesItems,
+    },
   ];
 }

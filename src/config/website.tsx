@@ -5,7 +5,7 @@ import type { WebsiteConfig } from '@/types';
  * website config, without translations
  *
  * docs:
- * https://aipolaroidphoto.org/docs/config/website
+ * https://digimonstorytimestranger.com/docs/config/website
  */
 export const websiteConfig: WebsiteConfig = {
   ui: {
@@ -25,13 +25,13 @@ export const websiteConfig: WebsiteConfig = {
       logoDark: '/logo-dark.png',
     },
     social: {
-      github: 'https://github.com/aipolaroidphoto',
-      twitter: 'https://twitter.com/aipolaroidphoto',
-      blueSky: 'https://bsky.app/profile/aipolaroidphoto.org',
-      discord: 'https://discord.gg/aipolaroidphoto',
-      mastodon: 'https://mastodon.social/@aipolaroidphoto',
-      linkedin: 'https://linkedin.com/company/aipolaroidphoto',
-      youtube: 'https://youtube.com/@aipolaroidphoto',
+      github: 'https://github.com/digimonstorytimestranger',
+      twitter: 'https://twitter.com/digimonstranger',
+      blueSky: 'https://bsky.app/profile/digimonstorytimestranger.com',
+      discord: 'https://discord.gg/digimonstorytimestranger',
+      mastodon: 'https://mastodon.social/@digimonstorytimestranger',
+      linkedin: 'https://linkedin.com/company/digimonstorytimestranger',
+      youtube: 'https://youtube.com/@digimonstorytimestranger',
     },
   },
   features: {
@@ -62,9 +62,17 @@ export const websiteConfig: WebsiteConfig = {
         flag: '🇺🇸',
         name: 'English',
       },
-      zh: {
-        flag: '🇨🇳',
-        name: '中文',
+      ja: {
+        flag: '🇯🇵',
+        name: '日本語',
+      },
+      es: {
+        flag: '🇪🇸',
+        name: 'Español',
+      },
+      fr: {
+        flag: '🇫🇷',
+        name: 'Français',
       },
     },
   },
@@ -78,8 +86,10 @@ export const websiteConfig: WebsiteConfig = {
   },
   mail: {
     provider: 'resend',
-    fromEmail: 'AI Polaroid Photo <support@aipolaroidphoto.org>',
-    supportEmail: 'AI Polaroid Photo <support@aipolaroidphoto.org>',
+    fromEmail:
+      'Digimon Story Time Stranger Guide <support@digimonstorytimestranger.com>',
+    supportEmail:
+      'Digimon Story Time Stranger Guide <support@digimonstorytimestranger.com>',
   },
   newsletter: {
     enable: true,

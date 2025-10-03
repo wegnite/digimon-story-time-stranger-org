@@ -1,4 +1,4 @@
-import { AiToolHomepage } from '@/components/ai-tool';
+import { DigimonHomepage } from '@/components/digimon-home';
 import { constructMetadata } from '@/lib/metadata';
 import { getUrlWithLocale } from '@/lib/urls/urls';
 import type { Metadata } from 'next';
@@ -25,5 +25,5 @@ interface HomePageProps {
 }
 
 export default async function HomePage({ params }: HomePageProps) {
-  return <AiToolHomepage />;
+  return <DigimonHomepage />;
 }

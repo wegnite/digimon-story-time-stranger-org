@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "name": "AI Polaroid Photo",
-    "title": "AI Polaroid Photo Generator — Create Nostalgic AI-Generated Polaroid Style Photos",
-    "description": "Create stunning AI-generated polaroid-style photos with vintage filters, instant effects, and nostalgic aesthetics. Transform your images into beautiful polaroid memories."
+    "name": "Digimon Story Time Stranger Global Guide",
+    "title": "Digimon Story Time Stranger Global Guide — Walkthroughs, Database & Team Tools",
+    "description": "Master Digimon Story Time Stranger with structured walkthroughs, data-driven strategy tools, and multilingual coverage for every region."
   },
   "Common": {
     "login": "Log in",
@@ -192,15 +192,15 @@
     }
   },
   "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
+    "title": "Digimon Dispatch",
+    "subtitle": "Weekly strategist digest",
+    "description": "Subscribe for patch change breakdowns, meta team spotlights, and localization release notes across all supported languages.",
     "form": {
       "email": "Email",
       "subscribe": "Subscribe",
       "subscribing": "Subscribing...",
       "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
+      "fail": "Subscription failed",
       "emailValidation": "Please enter a valid email address"
     }
   },
@@ -297,97 +297,155 @@
   },
   "Marketing": {
     "navbar": {
-      "generator": {
-        "title": "Generator"
-      },
-      "templates": {
-        "title": "Templates"
-      },
-      "vintage": {
-        "title": "Vintage Mode"
-      },
-      "gallery": {
-        "title": "Gallery"
-      },
-      "tutorials": {
-        "title": "Tutorials"
-      },
-      "blog": {
-        "title": "Blog"
-      },
-      "pages": {
-        "title": "Pages",
+      "guides": {
+        "title": "Guides",
         "items": {
-          "tools": {
-            "title": "Curated Tools",
-            "description": "Prompt packs, integrations, and workflow guides for AI polaroids"
+          "beginner": {
+            "title": "Beginner Compass",
+            "description": "Leveling curve, partner choices, and onboarding tips."
           },
-          "wan22": {
-            "title": "wan 2.2 Playbook",
-            "description": "All-in-one research hub for wan 2.2 traffic tests"
+          "walkthrough": {
+            "title": "Story Walkthrough",
+            "description": "Mission-by-mission breakdowns with dialogue cues and rewards."
           },
-          "about": {
-            "title": "About",
-            "description": "Learn more about our team and product vision"
+          "sideQuests": {
+            "title": "Side Quests & Favors",
+            "description": "Unlock optional objectives, partner affinity boosts, and gear."
           },
-          "contact": {
-            "title": "Contact",
-            "description": "Partner with us or get support"
+          "boss": {
+            "title": "Boss Strategies",
+            "description": "Turn-order tactics, weakness charts, and recommended squads."
           },
-          "waitlist": {
-            "title": "Waitlist",
-            "description": "Join the feature preview waitlist"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "See upcoming generator releases"
-          },
-          "changelog": {
-            "title": "Changelog",
-            "description": "Review the latest improvements"
-          },
-          "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "Understand how we use cookies"
-          },
-          "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect your data"
-          },
-          "termsOfService": {
-            "title": "Terms of Service",
-            "description": "Read our platform terms"
+          "secrets": {
+            "title": "Hidden Secrets",
+            "description": "Collectibles, secret Digimon, and post-game unlock requirements."
           }
         }
-      }
-    },
-    "footer": {
-      "tagline": "Create nostalgic AI polaroid photos in minutes",
-      "product": {
-        "title": "Product",
+      },
+      "database": {
+        "title": "Database",
         "items": {
-          "generator": "Generator",
-          "templates": "Templates",
-          "vintage": "Vintage Mode"
+          "digimon": {
+            "title": "Digimon Index",
+            "description": "Stats, skills, evolution routes, and spawn locations."
+          },
+          "items": {
+            "title": "Items & Crafting",
+            "description": "Drop tables, crafting recipes, and shop rotations."
+          },
+          "maps": {
+            "title": "Interactive Maps",
+            "description": "Enemy habitats, treasure nodes, and NPC trackers."
+          }
+        }
+      },
+      "tools": {
+        "title": "Tools",
+        "items": {
+          "evolutionTree": {
+            "title": "Evolution Tree",
+            "description": "Visual branching planner with stat previews and unlock notes."
+          },
+          "skillPlanner": {
+            "title": "Skill Planner",
+            "description": "Allocate points, test modifiers, and export optimized builds."
+          },
+          "teamBuilder": {
+            "title": "Team Builder",
+            "description": "Construct synergistic squads with aura, role, and resistance coverage."
+          }
+        }
+      },
+      "news": {
+        "title": "News",
+        "items": {
+          "updates": {
+            "title": "Patch Tracker",
+            "description": "Balance changes, seasonal events, and new content briefings."
+          },
+          "events": {
+            "title": "Events Calendar",
+            "description": "Time-limited raids, collaboration drops, and livestream reveals."
+          }
+        }
+      },
+      "community": {
+        "title": "Community",
+        "items": {
+          "hub": {
+            "title": "Community Hub",
+            "description": "Commentary threads, language-based meetups, and moderation rules."
+          },
+          "submit": {
+            "title": "Share a Guide",
+            "description": "Submit walkthroughs or team builds for editorial review."
+          },
+          "discussion": {
+            "title": "Strategy Discussion",
+            "description": "Join meta debates, Q&A, and highlight standout plays."
+          }
         }
       },
       "resources": {
         "title": "Resources",
         "items": {
-          "gallery": "Gallery",
-          "tutorials": "Tutorials",
-          "wan22": "wan 2.2 Playbook",
-          "docs": "Documentation",
-          "blog": "Blog"
+          "prd": {
+            "title": "Product Blueprint",
+            "description": "Full PRD & SEO roadmap for contributors and engineers."
+          },
+          "about": {
+            "title": "About the Project",
+            "description": "Vision, editorial standards, and contact pathways."
+          },
+          "contact": {
+            "title": "Contact & Partnerships",
+            "description": "Send collaboration ideas, press inquiries, or licensing requests."
+          },
+          "blog": {
+            "title": "Insights Blog",
+            "description": "Strategy spotlights, patch retrospectives, and localization diaries."
+          },
+          "docs": {
+            "title": "Documentation",
+            "description": "Developer notes, API references, and integration guidance."
+          }
+        }
+      }
+    },
+    "footer": {
+      "tagline": "World-first Digimon Story Time Stranger strategy compendium with live data updates.",
+      "guides": {
+        "title": "Guides",
+        "items": {
+          "beginner": "Beginner Compass",
+          "walkthrough": "Story Walkthrough",
+          "boss": "Boss Strategies"
         }
       },
-      "company": {
-        "title": "Company",
+      "database": {
+        "title": "Database",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "changelog": "Changelog",
-          "waitlist": "Waitlist"
+          "digimon": "Digimon Index",
+          "items": "Item Catalog",
+          "maps": "Region Maps"
+        }
+      },
+      "tools": {
+        "title": "Tools",
+        "items": {
+          "evolutionTree": "Evolution Tree",
+          "skillPlanner": "Skill Planner",
+          "teamBuilder": "Team Builder"
+        }
+      },
+      "community": {
+        "title": "Community",
+        "items": {
+          "hub": "Community Hub",
+          "submit": "Submit Guide",
+          "updates": "Patch Tracker",
+          "blueprint": "Product Blueprint",
+          "contact": "Contact & Partnerships"
         }
       },
       "legal": {
@@ -680,140 +738,129 @@
     }
   },
   "HomePage": {
-    "title": "AI Polaroid Photo Generator — Nostalgic Instant Memories",
-    "description": "Create nostalgic instant camera style photos with AI-powered filters, film grain, and storytelling templates for share-ready memories in minutes.",
+    "title": "Digimon Story Time Stranger Global Guide — Walkthroughs, Database & Tools",
+    "description": "All-in-one Digimon Story Time Stranger companion with curated walkthroughs, multilingual coverage, and battle-ready planning utilities.",
     "hero": {
-      "badge": "Instant nostalgia, powered by AI",
-      "title": "Capture memories in classic polaroid style",
-      "description": "Transform any photo into a warm, retro instant print with authentic white borders, film grain, and cinematic lighting. No prompt skills required.",
-      "primaryCta": "Launch Generator",
-      "secondaryCta": "Browse Templates"
+      "badge": "Global Digimon strategy hub",
+      "title": "Crack every mystery in Digimon Story Time Stranger",
+      "description": "Access structured walkthroughs, evolution planning tools, and live update coverage built for explorers from Tokyo to Paris.",
+      "primaryCta": "Explore Guides",
+      "secondaryCta": "Launch Team Builder"
     },
     "stats": {
-      "title": "Why creators choose AI Polaroid Photo",
+      "title": "Why strategists count on the Global Guide",
       "items": [
         {
-          "value": "2.3M+",
-          "label": "AI polaroid photos generated"
+          "value": "320K+",
+          "label": "Monthly strategy readers"
         },
         {
-          "value": "140K",
-          "label": "Daily active storytellers"
+          "value": "210",
+          "label": "Playable Digimon tracked"
         },
         {
-          "value": "92%",
-          "label": "Users share within 10 minutes"
+          "value": "18",
+          "label": "Interactive region maps"
+        },
+        {
+          "value": "4",
+          "label": "Languages launched in parallel"
         }
       ]
     },
     "features": {
-      "title": "Crafted for social storytelling",
-      "description": "Everything you need to turn everyday moments into shareable, emotional keepsakes.",
+      "title": "Built for completionists and competitive tamers",
+      "description": "Plan every story beat with data-backed tactics, live update tracking, and collaborative tooling.",
       "items": [
         {
-          "title": "Authentic film finishes",
-          "description": "Choose from calibrated looks inspired by Kodak Portra, Fujifilm FP-100C, SX-70 and custom Nano Banana presets."
+          "title": "Structured walkthrough matrix",
+          "description": "Arc dashboards spotlight branching choices, affinity shifts, and mandatory prep work."
         },
         {
-          "title": "Scene-aware rendering",
-          "description": "Gemini analyzes pose, lighting, and framing to keep faces natural while adding dreamy highlights and glow."
+          "title": "Cross-linked data vault",
+          "description": "Digimon, items, and map intel share relational IDs for instant context while browsing."
         },
         {
-          "title": "Emotion-driven prompts",
-          "description": "Built-in storytelling templates for celeb meetups, reunion hugs, vintage fashion shoots, and more."
+          "title": "Simulation-first toolset",
+          "description": "Model evolutions, ability builds, and squad resistances before investing resources."
         },
         {
-          "title": "One-click social outputs",
-          "description": "Export optimized crops for Instagram Stories, Xiaohongshu posts, and printable 3×4\" keepsakes."
+          "title": "Localization-first rollouts",
+          "description": "English, Japanese, Spanish, and French releases ship together with hreflang metadata."
         }
       ]
     },
-    "workflow": {
-      "title": "Create in three simple steps",
-      "steps": [
-        {
-          "title": "Upload & describe",
-          "description": "Drop in a selfie or group photo and choose the mood you want — from golden-hour romantic to 90s camcorder."
-        },
-        {
-          "title": "Pick a template",
-          "description": "Select a ready-made prompt pack that styles borders, captions, and filters for your story."
-        },
-        {
-          "title": "Generate & refine",
-          "description": "Review up to four variations, tweak grain or lighting, then save, download, or share instantly."
-        }
-      ],
-      "description": "Go from photo upload to share-ready polaroids without touching complex prompt strings."
-    },
     "templates": {
-      "title": "Template collections included",
+      "title": "Launchpad for every playstyle",
+      "subtitle": "Starter packs that accelerate planning sessions",
+      "description": "Browse curated template collections for quick prep, or adapt them as a base for your group.",
       "items": [
         {
-          "title": "Celeb Selfie Set",
-          "description": "Meet your idols with natural posing, flash bloom, and autograph overlays."
+          "title": "Story arc prep notes",
+          "description": "Step-by-step mission outlines with boss alerts and collectible reminders."
         },
         {
-          "title": "Reunion Stories",
-          "description": "Warm grain and soft focus tuned for hugging your childhood self or long-distance family."
+          "title": "Raid squad blueprint",
+          "description": "Pre-built compositions optimised for elemental coverage and aura bonuses."
         },
         {
-          "title": "Retro Fashion Diaries",
-          "description": "High-contrast film with stylized typography for Y2K street snaps and magazine covers."
+          "title": "Localization kit",
+          "description": "Glossaries, translation guidance, and style references for community editors."
         }
-      ],
-      "description": "Curated prompt packs and overlays for every storytelling moment."
+      ]
+    },
+    "pricing": {
+      "subtitle": "Scale with your exploration pace",
+      "description": "Start free with public data access and add pro capabilities like saved squads when you need them."
     },
     "testimonials": {
-      "title": "Loved by nostalgic creators",
+      "title": "Trusted by global Digimon communities",
+      "description": "Writers, theorycrafters, and tournament teams share how the Global Guide powers their runs.",
       "items": [
         {
-          "name": "Lena · Lifestyle blogger",
-          "quote": "“My Xiaohongshu followers triple-tapped the Gemini polaroids — they look like real film from my dad's archive.”"
+          "name": "Mira Takahashi",
+          "role": "JP community strategist",
+          "quote": "“The bilingual arc dashboards save me hours every patch. Our Discord wouldn’t raid without them anymore.”"
         },
         {
-          "name": "Marcus · Wedding filmmaker",
-          "quote": "“We deliver AI polaroid thank-you cards minutes after the ceremony. Couples are obsessed.”"
+          "name": "Leo Martínez",
+          "role": "LATAM event host",
+          "quote": "“Evolution Planner plus localized loot tables keeps our weekend marathons smooth and spoiler-free.”"
         },
         {
-          "name": "Aya · K-pop fan artist",
-          "quote": "“The celeb meet and greet prompts are magic. I can finally imagine polaroids with my bias.”"
+          "name": "Claire Moreau",
+          "role": "FR guide writer",
+          "quote": "“Being able to submit updates and see them cross-linked to maps instantly changed our workflow.”"
         }
-      ],
-      "description": "Creators across weddings, fandoms, and lifestyle blogs rely on AI Polaroid Photo to deliver instant nostalgia."
+      ]
     },
     "cta": {
-      "title": "Ready to print your memories?",
-      "description": "Start with 2 free AI polaroid renders daily. Upgrade for HD exports, batch generation, and custom LoRA styles.",
-      "primary": "Start for free",
-      "secondary": "View pricing"
+      "title": "Ready to optimise your Stranger journey?",
+      "description": "Bookmark the hub, sync your locale preferences, and share feedback to shape new features.",
+      "primary": "Open the Guides Hub",
+      "secondary": "Submit feedback"
     },
     "faq": {
       "title": "Frequently asked questions",
+      "subtitle": "Everything you need to know before diving in.",
       "items": [
         {
-          "question": "Do I need prompt engineering experience?",
-          "answer": "No. Our curated templates layer Gemini prompts, camera metadata, and filter settings automatically. You can still customize keywords if you want finer control."
+          "question": "Is the data refreshed after every content patch?",
+          "answer": "Yes. Database entries and tool stats refresh automatically after patch notes are validated by editors."
         },
         {
-          "question": "Can I print the photos?",
-          "answer": "Yes. Download high-resolution JPEGs optimized for 3×4\" polaroid printers or send directly to our print partners from the export panel."
+          "question": "Can I export team builds to share with my group?",
+          "answer": "Team Builder supports share codes now, with direct Discord embeds arriving in the next milestone."
         },
         {
-          "question": "Is my data private?",
-          "answer": "Uploads are encrypted, auto-deleted after 72 hours, and never used to train third-party models. Enable local-only processing in settings for extra control."
+          "question": "Do I need an account to browse guides?",
+          "answer": "No. Public walkthroughs stay free. Accounts unlock saved squads, reminders, and ad-free mode."
         },
         {
-          "question": "Which devices are supported?",
-          "answer": "AI Polaroid Photo works in modern mobile and desktop browsers. Install the PWA for a native-like experience on iOS and Android."
+          "question": "How are translations handled?",
+          "answer": "Core updates ship in English, Japanese, Spanish, and French simultaneously with community-driven review rounds."
         }
-      ],
-      "subtitle": "Answers to common questions about tips, printing, privacy, and supported devices."
-    },
-    "pricing": {
-      "title": "Pricing",
-      "subtitle": "Choose the plan that fits your creative flow",
-      "description": "Start free with two daily renders. Upgrade for HD exports, batch generation, and custom styles."
+      ]
     }
   },
   "AITextPage": {
@@ -1234,5 +1281,1137 @@
     "anonymousDescription": "Create a free account to unlock two more complimentary generations.",
     "authenticatedDescription": "You have used all four complimentary generations. Choose a plan to keep creating.",
     "cta": "View pricing"
+  },
+  "DigimonHome": {
+    "hero": {
+      "title": "Digimon Story Time Stranger Global Guide",
+      "subtitle": "The definitive home for walkthroughs, data, and live tools.",
+      "description": "Chart main story arcs, master evolution routes, and prep tournament-ready squads with one connected platform.",
+      "primaryCta": "Open Beginner Compass",
+      "primaryHref": "/guides/beginner",
+      "secondaryCta": "Launch Team Builder",
+      "secondaryHref": "/tools/team-builder",
+      "featureLabel": "Built for",
+      "features": [
+        "Completionists chasing 100% archives",
+        "Competitive tamers optimizing squads",
+        "Localized communities coordinating updates"
+      ],
+      "footerNote": "Translated launch content across four languages with community expansion slots.",
+      "cardDescription": "Global strategy infrastructure connecting walkthroughs, data, and planning utilities."
+    },
+    "pillars": {
+      "title": "Everything your squad needs in one knowledge base",
+      "items": [
+        {
+          "title": "Structured walkthroughs",
+          "description": "Mission flow, choice outcomes, and boss prep packaged by player persona.",
+          "href": "/guides"
+        },
+        {
+          "title": "Searchable database",
+          "description": "Digimon stats, item sourcing, and map intel backed by relational data.",
+          "href": "/database/digimon"
+        },
+        {
+          "title": "Interactive planning tools",
+          "description": "Evolution, skill, and team planners with export-ready builds.",
+          "href": "/tools"
+        },
+        {
+          "title": "Live update tracker",
+          "description": "Patch alerts, events, and regional announcements within minutes of release.",
+          "href": "/news/updates"
+        }
+      ]
+    },
+    "database": {
+      "title": "Explore the data vault",
+      "description": "Every Digimon, item, and zone is cross-linked with evolution unlocks, affinity modifiers, and spawn logic.",
+      "cards": [
+        {
+          "title": "Digimon Compendium",
+          "description": "Filter by attribute, type, skill family, or evolution stage to plan your roster.",
+          "stat": "210+ entries",
+          "href": "/database/digimon"
+        },
+        {
+          "title": "Item & Craft Archive",
+          "description": "Drop rates, crafting formulas, and vendor refresh timers for fast farming.",
+          "stat": "320 tracked items",
+          "href": "/database/items"
+        },
+        {
+          "title": "Atlas of Time",
+          "description": "Zoomable region maps with chest routes, NPC routines, and hidden portals.",
+          "stat": "18 interactive maps",
+          "href": "/database/maps"
+        }
+      ]
+    },
+    "tools": {
+      "title": "Plan evolutions and squads before you grind",
+      "cards": [
+        {
+          "title": "Evolution Tree",
+          "description": "Visualize branching paths, prerequisite traits, and unlock currencies at a glance.",
+          "href": "/tools/evolution-tree"
+        },
+        {
+          "title": "Skill Planner",
+          "description": "Test ability scaling, cooldown trade-offs, and synergy with squad auras.",
+          "href": "/tools/skill-planner"
+        },
+        {
+          "title": "Team Builder",
+          "description": "Balance roles, resistances, and link bonuses; export builds to share with your team.",
+          "href": "/tools/team-builder"
+        }
+      ]
+    },
+    "updates": {
+      "title": "Stay ahead of global updates",
+      "items": [
+        {
+          "title": "Patch intelligence",
+          "description": "Rapid notes on balance changes, bug fixes, and new Digimon releases."
+        },
+        {
+          "title": "Event planner",
+          "description": "Regional timers converted to your timezone with farming checklists."
+        },
+        {
+          "title": "Roadmap insights",
+          "description": "Editorial briefs mapping upcoming systems and feature teasers."
+        }
+      ]
+    },
+    "localization": {
+      "title": "Localization-first rollout",
+      "description": "English, Japanese, Spanish, and French content ships in parallel with locale-aware URLs and metadata.",
+      "regions": [
+        "日本語攻略班",
+        "North & Latin America",
+        "France & Quebec",
+        "Community-sourced languages"
+      ]
+    },
+    "cta": {
+      "title": "Ready to start your Stranger journey?",
+      "description": "Bookmark the guide hub, set your language preference, and share feedback to improve the compendium.",
+      "primaryCta": "Visit Guides Hub",
+      "primaryHref": "/guides",
+      "secondaryCta": "Submit Feedback",
+      "secondaryHref": "/community/share-guide",
+      "meta": "Set your locale preference to receive notifications in your language."
+    },
+    "faq": {
+      "title": "Digimon Story Time Stranger FAQ",
+      "subtitle": "Key answers for strategy planners and new tamers.",
+      "items": [
+        {
+          "question": "How often are guides and database entries updated?",
+          "answer": "Major updates ship within 24 hours of a patch, with community verified notes merged continuously afterward."
+        },
+        {
+          "question": "Can I contribute localized content or corrections?",
+          "answer": "Yes. Use the community submission workflow to send guides, translation fixes, or data corrections for editorial review."
+        },
+        {
+          "question": "Will premium features be required for the planning tools?",
+          "answer": "Evolution, skill, and team builders remain free during MVP while we evaluate optional pro features such as sync and notifications."
+        },
+        {
+          "question": "How do I know if new events affect my squad setup?",
+          "answer": "Track the events calendar for aura recommendations and link jumps to the boss strategy archive for suggested adjustments."
+        }
+      ]
+    }
+  },
+  "GuidesOverview": {
+    "title": "Digimon Story Time Stranger Guides Hub",
+    "description": "Navigate every storyline, side activity, and hidden reward with curated playbooks for each player profile.",
+    "page": {
+      "hero": {
+        "badge": "Guides Hub",
+        "title": "All walkthroughs mapped in one command center",
+        "description": "Switch between beginner onboarding, mainline chapters, and late-game mastery routes without losing track of affinity requirements or new unlocks."
+      },
+      "sections": [
+        {
+          "title": "Foundation lane",
+          "description": "Orientation materials for new tamers and returning veterans who want a fast refresher.",
+          "items": [
+            "Starter partner recommendations for every playstyle",
+            "Early grinding loops for credits and materials",
+            "Settings checklist for optimal camera, UI, and battle cues"
+          ],
+          "cta": {
+            "label": "Open Beginner Compass",
+            "href": "/guides/beginner"
+          }
+        },
+        {
+          "title": "Storyline pacing",
+          "description": "Mission-by-mission coverage with narrative spoilers clearly marked so you can prep or skip ahead.",
+          "items": [
+            "Main quests grouped by arcs with recommended level bands",
+            "Branching choices annotated with companion reactions",
+            "Reward tables for key decisions and missable loot"
+          ],
+          "cta": {
+            "label": "Main Story Walkthrough",
+            "href": "/guides/walkthrough"
+          }
+        },
+        {
+          "title": "Optimization layer",
+          "description": "Resources for completionists aiming to maximize affinity, achievements, and archive progress.",
+          "items": [
+            "Side quest tracker with unlock windows",
+            "Hidden boss checklist by region and requirement",
+            "Collectible roadmap synced with map database"
+          ],
+          "cta": {
+            "label": "Secrets & 100% route",
+            "href": "/guides/secrets"
+          }
+        },
+        {
+          "title": "Battle academy",
+          "description": "Combat labs for mastering boss mechanics, elemental counterplay, and team synergies.",
+          "items": [
+            "Boss dossier with turn-order scripts and phases",
+            "Suggested squads by attribute, role, and substitute",
+            "Skill synergy notes to plug into the planner tool"
+          ],
+          "cta": {
+            "label": "Boss Strategy Archive",
+            "href": "/guides/boss"
+          }
+        }
+      ],
+      "actions": {
+        "primary": {
+          "label": "Start with Beginner Compass",
+          "href": "/guides/beginner"
+        },
+        "secondary": {
+          "label": "Share a tactic",
+          "href": "/community/share-guide"
+        }
+      },
+      "resources": [
+        {
+          "title": "Evolution Tree tool",
+          "description": "Plan upcoming digivolutions before you commit resources.",
+          "href": "/tools/evolution-tree"
+        },
+        {
+          "title": "Patch tracker",
+          "description": "See how recent updates adjust quest rewards or NPC behaviour.",
+          "href": "/news/updates"
+        }
+      ]
+    }
+  },
+  "GuidesBeginner": {
+    "title": "Beginner Compass – Digimon Story Time Stranger",
+    "description": "Tutorial playbooks that onboard new tamers through the first ten hours with efficient leveling and resource flows.",
+    "page": {
+      "hero": {
+        "badge": "Onboarding",
+        "title": "First steps, team foundations, and essential unlocks",
+        "description": "Follow a guided ramp that covers partner selection, battle fundamentals, and early-game resource farms to establish sustainable momentum."
+      },
+      "sections": [
+        {
+          "title": "Chapter zero briefing",
+          "items": [
+            "Difficulty selection advice with co-op considerations",
+            "Starter Digimon archetypes and synergy callouts",
+            "Interface tweaks that reduce combat friction"
+          ]
+        },
+        {
+          "title": "First two regions roadmap",
+          "items": [
+            "Quest order to unlock core systems quickly",
+            "Mandatory vs optional encounters with level tips",
+            "Shortcut routes for faster travel and loot"
+          ]
+        },
+        {
+          "title": "Early economy primer",
+          "items": [
+            "Credit farming loops and recommended purchases",
+            "Material drop hotspots for starter gear recipes",
+            "Affinity milestones and how to avoid losing progress"
+          ]
+        },
+        {
+          "title": "Growth planning",
+          "items": [
+            "Stat benchmarks for early boss survivability",
+            "Skill point allocation templates up to level 20",
+            "Evolution prep list before mid-game split"
+          ],
+          "cta": {
+            "label": "Open Skill Planner",
+            "href": "/tools/skill-planner"
+          }
+        }
+      ],
+      "actions": {
+        "primary": {
+          "label": "Follow walkthrough arc 1",
+          "href": "/guides/walkthrough"
+        },
+        "secondary": {
+          "label": "Ask questions in community hub",
+          "href": "/community"
+        }
+      }
+    }
+  },
+  "GuidesWalkthrough": {
+    "title": "Story Walkthrough – Digimon Story Time Stranger",
+    "description": "Mission-by-mission guidance tracking every branching choice, boss prep, and reward milestone across the full narrative.",
+    "page": {
+      "hero": {
+        "badge": "Main Story",
+        "title": "Stay ahead of every story beat",
+        "description": "Replicate the ideal pacing with annotated objectives, optional detours, and spoil-free alerts before pivotal moments."
+      },
+      "sections": [
+        {
+          "title": "Arc dashboards",
+          "description": "Collapsed overviews for each major act with pacing metrics.",
+          "items": [
+            "Recommended level range progression",
+            "Key Digimon joins and departures",
+            "Unlocks gated behind story completion"
+          ]
+        },
+        {
+          "title": "Branching decisions",
+          "items": [
+            "Choice consequences on affinity and loot",
+            "Dialogue options that unlock hidden quests",
+            "Spoiler-safe summaries with toggleable detail"
+          ]
+        },
+        {
+          "title": "Boss prep checklists",
+          "items": [
+            "Pre-fight aura and resistance targets",
+            "Consumable shopping lists by encounter type",
+            "Fallback strategies if you under-level"
+          ],
+          "cta": {
+            "label": "Review boss archive",
+            "href": "/guides/boss"
+          }
+        },
+        {
+          "title": "Post-arc cleanup",
+          "items": [
+            "Newly available side quests and NPCs",
+            "Collectibles that spawn after story milestones",
+            "Map routes updated in the atlas"
+          ],
+          "cta": {
+            "label": "Side quest tracker",
+            "href": "/guides/side-quests"
+          }
+        }
+      ],
+      "resources": [
+        {
+          "title": "Atlas of Time",
+          "href": "/database/maps",
+          "description": "Map overlays for objectives, NPCs, and hidden pathways."
+        },
+        {
+          "title": "Team Builder presets",
+          "href": "/tools/team-builder",
+          "description": "Recommended squads for each arc with swap notes."
+        }
+      ]
+    }
+  },
+  "GuidesSideQuests": {
+    "title": "Side Quests & Favors – Digimon Story Time Stranger",
+    "description": "Track every optional objective with unlock windows, rewards, and affinity boosts categorised by region.",
+    "page": {
+      "hero": {
+        "badge": "Completion",
+        "title": "Never miss a limited-time request again",
+        "description": "Filter by region, affinity target, or reward category to prioritise the side content that matters to your squad."
+      },
+      "sections": [
+        {
+          "title": "Quest taxonomy",
+          "items": [
+            "Story-dependent vs repeatable activities",
+            "Affinity boosting missions by character",
+            "Daily/weekly rotation board schedule"
+          ]
+        },
+        {
+          "title": "Reward planner",
+          "items": [
+            "Unique gear or Digimon unlock quests",
+            "Large XP or credit payouts to bridge level gaps",
+            "Quest chains leading to hidden bosses"
+          ]
+        },
+        {
+          "title": "Localization alerts",
+          "items": [
+            "Region-specific translations for puzzle hints",
+            "Time-sensitive events converted to local time",
+            "Community verified clarifications"
+          ],
+          "cta": {
+            "label": "Check events calendar",
+            "href": "/news/events"
+          }
+        }
+      ],
+      "actions": {
+        "primary": {
+          "label": "Open quests spreadsheet",
+          "href": "/database/items"
+        },
+        "secondary": {
+          "label": "Share new quest tip",
+          "href": "/community/share-guide"
+        }
+      }
+    }
+  },
+  "GuidesBoss": {
+    "title": "Boss Strategies – Digimon Story Time Stranger",
+    "description": "Combat dossiers covering mechanics, turn orders, and counterplay kits for every major boss encounter.",
+    "page": {
+      "hero": {
+        "badge": "Combat Lab",
+        "title": "Pre-fight intelligence for every boss",
+        "description": "Understand phases, thresholds, and punishment windows so you can script responses and save resources."
+      },
+      "sections": [
+        {
+          "title": "Encounter snapshots",
+          "items": [
+            "Recommended squad compositions and alternates",
+            "Key resistances or immunities to cover",
+            "Environmental hazards and modifiers"
+          ]
+        },
+        {
+          "title": "Phase breakdowns",
+          "items": [
+            "Turn-by-turn behaviour tables",
+            "Trigger thresholds for enrages or adds",
+            "Debuff cleanses and healing cadence notes"
+          ]
+        },
+        {
+          "title": "Recovery plans",
+          "items": [
+            "What to do if a core member falls",
+            "Consumable usage guidelines",
+            "Skill rotations for safe stabilisation"
+          ],
+          "cta": {
+            "label": "Prototype in team builder",
+            "href": "/tools/team-builder"
+          }
+        }
+      ],
+      "resources": [
+        {
+          "title": "Skill Planner",
+          "href": "/tools/skill-planner",
+          "description": "Optimise ability upgrades before heading in."
+        },
+        {
+          "title": "Digimon Compendium",
+          "href": "/database/digimon",
+          "description": "Compare stats and evolution options when swapping members."
+        }
+      ]
+    }
+  },
+  "GuidesSecrets": {
+    "title": "Secrets & Collectibles – Digimon Story Time Stranger",
+    "description": "Hidden Digimon, collectible routes, and post-game unlocks compiled with spoiler controls.",
+    "page": {
+      "hero": {
+        "badge": "Exploration",
+        "title": "Unlock the Stranger’s deepest secrets",
+        "description": "Map-driven checklists covering memory shards, secret bosses, hidden dialogue, and alternate endings."
+      },
+      "sections": [
+        {
+          "title": "Collectible atlases",
+          "items": [
+            "Memory shards mapped with screenshot references",
+            "Rare spawn timers and conditions",
+            "Achievement-linked collectibles order"
+          ]
+        },
+        {
+          "title": "Secret Digimon hunts",
+          "items": [
+            "Evolution prerequisites locked behind side content",
+            "Affinity checks required for recruitment",
+            "Post-game exclusive recruits"
+          ],
+          "cta": {
+            "label": "Evolution tree planner",
+            "href": "/tools/evolution-tree"
+          }
+        },
+        {
+          "title": "Alternate endings",
+          "items": [
+            "Decision matrix and affinity thresholds",
+            "Spoiler-tagged cinematics summary",
+            "Recommended save points to branch safely"
+          ]
+        }
+      ],
+      "actions": {
+        "primary": {
+          "label": "Check maps overlay",
+          "href": "/database/maps"
+        },
+        "secondary": {
+          "label": "Discuss findings",
+          "href": "/community/discussion"
+        }
+      }
+    }
+  },
+  "DatabaseOverview": {
+    "title": "Database Hub – Digimon Story Time Stranger",
+    "description": "Central access to Digimon, item, and map datasets with cross-linked relationships.",
+    "page": {
+      "hero": {
+        "badge": "Database",
+        "title": "Structured data for every system",
+        "description": "Query stats, drops, and locations with filters mirrored across multilingual content."
+      },
+      "sections": [
+        {
+          "title": "Digimon compendium",
+          "description": "Stat tables, skills, evolution prerequisites, and acquisition notes.",
+          "cta": {
+            "label": "Browse Digimon Index",
+            "href": "/database/digimon"
+          }
+        },
+        {
+          "title": "Item archive",
+          "description": "Drop tables, crafting recipes, vendors, and upgrade materials.",
+          "cta": {
+            "label": "Open item database",
+            "href": "/database/items"
+          }
+        },
+        {
+          "title": "Atlas of Time",
+          "description": "Interactive region maps layered with treasures, NPCs, and enemy spawns.",
+          "cta": {
+            "label": "Launch map viewer",
+            "href": "/database/maps"
+          }
+        }
+      ],
+      "resources": [
+        {
+          "title": "API schema draft",
+          "href": "/docs/digimon-story-time-stranger",
+          "description": "Column definitions and localisation strategy for engineers."
+        }
+      ]
+    }
+  },
+  "DatabaseDigimon": {
+    "title": "Digimon Index – Digimon Story Time Stranger",
+    "description": "Searchable encyclopedia with stats, traits, skills, and evolution chains for every Digimon.",
+    "page": {
+      "hero": {
+        "badge": "Data Vault",
+        "title": "Plan rosters with complete visibility",
+        "description": "Compare growth curves, elemental resistances, and unlock triggers to design resilient squads."
+      },
+      "sections": [
+        {
+          "title": "Stat dashboard",
+          "items": [
+            "Base and growth values by attribute",
+            "Passive bonuses, resistances, and vulnerabilities",
+            "Trait synergy suggestions"
+          ]
+        },
+        {
+          "title": "Evolution chains",
+          "items": [
+            "Branching requirements and alignment shifts",
+            "Affinity, quest, or item locks",
+            "Regression paths to recover missteps"
+          ],
+          "cta": {
+            "label": "View in evolution tree",
+            "href": "/tools/evolution-tree"
+          }
+        },
+        {
+          "title": "Acquisition routes",
+          "items": [
+            "Wild encounter tables with spawn rates",
+            "Recruitment quests and dialogue options",
+            "Fusion or DNA evolution notes"
+          ]
+        }
+      ]
+    }
+  },
+  "DatabaseItems": {
+    "title": "Item & Craft Archive – Digimon Story Time Stranger",
+    "description": "Comprehensive item catalog with drop sources, crafting formulas, and vendor schedules.",
+    "page": {
+      "hero": {
+        "badge": "Economy",
+        "title": "Optimise farming and crafting pipelines",
+        "description": "Locate materials, evaluate vendor rotations, and track upgrade paths with authoritative tables."
+      },
+      "sections": [
+        {
+          "title": "Drop intelligence",
+          "items": [
+            "Enemy loot tables with percentage ranges",
+            "Map nodes that respawn and their timers",
+            "Event-exclusive drops and rerun history"
+          ]
+        },
+        {
+          "title": "Crafting recipes",
+          "items": [
+            "Ingredient lists with sourcing tips",
+            "Unlock requirements for workshop tiers",
+            "Upgrade progression recommendations"
+          ]
+        },
+        {
+          "title": "Vendor planner",
+          "items": [
+            "Shop inventories by chapter and affinity",
+            "Restock cadence with localisation times",
+            "Bundle discounts worth prioritising"
+          ]
+        }
+      ],
+      "actions": {
+        "primary": {
+          "label": "Track event drops",
+          "href": "/news/events"
+        },
+        "secondary": {
+          "label": "Share farming route",
+          "href": "/community/discussion"
+        }
+      }
+    }
+  },
+  "DatabaseMaps": {
+    "title": "Atlas of Time – Digimon Story Time Stranger",
+    "description": "Interactive zone maps layered with collectibles, NPC routes, and enemy habitats.",
+    "page": {
+      "hero": {
+        "badge": "Exploration",
+        "title": "Visualise every region and hidden corridor",
+        "description": "Switch between story, collectible, and battle overlays to chart efficient routes and prepare ambushes."
+      },
+      "sections": [
+        {
+          "title": "Overlay modes",
+          "items": [
+            "Quest objectives with recommended order",
+            "Chest and collectible placements with item IDs",
+            "Enemy spawn clusters graded by difficulty"
+          ]
+        },
+        {
+          "title": "Navigation tips",
+          "items": [
+            "Shortcut unlock requirements",
+            "Hidden paths revealed via perception skills",
+            "Environmental hazards and mitigation"
+          ]
+        },
+        {
+          "title": "Localization cues",
+          "items": [
+            "Translated puzzle clues and signage",
+            "Voice-over cues referenced by timestamp",
+            "Community callouts for mistranslations"
+          ],
+          "cta": {
+            "label": "Report map correction",
+            "href": "/community/share-guide"
+          }
+        }
+      ]
+    }
+  },
+  "ToolsOverview": {
+    "title": "Planning Tools – Digimon Story Time Stranger",
+    "description": "Launch the evolution tree, skill planner, and team builder to script squads before diving into combat.",
+    "page": {
+      "hero": {
+        "badge": "Toolkit",
+        "title": "Theorycraft smarter, grind faster",
+        "description": "Each tool syncs with the global database so you can test builds with live stats and share exports with your crew."
+      },
+      "sections": [
+        {
+          "title": "Evolution Tree",
+          "description": "Drag-and-drop planner that tracks requirements, costs, and stat previews across branches.",
+          "cta": {
+            "label": "Open Evolution Tree",
+            "href": "/tools/evolution-tree"
+          }
+        },
+        {
+          "title": "Skill Planner",
+          "description": "Allocate ability points, preview multipliers, and detect conflicts before committing.",
+          "cta": {
+            "label": "Launch Skill Planner",
+            "href": "/tools/skill-planner"
+          }
+        },
+        {
+          "title": "Team Builder",
+          "description": "Compose squads with aura coverage, resistance analysis, and exportable presets.",
+          "cta": {
+            "label": "Build a Team",
+            "href": "/tools/team-builder"
+          }
+        }
+      ],
+      "actions": {
+        "primary": {
+          "label": "Start with team builder",
+          "href": "/tools/team-builder"
+        },
+        "secondary": {
+          "label": "View boss counterplay",
+          "href": "/guides/boss"
+        }
+      }
+    }
+  },
+  "ToolsEvolutionTree": {
+    "title": "Evolution Tree Planner – Digimon Story Time Stranger",
+    "description": "Model digivolution branches with requirement tracking, resource costs, and stat projections.",
+    "page": {
+      "hero": {
+        "badge": "Planner",
+        "title": "Trace every possible evolution path",
+        "description": "Simulate your roster’s future to avoid dead ends, manage resources, and unlock hidden Digimon efficiently."
+      },
+      "sections": [
+        {
+          "title": "Branch simulator",
+          "items": [
+            "Drag to preview downstream stats and skills",
+            "Toggle requirements like affinity, quests, or items",
+            "Flag branches needing future verification"
+          ]
+        },
+        {
+          "title": "Resource ledger",
+          "items": [
+            "Track evolution crystals and materials consumed",
+            "Estimate credit costs per branch",
+            "Sync with item database for farming routes"
+          ]
+        },
+        {
+          "title": "Collaboration mode",
+          "items": [
+            "Export share codes for community feedback",
+            "Attach localisation notes for region-specific names",
+            "Version history per Digimon plan"
+          ]
+        }
+      ],
+      "actions": {
+        "primary": {
+          "label": "Plan skills next",
+          "href": "/tools/skill-planner"
+        },
+        "secondary": {
+          "label": "Check Digimon stats",
+          "href": "/database/digimon"
+        }
+      }
+    }
+  },
+  "ToolsSkillPlanner": {
+    "title": "Skill Planner – Digimon Story Time Stranger",
+    "description": "Optimise ability investments with live multipliers, cooldown analysis, and synergy notes.",
+    "page": {
+      "hero": {
+        "badge": "Planner",
+        "title": "Design builds before burning points",
+        "description": "Test different loadouts, evaluate aura synergies, and export rotations that suit your playstyle."
+      },
+      "sections": [
+        {
+          "title": "Ability sandbox",
+          "items": [
+            "Drag & drop abilities into slots",
+            "Compare damage, healing, and utility multipliers",
+            "See prerequisites and unlock chains"
+          ]
+        },
+        {
+          "title": "Synergy insights",
+          "items": [
+            "Highlight aura overlaps within team builder",
+            "Suggest complementary passives",
+            "Warn about conflicting cooldowns"
+          ]
+        },
+        {
+          "title": "Export readiness",
+          "items": [
+            "Generate shareable loadout codes",
+            "Track version updates after balance patches",
+            "Attach language-specific descriptions"
+          ],
+          "cta": {
+            "label": "Send to team builder",
+            "href": "/tools/team-builder"
+          }
+        }
+      ]
+    }
+  },
+  "ToolsTeamBuilder": {
+    "title": "Team Builder – Digimon Story Time Stranger",
+    "description": "Construct and evaluate squads with resistance matrices, role coverage, and synergy scoring.",
+    "page": {
+      "hero": {
+        "badge": "Planner",
+        "title": "Assemble tournament-ready squads",
+        "description": "Analyse aura interactions, defensive coverage, and action economy before stepping into high-level encounters."
+      },
+      "sections": [
+        {
+          "title": "Squad canvas",
+          "items": [
+            "Assign roles and substitutes per slot",
+            "See aura link bonuses in real time",
+            "Track stat totals versus recommended benchmarks"
+          ]
+        },
+        {
+          "title": "Resistance heatmap",
+          "items": [
+            "Visual chart of elemental strengths and gaps",
+            "Auto-suggest char to cover weaknesses",
+            "Compare against known boss profiles"
+          ]
+        },
+        {
+          "title": "Share & iterate",
+          "items": [
+            "Export builds to teammates or community hub",
+            "Version control to match patch updates",
+            "Localization metadata for skill names"
+          ],
+          "cta": {
+            "label": "Track upcoming events",
+            "href": "/news/updates"
+          }
+        }
+      ]
+    }
+  },
+  "NewsOverview": {
+    "title": "News Center – Digimon Story Time Stranger",
+    "description": "Central newsroom for patch notes, event announcements, and editorial briefs.",
+    "page": {
+      "hero": {
+        "badge": "Newsroom",
+        "title": "Stay synced with global updates",
+        "description": "Coverage spans Japanese, North American, and European announcements with instant translation summaries."
+      },
+      "sections": [
+        {
+          "title": "Patch tracker",
+          "description": "Rapid synopsis of balance changes, bug fixes, and quality-of-life improvements.",
+          "cta": {
+            "label": "View patch feed",
+            "href": "/news/updates"
+          }
+        },
+        {
+          "title": "Event calendar",
+          "description": "Global schedule for raids, collaborations, and community livestreams.",
+          "cta": {
+            "label": "Browse events",
+            "href": "/news/events"
+          }
+        },
+        {
+          "title": "Editorial pulse",
+          "description": "Meta reports, interviews, and roadmap interpretations from the analyst desk."
+        }
+      ],
+      "actions": {
+        "primary": {
+          "label": "Subscribe to Digimon Dispatch",
+          "href": "#newsletter"
+        },
+        "secondary": {
+          "label": "Submit news tip",
+          "href": "/community/share-guide"
+        }
+      }
+    }
+  },
+  "NewsUpdates": {
+    "title": "Patch Tracker – Digimon Story Time Stranger",
+    "description": "Live digest of version changes with localized highlights, balance tables, and recommended reactions.",
+    "page": {
+      "hero": {
+        "badge": "Patches",
+        "title": "Understand every update at a glance",
+        "description": "Summaries publish within minutes, linking to affected Digimon, items, and quest lines."
+      },
+      "sections": [
+        {
+          "title": "Change log matrix",
+          "items": [
+            "Balance adjustments mapped to database entries",
+            "Bug fix status by platform and language",
+            "Quality-of-life updates with action items"
+          ]
+        },
+        {
+          "title": "Impact guidance",
+          "items": [
+            "Recommended squad adjustments",
+            "Farming routes to re-optimise",
+            "Suggested reading for deeper context"
+          ]
+        }
+      ],
+      "actions": {
+        "primary": {
+          "label": "Discuss changes",
+          "href": "/community/discussion"
+        },
+        "secondary": {
+          "label": "Review events calendar",
+          "href": "/news/events"
+        }
+      }
+    }
+  },
+  "NewsEvents": {
+    "title": "Events Calendar – Digimon Story Time Stranger",
+    "description": "Time-zone aware schedule for raids, collaborations, and promotions with preparation checklists.",
+    "page": {
+      "hero": {
+        "badge": "Events",
+        "title": "Plan around every limited-time activity",
+        "description": "Automated conversion to your locale plus recommended prep tasks for each event category."
+      },
+      "sections": [
+        {
+          "title": "Upcoming highlights",
+          "items": [
+            "Event descriptions, rewards, and featured Digimon",
+            "Region availability and translation status",
+            "Registration or participation requirements"
+          ]
+        },
+        {
+          "title": "Preparation guides",
+          "items": [
+            "Suggested team comps for raid tiers",
+            "Farming checklists and consumables",
+            "Coordination tips for community goals"
+          ],
+          "cta": {
+            "label": "Share strategy",
+            "href": "/community/share-guide"
+          }
+        }
+      ],
+      "actions": {
+        "primary": {
+          "label": "Sync to calendar",
+          "href": "/api/events/export"
+        },
+        "secondary": {
+          "label": "Track patch context",
+          "href": "/news/updates"
+        }
+      }
+    }
+  },
+  "CommunityHub": {
+    "title": "Community Hub – Digimon Story Time Stranger",
+    "description": "Gathering space for comments, meetup coordination, and moderation policies.",
+    "page": {
+      "hero": {
+        "badge": "Community",
+        "title": "Discover fellow tamers worldwide",
+        "description": "Locale-specific discussion threads, contribution guidelines, and signal-boosted highlights from verified creators."
+      },
+      "sections": [
+        {
+          "title": "Regional lounges",
+          "items": [
+            "English, Japanese, Spanish, and French threads",
+            "Weekly Q&A rotations with moderators",
+            "Translation requests and support"
+          ]
+        },
+        {
+          "title": "Content spotlight",
+          "items": [
+            "Featured guides vetted by editorial team",
+            "Top-rated team builds with share codes",
+            "Creator partnership inquiries"
+          ],
+          "cta": {
+            "label": "Submit your guide",
+            "href": "/community/share-guide"
+          }
+        },
+        {
+          "title": "Moderation charter",
+          "items": [
+            "Code of conduct and escalation path",
+            "Spoiler handling by arc and language",
+            "Reporting workflow for inaccurate data"
+          ]
+        }
+      ],
+      "actions": {
+        "primary": {
+          "label": "Join discussions",
+          "href": "/community/discussion"
+        },
+        "secondary": {
+          "label": "Review submission checklist",
+          "href": "/community/share-guide"
+        }
+      }
+    }
+  },
+  "CommunitySubmit": {
+    "title": "Submit a Guide – Digimon Story Time Stranger",
+    "description": "Contributor workflow for sending guides, data corrections, and translations for review.",
+    "page": {
+      "hero": {
+        "badge": "Contribute",
+        "title": "Share your knowledge with the world",
+        "description": "Follow the submission pipeline so editors can verify accuracy, localise content, and schedule publication quickly."
+      },
+      "sections": [
+        {
+          "title": "Submission requirements",
+          "items": [
+            "Structured markdown template by content type",
+            "Screenshot and video evidence guidelines",
+            "Localization notes for key terminology"
+          ]
+        },
+        {
+          "title": "Review process",
+          "items": [
+            "Editorial vetting timeline and status updates",
+            "Fact-checking checklist for database entries",
+            "Attribution and compensation policies"
+          ]
+        },
+        {
+          "title": "After publication",
+          "items": [
+            "Analytics snapshot shared with contributors",
+            "Update requests when patches land",
+            "Community feedback routing"
+          ]
+        }
+      ],
+      "actions": {
+        "primary": {
+          "label": "Download template",
+          "href": "/docs/digimon-story-time-stranger"
+        },
+        "secondary": {
+          "label": "Read moderation charter",
+          "href": "/community"
+        }
+      }
+    }
+  },
+  "CommunityDiscussion": {
+    "title": "Strategy Discussion – Digimon Story Time Stranger",
+    "description": "Live discussion boards for meta analysis, Q&A, and theorycrafting across locales.",
+    "page": {
+      "hero": {
+        "badge": "Discussion",
+        "title": "Debate strategies with global tamers",
+        "description": "Join curated threads for boss tactics, team builds, and event prep with spoiler tagging and locale filters."
+      },
+      "sections": [
+        {
+          "title": "Discussion formats",
+          "items": [
+            "Thread templates for guides, Q&A, and highlights",
+            "Voting and tagging system overview",
+            "Spoiler tagging etiquette by story arc"
+          ]
+        },
+        {
+          "title": "Contributor perks",
+          "items": [
+            "Badge tiers for verified analysts",
+            "Feature slots on homepage hero column",
+            "Access to roadmap briefings"
+          ]
+        },
+        {
+          "title": "Safety & moderation",
+          "items": [
+            "Report abuse or misinformation workflow",
+            "Localization quality feedback channel",
+            "Escalation path for urgent fixes"
+          ]
+        }
+      ],
+      "actions": {
+        "primary": {
+          "label": "Submit build for review",
+          "href": "/community/share-guide"
+        },
+        "secondary": {
+          "label": "Return to news center",
+          "href": "/news"
+        }
+      }
+    }
   }
 }

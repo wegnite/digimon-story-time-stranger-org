@@ -1,0 +1,313 @@
+{
+  "Metadata": {
+    "name": "デジモンストーリー タイムストレンジャー攻略本部",
+    "title": "デジモンストーリー タイムストレンジャー攻略 – 完全ウォークスルーとデータベース",
+    "description": "タイムストレンジャーの物語、育成、バトルを多言語で網羅する世界向け攻略ポータル。"
+  },
+  "Marketing": {
+    "navbar": {
+      "guides": {
+        "title": "攻略",
+        "items": {
+          "beginner": {
+            "title": "ビギナーガイド",
+            "description": "序盤の育成とレベル上げルート。"
+          },
+          "walkthrough": {
+            "title": "ストーリー攻略",
+            "description": "章ごとの進行と選択肢の影響を整理。"
+          },
+          "sideQuests": {
+            "title": "サブクエスト",
+            "description": "好感度や限定報酬が得られる依頼を追跡。"
+          },
+          "boss": {
+            "title": "ボス攻略",
+            "description": "フェーズ、弱点、推奨パーティを解説。"
+          },
+          "secrets": {
+            "title": "隠し要素",
+            "description": "収集品や隠しデジモンの入手条件。"
+          }
+        }
+      },
+      "database": {
+        "title": "データベース",
+        "items": {
+          "digimon": {
+            "title": "デジモン図鑑",
+            "description": "各種ステータスと進化ルート。"
+          },
+          "items": {
+            "title": "アイテム一覧",
+            "description": "ドロップ率、合成レシピ、販売情報。"
+          },
+          "maps": {
+            "title": "マップ",
+            "description": "敵配置・宝箱・NPCを表示する地図。"
+          }
+        }
+      },
+      "tools": {
+        "title": "ツール",
+        "items": {
+          "evolutionTree": {
+            "title": "進化ツリー",
+            "description": "条件とステータスを可視化。"
+          },
+          "skillPlanner": {
+            "title": "スキルプランナー",
+            "description": "ポイント配分と相性を検証。"
+          },
+          "teamBuilder": {
+            "title": "チームビルダー",
+            "description": "役割と耐性をバランス良く編成。"
+          }
+        }
+      },
+      "news": {
+        "title": "ニュース",
+        "items": {
+          "updates": {
+            "title": "パッチ情報",
+            "description": "調整内容と影響を即時翻訳。"
+          },
+          "events": {
+            "title": "イベント",
+            "description": "期間限定コンテンツのスケジュール。"
+          }
+        }
+      },
+      "community": {
+        "title": "コミュニティ",
+        "items": {
+          "hub": {
+            "title": "ハブ",
+            "description": "言語別スレッドと行動規範。"
+          },
+          "submit": {
+            "title": "攻略投稿",
+            "description": "レビューに送る投稿フォーム。"
+          },
+          "discussion": {
+            "title": "戦略討論",
+            "description": "ビルドやメタの議論に参加。"
+          }
+        }
+      },
+      "resources": {
+        "title": "リソース",
+        "items": {
+          "prd": {
+            "title": "PRD",
+            "description": "製品仕様とSEO計画。"
+          },
+          "about": {
+            "title": "プロジェクト概要",
+            "description": "ビジョンと運営体制。"
+          },
+          "contact": {
+            "title": "お問い合わせ",
+            "description": "提携・メディア窓口。"
+          },
+          "blog": {
+            "title": "ブログ",
+            "description": "分析レポートとアップデート。"
+          },
+          "docs": {
+            "title": "ドキュメント",
+            "description": "開発者向け資料。"
+          }
+        }
+      }
+    },
+    "footer": {
+      "tagline": "世界同時に攻略・データ・ツールを届けるタイムストレンジャー総合基地。",
+      "guides": {
+        "title": "攻略",
+        "items": {
+          "beginner": "ビギナー",
+          "walkthrough": "ストーリー",
+          "boss": "ボス"
+        }
+      },
+      "database": {
+        "title": "データ",
+        "items": {
+          "digimon": "デジモン",
+          "items": "アイテム",
+          "maps": "マップ"
+        }
+      },
+      "tools": {
+        "title": "ツール",
+        "items": {
+          "evolutionTree": "進化ツリー",
+          "skillPlanner": "スキルプランナー",
+          "teamBuilder": "チームビルダー"
+        }
+      },
+      "community": {
+        "title": "コミュニティ",
+        "items": {
+          "hub": "ハブ",
+          "submit": "投稿",
+          "updates": "パッチ速報",
+          "blueprint": "設計書",
+          "contact": "連絡先"
+        }
+      },
+      "legal": {
+        "title": "ポリシー",
+        "items": {
+          "cookiePolicy": "クッキーポリシー",
+          "privacyPolicy": "プライバシー",
+          "termsOfService": "利用規約"
+        }
+      }
+    },
+    "avatar": {
+      "dashboard": "ダッシュボード",
+      "billing": "請求",
+      "credits": "クレジット",
+      "settings": "設定"
+    }
+  },
+  "Newsletter": {
+    "title": "Digimon Dispatch",
+    "subtitle": "週刊メタレポート",
+    "description": "パッチ解析、注目ビルド、翻訳更新をまとめて配信。",
+    "form": {
+      "email": "メールアドレス",
+      "subscribe": "購読する",
+      "subscribing": "登録中...",
+      "success": "登録しました",
+      "fail": "登録に失敗しました",
+      "emailValidation": "有効なメールアドレスを入力してください"
+    }
+  },
+  "DigimonHome": {
+    "hero": {
+      "title": "デジモンストーリー タイムストレンジャー攻略統合ハブ",
+      "subtitle": "攻略・データ・ツールを一体化",
+      "description": "物語の分岐、進化計画、最新イベントまで全てを一つのダッシュボードで管理。",
+      "primaryCta": "ビギナーガイドへ",
+      "primaryHref": "/guides/beginner",
+      "secondaryCta": "チームビルダーを起動",
+      "secondaryHref": "/tools/team-builder",
+      "featureLabel": "想定ユーザー",
+      "features": [
+        "100%達成を目指す探索派",
+        "対戦準備を急ぐタマー",
+        "多言語運営するコミュニティ"
+      ],
+      "cardDescription": "攻略・データ・プランニングを結ぶ世界共通基盤。",
+      "footerNote": "英語・日本語・スペイン語・フランス語で同時展開。"
+    },
+    "pillars": {
+      "title": "すべてのプレイヤーが必要とする情報を4本柱で提供",
+      "items": [
+        {
+          "title": "構造化された攻略",
+          "description": "初心者から上級者までルートを切り替えながら確認。",
+          "href": "/guides"
+        },
+        {
+          "title": "検索性の高いデータ",
+          "description": "属性や入手先でフィルタリング可能な図鑑。",
+          "href": "/database/digimon"
+        },
+        {
+          "title": "インタラクティブツール",
+          "description": "進化・スキル・チーム編成を事前に検証。",
+          "href": "/tools"
+        },
+        {
+          "title": "最新情報とイベント",
+          "description": "パッチとタイムゾーン変換付きイベント速報。",
+          "href": "/news/updates"
+        }
+      ]
+    },
+    "database": {
+      "title": "データバンクを探索",
+      "description": "各デジモン、アイテム、エリアをクロスリンクで整理。",
+      "cards": [
+        {
+          "title": "デジモン図鑑",
+          "description": "属性や進化候補でフィルター可能。",
+          "stat": "210体以上",
+          "href": "/database/digimon"
+        },
+        {
+          "title": "アイテム・クラフト",
+          "description": "ドロップ率とレシピを即座に参照。",
+          "stat": "320件",
+          "href": "/database/items"
+        },
+        {
+          "title": "時のアトラス",
+          "description": "宝箱・NPC・隠し通路を表示する対話型マップ。",
+          "stat": "18マップ",
+          "href": "/database/maps"
+        }
+      ]
+    },
+    "tools": {
+      "title": "理想の編成をツールで設計",
+      "cards": [
+        {
+          "title": "進化ツリー",
+          "description": "条件とコストを可視化しながら計画。",
+          "href": "/tools/evolution-tree"
+        },
+        {
+          "title": "スキルプランナー",
+          "description": "倍率やクールダウンを比較し最適化。",
+          "href": "/tools/skill-planner"
+        },
+        {
+          "title": "チームビルダー",
+          "description": "耐性・役割・オーラを分析して共有。",
+          "href": "/tools/team-builder"
+        }
+      ]
+    },
+    "updates": {
+      "title": "グローバル最新情報",
+      "items": [
+        {
+          "title": "パッチ速報",
+          "description": "調整内容と影響ポイントを抜粋。"
+        },
+        {
+          "title": "イベントプラン",
+          "description": "現地時間への自動変換と準備リスト。"
+        },
+        {
+          "title": "ロードマップ洞察",
+          "description": "今後のシステム予告を分析。"
+        }
+      ]
+    },
+    "localization": {
+      "title": "ローカライズ第一主義",
+      "description": "英語・日本語・スペイン語・フランス語を同時更新。",
+      "regions": [
+        "日本語攻略班",
+        "北米・中南米",
+        "フランス語圏",
+        "コミュニティ拡張言語"
+      ]
+    },
+    "cta": {
+      "title": "さあ冒険を始めましょう",
+      "description": "ガイドをブックマークし、自分の言語で通知を受け取ろう。",
+      "primaryCta": "攻略ハブを見る",
+      "primaryHref": "/guides",
+      "secondaryCta": "フィードバックを送る",
+      "secondaryHref": "/community/share-guide",
+      "meta": "言語設定で受信する情報を管理できます。"
+    }
+  }
+}

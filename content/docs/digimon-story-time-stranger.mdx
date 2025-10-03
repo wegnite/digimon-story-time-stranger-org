@@ -1,0 +1,168 @@
+---
+title: Digimon Story Time Stranger Global Guide
+slug: digimon-story-time-stranger
+description: Complete product requirements and SEO blueprint for the Digimon Story Time Stranger Global Guide platform.
+---
+
+# Digimon Story Time Stranger Global Guide
+
+This document consolidates the product requirements, technical architecture, and SEO content blueprint for the **Digimon Story Time Stranger Global Guide** initiative. Use it as the single source of truth when building features, writing content, or coordinating marketing and localisation.
+
+> **Legal note:** Digimon and related names are trademarks of their respective owners. This guide aggregates community knowledge for educational and informational purposes only and does not distribute proprietary assets.
+
+## 1. Product Definition
+
+- **Product type:** Tactical strategy portal, data-driven wiki, and planning toolkit for *Digimon Story Time Stranger*.
+- **Primary markets:** Japan, United States, Europe; secondary lift in Latin America and Southeast Asia.
+- **Core promise:** “Systematic walkthroughs + structured data + multi-language launch parity”.
+
+## 2. User Needs Grid
+
+| Persona | Primary Goals | Pain Points Today |
+| --- | --- | --- |
+| Completionist Story Seeker | Clear mission order, missable collectibles, spoiler controls | Fragmented guides, no 100% checklist |
+| Competitive Tamer | Optimised squads, skill builds, patch intelligence | Slow translations, inconsistent data |
+| Localised Community Lead | Synchronized multilingual coverage, community submissions | No shared tooling, manual translations |
+
+## 3. Experience Pillars
+
+### 3.1 Guide System
+
+- Beginner Compass, main story walkthroughs, side activity tracker, boss encyclopaedia, secrets & collectibles.
+- Spoiler-safe toggles and localisation-aware hints.
+- Structured cards for mission objectives, rewards, and affinity changes.
+
+### 3.2 Data Vault
+
+- **Digimon Compendium:** stats, traits, skills, evolution routes, acquisition nodes.
+- **Item & Craft Archive:** drop tables, recipes, vendor rotations, event exclusives.
+- **Atlas of Time:** interactive maps with layers (story, collectibles, enemies, NPC routes).
+
+### 3.3 Tool Suite
+
+- **Evolution Tree Planner:** branching requirements, resource forecasts, share codes.
+- **Skill Planner:** point allocation sandbox with multiplier analysis.
+- **Team Builder:** aura coverage matrix, resistance heatmaps, exportable squads.
+
+### 3.4 Live Operations
+
+- Patch tracker with impact notes and linked database diffs.
+- Events calendar with localised time conversion and prep lists.
+- Editorial briefs on roadmap hints, meta shifts, and balance changes.
+
+### 3.5 Community Workbench
+
+- Comment threads segmented by locale and spoiler level.
+- Submission workflow with templates, review status, and contributor analytics.
+- Highlight rail for top analysis, shared team codes, and partner creators.
+
+## 4. Platform Architecture
+
+| Layer | Recommended Stack | Notes |
+| --- | --- | --- |
+| Frontend | Next.js (App Router) + TailwindCSS + Headless UI | SSR for SEO, hydration aware for data tools |
+| API | Node.js edge runtime or tRPC via Next routes | Gate database access, support incremental static regeneration |
+| Database | PostgreSQL with Prisma/Drizzle | Tables: `digimon`, `skills`, `items`, `maps`, `quests`, `patches`, `submissions` |
+| Caching | Redis or Cloudflare KV | Response caching for heavy queries and localisation toggles |
+| Search | Algolia / Meilisearch | Multi-locale indexing + filter facets (attr, element, quest type) |
+| Hosting | Vercel (frontend) + Cloudflare CDN + Worker API | Align with OpenNext deployment tooling |
+
+### 4.1 i18n + Localisation
+
+- Default locales: `en`, `ja`, `es`, `fr` (extendable via community packs).
+- URL schema: `/[locale]/guides/...` with canonical tags and alternate hreflang.
+- Translation workflow: fallback to English with deep merge, community translation submissions via CMS.
+
+### 4.2 CMS / Editorial
+
+- MDX or structured JSON for guides; diff-friendly for AI assistants.
+- Submission pipeline: draft → review → localisation → scheduled publish.
+- Audit log for content updates tied to patch IDs.
+
+## 5. Monetisation & Partnerships
+
+1. Google AdSense placements bounded to guides and database sidebars.
+2. Amazon Associates for merchandise, codes, and collectible drops.
+3. Premium tier (optional): ad-free, saved team builds, event alarm exports.
+4. Partnerships: Digimon YouTubers/Twitch streamers, cosplay and lore communities.
+
+## 6. SEO Blueprint
+
+### 6.1 Keyword Strategy
+
+- **Primary keyword:** `Digimon Story Time Stranger` (≥3% density, in title/H1/H2/URL/meta).
+- **Secondary cluster:** `walkthrough`, `guide`, `beginner tips`, `hidden quests`, `team builds`.
+- **Long-tail:**
+  - `how to evolve [digimon name] in Digimon Story Time Stranger`
+  - `Digimon Story Time Stranger best skills`
+  - `Digimon Story Time Stranger hidden items locations`
+  - `Digimon Story Time Stranger secret bosses`
+- **Localised focus:**
+  - 日语: `デジモンストーリー タイムストレンジャー 攻略`
+  - 西语: `guía Digimon Story Time Stranger`
+  - 法语: `solution Digimon Story Time Stranger`
+
+### 6.2 Information Architecture
+
+```
+/
+/guides/
+  /beginner
+  /walkthrough
+  /side-quests
+  /boss
+  /secrets
+/database/
+  /digimon
+  /items
+  /maps
+/tools/
+  /evolution-tree
+  /skill-planner
+  /team-builder
+/news/
+  /updates
+  /events
+/community/
+  /share-guide
+  /discussion
+```
+
+### 6.3 SEO Content Templates
+
+**Guide Articles**
+
+- 1,000–2,000 words, keyword density 3–3.5%.
+- Structure: introduction → mission chapters → boss counterplay → hidden notes → conclusion.
+- Include `FAQPage` structured data when viable.
+
+**Database Entries**
+
+- JSON-LD per entity with stats, affinities, and drop data.
+- Internal linking to tools and guides; canonical for multi-locale duplicates.
+
+**News Posts**
+
+- Publish within 30 minutes of patch/event release.
+- Provide TL;DR, change tables, recommended actions, and cross-link to impacted content.
+
+### 6.4 Launch Content Priority
+
+1. Beginner & walkthrough hub.
+2. Digimon compendium (210+ entries) with filters.
+3. Boss archive and secrets library.
+4. Tool suite MVP (evolution + skill + team planner).
+5. News desk: patch tracker, events calendar, editorial briefs.
+
+## 7. Delivery Checklist
+
+- [ ] Finalise navigation taxonomy for all locales.
+- [ ] Seed database schemas and migrate baseline content.
+- [ ] Implement localisation-aware metadata (title, description, OG images).
+- [ ] Hook content submission pipeline to moderation queue.
+- [ ] Configure analytics, error tracking, and uptime alerts.
+- [ ] Launch Digimon Dispatch newsletter and RSS feeds.
+
+---
+
+**Last updated:** 2024-08-15

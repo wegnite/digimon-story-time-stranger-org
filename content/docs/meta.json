@@ -4,6 +4,8 @@
   "icon": "Building2",
   "root": true,
   "pages": [
+    "---Projects---",
+    "digimon-story-time-stranger",
     "---Introduction---",
     "index",
     "what-is-fumadocs",

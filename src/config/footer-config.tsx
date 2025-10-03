@@ -3,101 +3,102 @@
 import { Routes } from '@/routes';
 import type { NestedMenuItem } from '@/types';
 import { useTranslations } from 'next-intl';
-import { websiteConfig } from './website';
 
 /**
  * Get footer config with translations
  *
  * NOTICE: used in client components only
- *
- * docs:
- * https://aipolaroidphoto.org/docs/config/footer
- *
- * @returns The footer config with translated titles
  */
 export function getFooterLinks(): NestedMenuItem[] {
   const t = useTranslations('Marketing.footer');
 
   return [
     {
-      title: t('product.title'),
+      title: t('guides.title'),
       items: [
         {
-          title: t('product.items.generator'),
-          href: Routes.AiPolaroidGenerator,
+          title: t('guides.items.beginner'),
+          href: Routes.GuidesBeginner,
           external: false,
         },
         {
-          title: t('product.items.templates'),
-          href: Routes.AiPolaroidTemplates,
+          title: t('guides.items.walkthrough'),
+          href: Routes.GuidesWalkthrough,
           external: false,
         },
         {
-          title: t('product.items.vintage'),
-          href: Routes.AiVintagePhoto,
+          title: t('guides.items.boss'),
+          href: Routes.GuidesBoss,
           external: false,
         },
       ],
     },
     {
-      title: t('resources.title'),
+      title: t('database.title'),
       items: [
         {
-          title: t('resources.items.gallery'),
-          href: Routes.Gallery,
+          title: t('database.items.digimon'),
+          href: Routes.DatabaseDigimon,
           external: false,
         },
         {
-          title: t('resources.items.tutorials'),
-          href: Routes.Tutorials,
+          title: t('database.items.items'),
+          href: Routes.DatabaseItems,
           external: false,
         },
         {
-          title: t('resources.items.wan22'),
-          href: Routes.Wan22,
+          title: t('database.items.maps'),
+          href: Routes.DatabaseMaps,
           external: false,
         },
-        ...(websiteConfig.blog.enable
-          ? [
-              {
-                title: t('resources.items.blog'),
-                href: Routes.Blog,
-                external: false,
-              },
-            ]
-          : []),
-        ...(websiteConfig.docs.enable
-          ? [
-              {
-                title: t('resources.items.docs'),
-                href: Routes.Docs,
-                external: false,
-              },
-            ]
-          : []),
       ],
     },
     {
-      title: t('company.title'),
+      title: t('tools.title'),
       items: [
         {
-          title: t('company.items.about'),
-          href: Routes.About,
+          title: t('tools.items.evolutionTree'),
+          href: Routes.ToolsEvolutionTree,
           external: false,
         },
         {
-          title: t('company.items.contact'),
+          title: t('tools.items.skillPlanner'),
+          href: Routes.ToolsSkillPlanner,
+          external: false,
+        },
+        {
+          title: t('tools.items.teamBuilder'),
+          href: Routes.ToolsTeamBuilder,
+          external: false,
+        },
+      ],
+    },
+    {
+      title: t('community.title'),
+      items: [
+        {
+          title: t('community.items.hub'),
+          href: Routes.Community,
+          external: false,
+        },
+        {
+          title: t('community.items.submit'),
+          href: Routes.CommunitySubmit,
+          external: false,
+        },
+        {
+          title: t('community.items.updates'),
+          href: Routes.NewsUpdates,
+          external: false,
+        },
+        {
+          title: t('community.items.blueprint'),
+          href: Routes.ProductBlueprint,
+          external: false,
+        },
+        {
+          title: t('community.items.contact'),
           href: Routes.Contact,
-          external: false,
-        },
-        {
-          title: t('company.items.changelog'),
-          href: Routes.Changelog,
-          external: false,
-        },
-        {
-          title: t('company.items.waitlist'),
-          href: Routes.Waitlist,
           external: false,
         },
       ],

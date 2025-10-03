@@ -1,0 +1,313 @@
+{
+  "Metadata": {
+    "name": "Guía Global Digimon Story Time Stranger",
+    "title": "Guía Digimon Story Time Stranger – Recorridos, Base de Datos y Herramientas",
+    "description": "Compendio estratégico multilingüe con guías, datos y planificadores para Digimon Story Time Stranger."
+  },
+  "Marketing": {
+    "navbar": {
+      "guides": {
+        "title": "Guías",
+        "items": {
+          "beginner": {
+            "title": "Guía para principiantes",
+            "description": "Niveles iniciales y configuraciones recomendadas."
+          },
+          "walkthrough": {
+            "title": "Historia",
+            "description": "Paso a paso de cada capítulo y decisiones."
+          },
+          "sideQuests": {
+            "title": "Misiones secundarias",
+            "description": "Favores con afinidad y recompensas únicas."
+          },
+          "boss": {
+            "title": "Jefes",
+            "description": "Fases, debilidades y escuadras sugeridas."
+          },
+          "secrets": {
+            "title": "Secretos",
+            "description": "Coleccionables y Digimon ocultos."
+          }
+        }
+      },
+      "database": {
+        "title": "Base de datos",
+        "items": {
+          "digimon": {
+            "title": "Índice de Digimon",
+            "description": "Estadísticas y rutas de evolución."
+          },
+          "items": {
+            "title": "Objetos",
+            "description": "Tablas de botín y recetas."
+          },
+          "maps": {
+            "title": "Mapas",
+            "description": "Capas interactivas con enemigos y NPC."
+          }
+        }
+      },
+      "tools": {
+        "title": "Herramientas",
+        "items": {
+          "evolutionTree": {
+            "title": "Árbol de evolución",
+            "description": "Visualiza requisitos y costes."
+          },
+          "skillPlanner": {
+            "title": "Planificador de habilidades",
+            "description": "Distribuye puntos y analiza multiplicadores."
+          },
+          "teamBuilder": {
+            "title": "Constructor de equipos",
+            "description": "Equilibra roles, resistencias y auras."
+          }
+        }
+      },
+      "news": {
+        "title": "Noticias",
+        "items": {
+          "updates": {
+            "title": "Actualizaciones",
+            "description": "Resumen instantáneo de parches."
+          },
+          "events": {
+            "title": "Eventos",
+            "description": "Calendario global con zonas horarias."
+          }
+        }
+      },
+      "community": {
+        "title": "Comunidad",
+        "items": {
+          "hub": {
+            "title": "Centro",
+            "description": "Foros por idioma y normas."
+          },
+          "submit": {
+            "title": "Enviar guía",
+            "description": "Proceso editorial paso a paso."
+          },
+          "discussion": {
+            "title": "Debate",
+            "description": "Metagame y preguntas técnicas."
+          }
+        }
+      },
+      "resources": {
+        "title": "Recursos",
+        "items": {
+          "prd": {
+            "title": "Blueprint",
+            "description": "PRD completo y plan SEO."
+          },
+          "about": {
+            "title": "Acerca de",
+            "description": "Visión y equipo editorial."
+          },
+          "contact": {
+            "title": "Contacto",
+            "description": "Alianzas y prensa."
+          },
+          "blog": {
+            "title": "Blog",
+            "description": "Informes y análisis."
+          },
+          "docs": {
+            "title": "Documentación",
+            "description": "Notas para desarrolladores."
+          }
+        }
+      }
+    },
+    "footer": {
+      "tagline": "La base estratégica mundial para Digimon Story Time Stranger.",
+      "guides": {
+        "title": "Guías",
+        "items": {
+          "beginner": "Principiantes",
+          "walkthrough": "Historia",
+          "boss": "Jefes"
+        }
+      },
+      "database": {
+        "title": "Datos",
+        "items": {
+          "digimon": "Digimon",
+          "items": "Objetos",
+          "maps": "Mapas"
+        }
+      },
+      "tools": {
+        "title": "Herramientas",
+        "items": {
+          "evolutionTree": "Árbol",
+          "skillPlanner": "Habilidades",
+          "teamBuilder": "Equipo"
+        }
+      },
+      "community": {
+        "title": "Comunidad",
+        "items": {
+          "hub": "Centro",
+          "submit": "Enviar",
+          "updates": "Parches",
+          "blueprint": "Blueprint",
+          "contact": "Contacto"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "items": {
+          "cookiePolicy": "Cookies",
+          "privacyPolicy": "Privacidad",
+          "termsOfService": "Términos"
+        }
+      }
+    },
+    "avatar": {
+      "dashboard": "Panel",
+      "billing": "Facturación",
+      "credits": "Créditos",
+      "settings": "Ajustes"
+    }
+  },
+  "Newsletter": {
+    "title": "Digimon Dispatch",
+    "subtitle": "Resumen semanal",
+    "description": "Recibe cambios de parches, equipos destacados y notas de localización.",
+    "form": {
+      "email": "Correo",
+      "subscribe": "Suscribirse",
+      "subscribing": "Enviando...",
+      "success": "Suscripción correcta",
+      "fail": "Error al suscribirse",
+      "emailValidation": "Introduce un correo válido"
+    }
+  },
+  "DigimonHome": {
+    "hero": {
+      "title": "Guía global de Digimon Story Time Stranger",
+      "subtitle": "Datos, guías y herramientas conectadas",
+      "description": "Planifica cada arco, evolución y evento desde un único panel multilingüe.",
+      "primaryCta": "Ver guía inicial",
+      "primaryHref": "/guides/beginner",
+      "secondaryCta": "Abrir constructor de equipos",
+      "secondaryHref": "/tools/team-builder",
+      "featureLabel": "Pensado para",
+      "features": [
+        "Coleccionistas que buscan 100%",
+        "Jugadores competitivos",
+        "Comunidades multilingües"
+      ],
+      "cardDescription": "Infraestructura global que une walkthroughs, datos y planificadores.",
+      "footerNote": "Contenido sincronizado en inglés, japonés, español y francés."
+    },
+    "pillars": {
+      "title": "Cuatro pilares para dominar la aventura",
+      "items": [
+        {
+          "title": "Guías estructuradas",
+          "description": "Cambia entre rutas según tu perfil.",
+          "href": "/guides"
+        },
+        {
+          "title": "Base de datos potente",
+          "description": "Filtra Digimon, objetos y mapas.",
+          "href": "/database/digimon"
+        },
+        {
+          "title": "Herramientas interactivas",
+          "description": "Prueba evoluciones y builds.",
+          "href": "/tools"
+        },
+        {
+          "title": "Actualizaciones al día",
+          "description": "Alertas de parches y eventos.",
+          "href": "/news/updates"
+        }
+      ]
+    },
+    "database": {
+      "title": "Explora el archivo",
+      "description": "Cada elemento se cruza con rutas y requisitos.",
+      "cards": [
+        {
+          "title": "Compendio de Digimon",
+          "description": "Filtra por atributo, rol o etapa.",
+          "stat": "210+ entradas",
+          "href": "/database/digimon"
+        },
+        {
+          "title": "Archivo de objetos",
+          "description": "Tablas de botín y recetas actualizadas.",
+          "stat": "320 objetos",
+          "href": "/database/items"
+        },
+        {
+          "title": "Atlas del tiempo",
+          "description": "Mapas interactivos con rutas óptimas.",
+          "stat": "18 mapas",
+          "href": "/database/maps"
+        }
+      ]
+    },
+    "tools": {
+      "title": "Planifica antes de luchar",
+      "cards": [
+        {
+          "title": "Árbol de evolución",
+          "description": "Visualiza requisitos y costes.",
+          "href": "/tools/evolution-tree"
+        },
+        {
+          "title": "Planificador de habilidades",
+          "description": "Comprueba sinergias y tiempos.",
+          "href": "/tools/skill-planner"
+        },
+        {
+          "title": "Constructor de equipos",
+          "description": "Balancea roles y resistencias.",
+          "href": "/tools/team-builder"
+        }
+      ]
+    },
+    "updates": {
+      "title": "Siempre actualizado",
+      "items": [
+        {
+          "title": "Notas de parche",
+          "description": "Resumen y acciones sugeridas."
+        },
+        {
+          "title": "Agenda",
+          "description": "Eventos convertidos a tu hora local."
+        },
+        {
+          "title": "Visión futura",
+          "description": "Análisis de roadmap y teasers."
+        }
+      ]
+    },
+    "localization": {
+      "title": "Localización primero",
+      "description": "Contenido simultáneo en cuatro idiomas.",
+      "regions": [
+        "España y LATAM",
+        "Japón",
+        "Francia",
+        "Idiomas de la comunidad"
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para empezar?",
+      "description": "Marca la guía, elige idioma y envía feedback.",
+      "primaryCta": "Ir a guías",
+      "primaryHref": "/guides",
+      "secondaryCta": "Enviar feedback",
+      "secondaryHref": "/community/share-guide",
+      "meta": "Los avisos se envían en el idioma que elijas."
+    }
+  }
+}
