@@ -1,313 +1,517 @@
 {
   "Metadata": {
-    "name": "デジモンストーリー タイムストレンジャー攻略本部",
-    "title": "デジモンストーリー タイムストレンジャー攻略ガイド – ルートとツール",
-    "description": "物語チャート、デジモンデータベース、パッチ情報、編成シミュレーター、多言語サポートを一つにまとめ、世界中のデジモンストーリー タイムストレンジャー攻略者を支援します。"
+    "name": "\u30c7\u30b8\u30e2\u30f3\u30b9\u30c8\u30fc\u30ea\u30fc \u30bf\u30a4\u30e0\u30b9\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u653b\u7565\u672c\u90e8",
+    "title": "\u30c7\u30b8\u30e2\u30f3\u30b9\u30c8\u30fc\u30ea\u30fc \u30bf\u30a4\u30e0\u30b9\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u653b\u7565\u30ac\u30a4\u30c9 \u2013 \u30eb\u30fc\u30c8\u3068\u30c4\u30fc\u30eb",
+    "description": "\u7269\u8a9e\u30c1\u30e3\u30fc\u30c8\u3001\u30c7\u30b8\u30e2\u30f3\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3001\u30d1\u30c3\u30c1\u60c5\u5831\u3001\u7de8\u6210\u30b7\u30df\u30e5\u30ec\u30fc\u30bf\u30fc\u3001\u591a\u8a00\u8a9e\u30b5\u30dd\u30fc\u30c8\u3092\u4e00\u3064\u306b\u307e\u3068\u3081\u3001\u4e16\u754c\u4e2d\u306e\u30c7\u30b8\u30e2\u30f3\u30b9\u30c8\u30fc\u30ea\u30fc \u30bf\u30a4\u30e0\u30b9\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u653b\u7565\u8005\u3092\u652f\u63f4\u3057\u307e\u3059\u3002"
   },
   "Marketing": {
     "navbar": {
       "guides": {
-        "title": "攻略",
+        "title": "\u653b\u7565",
         "items": {
           "beginner": {
-            "title": "ビギナーガイド",
-            "description": "序盤の育成とレベル上げルート。"
+            "title": "\u30d3\u30ae\u30ca\u30fc\u30ac\u30a4\u30c9",
+            "description": "\u5e8f\u76e4\u306e\u80b2\u6210\u3068\u30ec\u30d9\u30eb\u4e0a\u3052\u30eb\u30fc\u30c8\u3002"
           },
           "walkthrough": {
-            "title": "ストーリー攻略",
-            "description": "章ごとの進行と選択肢の影響を整理。"
+            "title": "\u30b9\u30c8\u30fc\u30ea\u30fc\u653b\u7565",
+            "description": "\u7ae0\u3054\u3068\u306e\u9032\u884c\u3068\u9078\u629e\u80a2\u306e\u5f71\u97ff\u3092\u6574\u7406\u3002"
           },
           "sideQuests": {
-            "title": "サブクエスト",
-            "description": "好感度や限定報酬が得られる依頼を追跡。"
+            "title": "\u30b5\u30d6\u30af\u30a8\u30b9\u30c8",
+            "description": "\u597d\u611f\u5ea6\u3084\u9650\u5b9a\u5831\u916c\u304c\u5f97\u3089\u308c\u308b\u4f9d\u983c\u3092\u8ffd\u8de1\u3002"
           },
           "boss": {
-            "title": "ボス攻略",
-            "description": "フェーズ、弱点、推奨パーティを解説。"
+            "title": "\u30dc\u30b9\u653b\u7565",
+            "description": "\u30d5\u30a7\u30fc\u30ba\u3001\u5f31\u70b9\u3001\u63a8\u5968\u30d1\u30fc\u30c6\u30a3\u3092\u89e3\u8aac\u3002"
           },
           "secrets": {
-            "title": "隠し要素",
-            "description": "収集品や隠しデジモンの入手条件。"
+            "title": "\u96a0\u3057\u8981\u7d20",
+            "description": "\u53ce\u96c6\u54c1\u3084\u96a0\u3057\u30c7\u30b8\u30e2\u30f3\u306e\u5165\u624b\u6761\u4ef6\u3002"
           }
         }
       },
       "database": {
-        "title": "データベース",
+        "title": "\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9",
         "items": {
           "digimon": {
-            "title": "デジモン図鑑",
-            "description": "各種ステータスと進化ルート。"
+            "title": "\u30c7\u30b8\u30e2\u30f3\u56f3\u9451",
+            "description": "\u5404\u7a2e\u30b9\u30c6\u30fc\u30bf\u30b9\u3068\u9032\u5316\u30eb\u30fc\u30c8\u3002"
           },
           "items": {
-            "title": "アイテム一覧",
-            "description": "ドロップ率、合成レシピ、販売情報。"
+            "title": "\u30a2\u30a4\u30c6\u30e0\u4e00\u89a7",
+            "description": "\u30c9\u30ed\u30c3\u30d7\u7387\u3001\u5408\u6210\u30ec\u30b7\u30d4\u3001\u8ca9\u58f2\u60c5\u5831\u3002"
           },
           "maps": {
-            "title": "マップ",
-            "description": "敵配置・宝箱・NPCを表示する地図。"
+            "title": "\u30de\u30c3\u30d7",
+            "description": "\u6575\u914d\u7f6e\u30fb\u5b9d\u7bb1\u30fbNPC\u3092\u8868\u793a\u3059\u308b\u5730\u56f3\u3002"
           }
         }
       },
       "tools": {
-        "title": "ツール",
+        "title": "\u30c4\u30fc\u30eb",
         "items": {
           "evolutionTree": {
-            "title": "進化ツリー",
-            "description": "条件とステータスを可視化。"
+            "title": "\u9032\u5316\u30c4\u30ea\u30fc",
+            "description": "\u6761\u4ef6\u3068\u30b9\u30c6\u30fc\u30bf\u30b9\u3092\u53ef\u8996\u5316\u3002"
           },
           "skillPlanner": {
-            "title": "スキルプランナー",
-            "description": "ポイント配分と相性を検証。"
+            "title": "\u30b9\u30ad\u30eb\u30d7\u30e9\u30f3\u30ca\u30fc",
+            "description": "\u30dd\u30a4\u30f3\u30c8\u914d\u5206\u3068\u76f8\u6027\u3092\u691c\u8a3c\u3002"
           },
           "teamBuilder": {
-            "title": "チームビルダー",
-            "description": "役割と耐性をバランス良く編成。"
+            "title": "\u30c1\u30fc\u30e0\u30d3\u30eb\u30c0\u30fc",
+            "description": "\u5f79\u5272\u3068\u8010\u6027\u3092\u30d0\u30e9\u30f3\u30b9\u826f\u304f\u7de8\u6210\u3002"
           }
         }
       },
       "news": {
-        "title": "ニュース",
+        "title": "\u30cb\u30e5\u30fc\u30b9",
         "items": {
           "updates": {
-            "title": "パッチ情報",
-            "description": "調整内容と影響を即時翻訳。"
+            "title": "\u30d1\u30c3\u30c1\u60c5\u5831",
+            "description": "\u8abf\u6574\u5185\u5bb9\u3068\u5f71\u97ff\u3092\u5373\u6642\u7ffb\u8a33\u3002"
           },
           "events": {
-            "title": "イベント",
-            "description": "期間限定コンテンツのスケジュール。"
+            "title": "\u30a4\u30d9\u30f3\u30c8",
+            "description": "\u671f\u9593\u9650\u5b9a\u30b3\u30f3\u30c6\u30f3\u30c4\u306e\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3002"
           }
         }
       },
       "community": {
-        "title": "コミュニティ",
+        "title": "\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
         "items": {
           "hub": {
-            "title": "ハブ",
-            "description": "言語別スレッドと行動規範。"
+            "title": "\u30cf\u30d6",
+            "description": "\u8a00\u8a9e\u5225\u30b9\u30ec\u30c3\u30c9\u3068\u884c\u52d5\u898f\u7bc4\u3002"
           },
           "submit": {
-            "title": "攻略投稿",
-            "description": "レビューに送る投稿フォーム。"
+            "title": "\u653b\u7565\u6295\u7a3f",
+            "description": "\u30ec\u30d3\u30e5\u30fc\u306b\u9001\u308b\u6295\u7a3f\u30d5\u30a9\u30fc\u30e0\u3002"
           },
           "discussion": {
-            "title": "戦略討論",
-            "description": "ビルドやメタの議論に参加。"
+            "title": "\u6226\u7565\u8a0e\u8ad6",
+            "description": "\u30d3\u30eb\u30c9\u3084\u30e1\u30bf\u306e\u8b70\u8ad6\u306b\u53c2\u52a0\u3002"
           }
         }
       },
       "resources": {
-        "title": "リソース",
+        "title": "\u30ea\u30bd\u30fc\u30b9",
         "items": {
           "prd": {
-            "title": "PRD",
-            "description": "製品仕様とSEO計画。"
+            "title": "Contributor Handbook",
+            "description": "Editorial standards, submission workflow, and style guidance."
           },
           "about": {
-            "title": "プロジェクト概要",
-            "description": "ビジョンと運営体制。"
+            "title": "\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u6982\u8981",
+            "description": "\u30d3\u30b8\u30e7\u30f3\u3068\u904b\u55b6\u4f53\u5236\u3002"
           },
           "contact": {
-            "title": "お問い合わせ",
-            "description": "提携・メディア窓口。"
+            "title": "\u304a\u554f\u3044\u5408\u308f\u305b",
+            "description": "\u63d0\u643a\u30fb\u30e1\u30c7\u30a3\u30a2\u7a93\u53e3\u3002"
           },
           "blog": {
-            "title": "ブログ",
-            "description": "分析レポートとアップデート。"
+            "title": "\u30d6\u30ed\u30b0",
+            "description": "\u5206\u6790\u30ec\u30dd\u30fc\u30c8\u3068\u30a2\u30c3\u30d7\u30c7\u30fc\u30c8\u3002"
           },
           "docs": {
-            "title": "ドキュメント",
-            "description": "開発者向け資料。"
+            "title": "\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8",
+            "description": "\u958b\u767a\u8005\u5411\u3051\u8cc7\u6599\u3002"
           }
         }
       }
     },
     "footer": {
-      "tagline": "世界同時に攻略・データ・ツールを届けるタイムストレンジャー総合基地。",
+      "tagline": "\u4e16\u754c\u540c\u6642\u306b\u653b\u7565\u30fb\u30c7\u30fc\u30bf\u30fb\u30c4\u30fc\u30eb\u3092\u5c4a\u3051\u308b\u30bf\u30a4\u30e0\u30b9\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u7dcf\u5408\u57fa\u5730\u3002",
       "guides": {
-        "title": "攻略",
+        "title": "\u653b\u7565",
         "items": {
-          "beginner": "ビギナー",
-          "walkthrough": "ストーリー",
-          "boss": "ボス"
+          "beginner": "\u30d3\u30ae\u30ca\u30fc",
+          "walkthrough": "\u30b9\u30c8\u30fc\u30ea\u30fc",
+          "boss": "\u30dc\u30b9"
         }
       },
       "database": {
-        "title": "データ",
+        "title": "\u30c7\u30fc\u30bf",
         "items": {
-          "digimon": "デジモン",
-          "items": "アイテム",
-          "maps": "マップ"
+          "digimon": "\u30c7\u30b8\u30e2\u30f3",
+          "items": "\u30a2\u30a4\u30c6\u30e0",
+          "maps": "\u30de\u30c3\u30d7"
         }
       },
       "tools": {
-        "title": "ツール",
+        "title": "\u30c4\u30fc\u30eb",
         "items": {
-          "evolutionTree": "進化ツリー",
-          "skillPlanner": "スキルプランナー",
-          "teamBuilder": "チームビルダー"
+          "evolutionTree": "\u9032\u5316\u30c4\u30ea\u30fc",
+          "skillPlanner": "\u30b9\u30ad\u30eb\u30d7\u30e9\u30f3\u30ca\u30fc",
+          "teamBuilder": "\u30c1\u30fc\u30e0\u30d3\u30eb\u30c0\u30fc"
         }
       },
       "community": {
-        "title": "コミュニティ",
+        "title": "\u30b3\u30df\u30e5\u30cb\u30c6\u30a3",
         "items": {
-          "hub": "ハブ",
-          "submit": "投稿",
-          "updates": "パッチ速報",
-          "blueprint": "設計書",
-          "contact": "連絡先"
+          "hub": "\u30cf\u30d6",
+          "submit": "\u6295\u7a3f",
+          "updates": "\u30d1\u30c3\u30c1\u901f\u5831",
+          "blueprint": "Contributor Handbook",
+          "contact": "\u9023\u7d61\u5148"
         }
       },
       "legal": {
-        "title": "ポリシー",
+        "title": "\u30dd\u30ea\u30b7\u30fc",
         "items": {
-          "cookiePolicy": "クッキーポリシー",
-          "privacyPolicy": "プライバシー",
-          "termsOfService": "利用規約"
+          "cookiePolicy": "\u30af\u30c3\u30ad\u30fc\u30dd\u30ea\u30b7\u30fc",
+          "privacyPolicy": "\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc",
+          "termsOfService": "\u5229\u7528\u898f\u7d04"
         }
       }
     },
     "avatar": {
-      "dashboard": "ダッシュボード",
-      "billing": "請求",
-      "credits": "クレジット",
-      "settings": "設定"
+      "dashboard": "\u30c0\u30c3\u30b7\u30e5\u30dc\u30fc\u30c9",
+      "billing": "\u8acb\u6c42",
+      "credits": "\u30af\u30ec\u30b8\u30c3\u30c8",
+      "settings": "\u8a2d\u5b9a"
     }
   },
   "Newsletter": {
     "title": "Digimon Dispatch",
-    "subtitle": "週刊メタレポート",
-    "description": "パッチ解析、注目ビルド、翻訳更新をまとめて配信。",
+    "subtitle": "\u9031\u520a\u30e1\u30bf\u30ec\u30dd\u30fc\u30c8",
+    "description": "\u30d1\u30c3\u30c1\u89e3\u6790\u3001\u6ce8\u76ee\u30d3\u30eb\u30c9\u3001\u7ffb\u8a33\u66f4\u65b0\u3092\u307e\u3068\u3081\u3066\u914d\u4fe1\u3002",
     "form": {
-      "email": "メールアドレス",
-      "subscribe": "購読する",
-      "subscribing": "登録中...",
-      "success": "登録しました",
-      "fail": "登録に失敗しました",
-      "emailValidation": "有効なメールアドレスを入力してください"
+      "email": "\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9",
+      "subscribe": "\u8cfc\u8aad\u3059\u308b",
+      "subscribing": "\u767b\u9332\u4e2d...",
+      "success": "\u767b\u9332\u3057\u307e\u3057\u305f",
+      "fail": "\u767b\u9332\u306b\u5931\u6557\u3057\u307e\u3057\u305f",
+      "emailValidation": "\u6709\u52b9\u306a\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044"
     }
   },
   "DigimonHome": {
     "hero": {
-      "title": "デジモンストーリー タイムストレンジャー攻略統合ハブ",
-      "subtitle": "攻略・データ・ツールを一体化",
-      "description": "物語の分岐、進化計画、最新イベントまで全てを一つのダッシュボードで管理。",
-      "primaryCta": "ビギナーガイドへ",
+      "featureLabel": "For every Time Stranger tamer",
+      "title": "Digimon Story Time Stranger Guide Hub",
+      "description": "Track launch intel, master combat systems, and prep your squad before touching the controller.",
+      "primaryCta": "Start Launch Checklist",
       "primaryHref": "/guides/beginner",
-      "secondaryCta": "チームビルダーを起動",
-      "secondaryHref": "/tools/team-builder",
-      "featureLabel": "想定ユーザー",
-      "features": [
-        "100%達成を目指す探索派",
-        "対戦準備を急ぐタマー",
-        "多言語運営するコミュニティ"
+      "secondaryCta": "Browse Story Guides",
+      "secondaryHref": "/guides/starter-digimon",
+      "audience": [
+        "New tamers planning their opening hours",
+        "Theorycrafters optimizing evolutions and resistances",
+        "Lore fans archiving every timeline branch"
       ],
-      "cardDescription": "攻略・データ・プランニングを結ぶ世界共通基盤。",
-      "footerNote": "英語・日本語・スペイン語・フランス語で同時展開。"
-    },
-    "pillars": {
-      "title": "すべてのプレイヤーが必要とする情報を4本柱で提供",
-      "items": [
+      "stats": [
         {
-          "title": "構造化された攻略",
-          "description": "初心者から上級者までルートを切り替えながら確認。",
-          "href": "/guides"
+          "label": "Launch Window",
+          "value": "October 18\u201320, 2025",
+          "helper": "Global release weekend across PS5, Xbox, and PC."
         },
         {
-          "title": "検索性の高いデータ",
-          "description": "属性や入手先でフィルタリング可能な図鑑。",
-          "href": "/database/digimon"
+          "label": "Playable Platforms",
+          "value": "PS5 \u2022 Xbox Series \u2022 Steam",
+          "helper": "Cross-save and performance modes confirmed by Bandai Namco previews."
         },
         {
-          "title": "インタラクティブツール",
-          "description": "進化・スキル・チーム編成を事前に検証。",
-          "href": "/tools"
-        },
-        {
-          "title": "最新情報とイベント",
-          "description": "パッチとタイムゾーン変換付きイベント速報。",
-          "href": "/news/updates"
+          "label": "Latest Intel",
+          "value": "Preview Patch 1.02 Notes",
+          "helper": "Balance tuning and quest tweaks published September 28, 2025."
         }
-      ]
-    },
-    "database": {
-      "title": "データバンクを探索",
-      "description": "各デジモン、アイテム、エリアをクロスリンクで整理。",
-      "cards": [
+      ],
+      "quickStartHeading": "3 fast steps to get ready",
+      "quickStartDescription": "Hit the highlights in under 15 minutes, then dive deeper where you need.",
+      "quickStart": [
         {
-          "title": "デジモン図鑑",
-          "description": "属性や進化候補でフィルター可能。",
-          "stat": "210体以上",
-          "href": "/database/digimon"
+          "title": "Watch the 5-minute story recap",
+          "description": "Catch up on the Time Stranger timeline and the factions driving the campaign.",
+          "href": "/guides/walkthrough/main-arc",
+          "ctaLabel": "Watch now"
         },
         {
-          "title": "アイテム・クラフト",
-          "description": "ドロップ率とレシピを即座に参照。",
-          "stat": "320件",
-          "href": "/database/items"
+          "title": "Lock your starter team plan",
+          "description": "Compare starter Digimon roles, affinities, and early digivolution paths.",
+          "href": "/guides/starter-digimon",
+          "ctaLabel": "Plan squad"
         },
         {
-          "title": "時のアトラス",
-          "description": "宝箱・NPC・隠し通路を表示する対話型マップ。",
-          "stat": "18マップ",
-          "href": "/database/maps"
+          "title": "Bookmark the launch weekend schedule",
+          "description": "Track events, raids, and bonus drop rotations for the first 72 hours.",
+          "href": "/news/events/luminous-tides-briefing",
+          "ctaLabel": "View schedule"
         }
-      ]
-    },
-    "tools": {
-      "title": "理想の編成をツールで設計",
-      "cards": [
+      ],
+      "cardHighlights": [
         {
-          "title": "進化ツリー",
-          "description": "条件とコストを可視化しながら計画。",
-          "href": "/tools/evolution-tree"
+          "title": "What we cover",
+          "description": "Story beats, battle strategies, monetization checklists, and event alerts curated for fast reference."
         },
         {
-          "title": "スキルプランナー",
-          "description": "倍率やクールダウンを比較し最適化。",
-          "href": "/tools/skill-planner"
-        },
-        {
-          "title": "チームビルダー",
-          "description": "耐性・役割・オーラを分析して共有。",
-          "href": "/tools/team-builder"
+          "title": "Why it matters",
+          "description": "Prep with spoiler-aware clarity so you spend game time executing, not searching."
         }
-      ]
+      ],
+      "card": {
+        "tagline": "Unofficial fan intelligence",
+        "title": "Your spoiler-aware mission control",
+        "description": "Independent coverage built for collectors, meta chasers, and lore archivists.",
+        "metaLabel": "Guide HQ URL",
+        "metaValue": "https://digimonstorytimestranger.com",
+        "metaHelper": "Add to your bookmarks and mobile home screen for instant access.",
+        "footnote": "We are a fan project. All trademarks belong to their respective owners."
+      }
     },
     "updates": {
-      "title": "グローバル最新情報",
-      "items": [
+      "title": "Stay ahead of launch updates",
+      "tagline": "We distill every preview, patch note, and event timer so you never miss a beat.",
+      "readMoreLabel": "Read more",
+      "alertLabel": "Why subscribe",
+      "ctaLabel": "Open update timeline",
+      "ctaHref": "/news/updates",
+      "timeline": [
         {
-          "title": "パッチ速報",
-          "description": "調整内容と影響ポイントを抜粋。"
+          "date": "Sep 28",
+          "title": "Preview patch 1.02 balance adjustments",
+          "description": "ATK curve tweaks for rookies, memory cost reductions, and QoL quest markers.",
+          "href": "/news/updates/chronoshift-1-1-2"
         },
         {
-          "title": "イベントプラン",
-          "description": "現地時間への自動変換と準備リスト。"
+          "date": "Oct 12",
+          "title": "Launch weekend event schedule",
+          "description": "Global raid rehearsals, bonus login streaks, and retailer early-access drops.",
+          "href": "/news/events/luminous-tides-briefing"
         },
         {
-          "title": "ロードマップ洞察",
-          "description": "今後のシステム予告を分析。"
+          "date": "Oct 25",
+          "title": "First limited-time collaboration quest",
+          "description": "Datamon investigation featuring exclusive cosmetics and support memory upgrades.",
+          "href": "/news/events"
         }
+      ],
+      "alertPoints": [
+        "Timezone-adjusted reminders for raids and collaboration quests.",
+        "Weekly meta briefs rounding up ladder trends and builds.",
+        "One-click calendar exports for major story beats and rewards windows."
       ]
     },
     "localization": {
-      "title": "ローカライズ第一主義",
-      "description": "英語・日本語・スペイン語・フランス語を同時更新。",
+      "title": "Localization-first rollout",
+      "description": "English, Japanese, Spanish, and French ship day-one with mirrored URLs and metadata.",
       "regions": [
-        "日本語攻略班",
-        "北米・中南米",
-        "フランス語圏",
-        "コミュニティ拡張言語"
-      ]
+        "\u65e5\u672c\u8a9e\u653b\u7565\u73ed",
+        "North & Latin America",
+        "France & Quebec",
+        "Community-sourced languages"
+      ],
+      "upcomingTitle": "Upcoming language drops",
+      "upcoming": [
+        "Deutsch (Target: Q4 2025)",
+        "\ud55c\uad6d\uc5b4 (Target: Q1 2026)",
+        "Italiano (Community pilot)",
+        "Portugu\u00eas-BR (Volunteer recruitment)"
+      ],
+      "ctaLabel": "Pick your language feed",
+      "ctaHref": "/community/share-guide"
     },
     "cta": {
-      "title": "さあ冒険を始めましょう",
-      "description": "ガイドをブックマークし、自分の言語で通知を受け取ろう。",
-      "primaryCta": "攻略ハブを見る",
+      "title": "Bookmark the Time Stranger hub",
+      "description": "Stay looped in with weekly update digests, spoiler-aware guides, and ad-supported freebies.",
+      "primaryCta": "Visit Guides Hub",
       "primaryHref": "/guides",
-      "secondaryCta": "フィードバックを送る",
+      "secondaryCta": "Share feedback",
       "secondaryHref": "/community/share-guide",
-      "meta": "言語設定で受信する情報を管理できます。"
+      "meta": "Set your locale preference to receive notifications in your language."
+    },
+    "faq": {
+      "title": "Digimon Story Time Stranger FAQ",
+      "subtitle": "Key answers for strategy planners and new tamers.",
+      "items": [
+        {
+          "question": "How often are guides and database entries updated?",
+          "answer": "Major updates ship within 24 hours of a patch, with community verified notes merged continuously afterward."
+        },
+        {
+          "question": "Can I contribute localized content or corrections?",
+          "answer": "Yes. Use the community submission workflow to send guides, translation fixes, or data corrections for editorial review."
+        },
+        {
+          "question": "Will premium features be required for the planning tools?",
+          "answer": "Evolution, skill, and team builders remain free during MVP while we evaluate optional pro features such as sync and notifications."
+        },
+        {
+          "question": "How do I know if new events affect my squad setup?",
+          "answer": "Track the events calendar for aura recommendations and link jumps to the boss strategy archive for suggested adjustments."
+        }
+      ]
+    },
+    "contentDiscovery": {
+      "eyebrow": "Pick your path",
+      "title": "What do you want to dive into?",
+      "description": "Toggle between curated playlists built from the latest posts and evergreen anchors.",
+      "itemCtaLabel": "Read now",
+      "categories": [
+        {
+          "id": "guides",
+          "label": "Guides",
+          "tagline": "Step-by-step walkthroughs for core chapters, optional quests, and secret endings.",
+          "ctaLabel": "Open guides hub",
+          "ctaHref": "/guides",
+          "items": [
+            {
+              "title": "Main story walkthrough (Act 1)",
+              "description": "Beat-by-beat mission flow with best dialogue responses and reward callouts.",
+              "href": "/guides/walkthrough/main-arc",
+              "meta": "Updated Oct 2025"
+            },
+            {
+              "title": "Side case tracker",
+              "description": "Track every detective request, unlock condition, and missable reward in one sheet.",
+              "href": "/guides/side-quests/expedition-ledger",
+              "meta": "12 min read"
+            },
+            {
+              "title": "Boss prep quick sheets",
+              "description": "Battle summaries, elemental counters, and recommended party layouts for major fights.",
+              "href": "/guides/boss/apex-dossiers",
+              "meta": "Community favorite"
+            }
+          ]
+        },
+        {
+          "id": "progression",
+          "label": "Progression",
+          "tagline": "Leveling, currency farming, and evolution roadmaps to stay ahead of the curve.",
+          "ctaLabel": "Explore progression tips",
+          "ctaHref": "/guides/beginner",
+          "items": [
+            {
+              "title": "Daily resource planner",
+              "description": "Efficient routines for metals, memories, and evolution catalysts across zones.",
+              "href": "/guides/beginner/field-manual",
+              "meta": "Planner download"
+            },
+            {
+              "title": "Evolution breakpoints cheat sheet",
+              "description": "Know the stats and quest gates before you commit to a digivolution branch.",
+              "href": "/guides/starter-digimon",
+              "meta": "5 min read"
+            },
+            {
+              "title": "Affinity & personality combos",
+              "description": "Pair personalities with team roles to squeeze extra bonuses from your roster.",
+              "href": "/guides/personality",
+              "meta": "New"
+            }
+          ]
+        },
+        {
+          "id": "pvp",
+          "label": "PvP & Raids",
+          "tagline": "Meta snapshots, comp ideas, and weekly raid prep in one glance.",
+          "ctaLabel": "Browse meta reports",
+          "ctaHref": "/guides/boss",
+          "items": [
+            {
+              "title": "Opening ladder report",
+              "description": "Top 10 squad archetypes from preview ladders with counter play tips.",
+              "href": "/news/updates/chronoshift-1-1-2",
+              "meta": "Meta watch"
+            },
+            {
+              "title": "Raid prep: Empyrean Singularity",
+              "description": "Consumable checklist, recommended resistances, and timeline for the first raid rotation.",
+              "href": "/guides/boss",
+              "meta": "Team sheet"
+            },
+            {
+              "title": "Link bonus calculator",
+              "description": "Experiment with duo and trio link bonuses before you farm the pieces.",
+              "href": "/tools",
+              "meta": "Interactive"
+            }
+          ]
+        },
+        {
+          "id": "updates",
+          "label": "Updates",
+          "tagline": "Patch intel, dev interviews, and event timelines distilled for quick scanning.",
+          "ctaLabel": "Open news desk",
+          "ctaHref": "/news/updates",
+          "items": [
+            {
+              "title": "Preview patch 1.02 breakdown",
+              "description": "Damage curve adjustments, bug fixes, and new QoL features in plain language.",
+              "href": "/news/updates/chronoshift-1-1-2",
+              "meta": "7 min read"
+            },
+            {
+              "title": "Producer Q&A highlights",
+              "description": "Key takeaways from TGS interviews on endgame systems and monetization.",
+              "href": "/news",
+              "meta": "Interview"
+            },
+            {
+              "title": "Event roadmap tracker",
+              "description": "Calendar of global spotlights, collaboration quests, and limited-time rewards.",
+              "href": "/news/events",
+              "meta": "Live tracker"
+            }
+          ]
+        }
+      ]
+    },
+    "spotlight": {
+      "eyebrow": "Story spotlights",
+      "title": "Deep dives for lore lovers",
+      "description": "Pull quotes from critics and character voice lines to set the tone before you play.",
+      "voiceLinesLabel": "Voice lines to know",
+      "features": [
+        {
+          "id": "story",
+          "title": "Story highlights",
+          "quote": "Time Stranger swings for the fences with temporal twists that actually pay off.",
+          "source": "IGN preview",
+          "sourceUrl": "https://www.ign.com/articles/digimon-story-time-stranger-review",
+          "summary": "Walk through the branching timelines that stitch together the human world and Digital World, complete with spoiler-gated checkpoints.",
+          "ctaLabel": "Explore story atlas",
+          "ctaHref": "/guides/walkthrough",
+          "voiceLines": [
+            {
+              "character": "Ami (Protagonist)",
+              "line": "We only get one shot at stitching this timeline back together."
+            },
+            {
+              "character": "Gankoomon",
+              "line": "Your resolve anchors the Royal Knights\u2014waver and the loop snaps."
+            }
+          ]
+        },
+        {
+          "id": "characters",
+          "title": "Character focus",
+          "quote": "The cast sells the stakes with grounded motivations despite the timey-wimey chaos.",
+          "source": "Game8 impressions",
+          "sourceUrl": "https://game8.co/games/Digimon-Story-Time-Stranger",
+          "summary": "Meet the new tamer squads, their partner Digimon, and how their arcs intertwine with returning Cyber Sleuth alumni.",
+          "ctaLabel": "Meet the cast",
+          "ctaHref": "/guides/patamon",
+          "voiceLines": [
+            {
+              "character": "Minervamon",
+              "line": "Every future you fear has already been written\u2014show me the page you want to keep."
+            },
+            {
+              "character": "Ryuuji",
+              "line": "If destiny is a script, then call me the editor-in-chief."
+            }
+          ]
+        }
+      ]
+    },
+    "videos": {
+      "title": "Digimon Story Time Stranger Video Gallery",
+      "description": "Watch Time Stranger gameplay breakdowns, trailers, and creator deep dives.",
+      "playlistLabel": "More videos",
+      "ctaLabel": "View full video archive",
+      "ctaHref": "/news"
     }
   }
 }

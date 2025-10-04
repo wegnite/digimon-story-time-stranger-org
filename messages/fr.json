@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "name": "Guide Mondial Digimon Story Time Stranger",
-    "title": "Guide Digimon Story Time Stranger – Parcours & Outils",
-    "description": "Coordonnez parcours narratifs, bases de données Digimon, alertes de mises à jour et outils tactiques bilingues pour les joueurs de Digimon Story Time Stranger."
+    "title": "Guide Digimon Story Time Stranger \u2013 Parcours & Outils",
+    "description": "Coordonnez parcours narratifs, bases de donn\u00e9es Digimon, alertes de mises \u00e0 jour et outils tactiques bilingues pour les joueurs de Digimon Story Time Stranger."
   },
   "Marketing": {
     "navbar": {
@@ -10,20 +10,20 @@
         "title": "Guides",
         "items": {
           "beginner": {
-            "title": "Débutants",
+            "title": "D\u00e9butants",
             "description": "Progression initiale et choix du partenaire."
           },
           "walkthrough": {
             "title": "Soluce",
-            "description": "Scénario détaillé mission par mission."
+            "description": "Sc\u00e9nario d\u00e9taill\u00e9 mission par mission."
           },
           "sideQuests": {
-            "title": "Quêtes annexes",
-            "description": "Faveurs, affinité et récompenses rares."
+            "title": "Qu\u00eates annexes",
+            "description": "Faveurs, affinit\u00e9 et r\u00e9compenses rares."
           },
           "boss": {
             "title": "Boss",
-            "description": "Stratégies, faiblesses et compositions."
+            "description": "Strat\u00e9gies, faiblesses et compositions."
           },
           "secrets": {
             "title": "Secrets",
@@ -32,11 +32,11 @@
         }
       },
       "database": {
-        "title": "Base de données",
+        "title": "Base de donn\u00e9es",
         "items": {
           "digimon": {
             "title": "Index Digimon",
-            "description": "Statistiques, talents et évolutions."
+            "description": "Statistiques, talents et \u00e9volutions."
           },
           "items": {
             "title": "Objets",
@@ -52,34 +52,34 @@
         "title": "Outils",
         "items": {
           "evolutionTree": {
-            "title": "Arbre d'évolution",
-            "description": "Visualisation des embranchements et coûts."
+            "title": "Arbre d'\u00e9volution",
+            "description": "Visualisation des embranchements et co\u00fbts."
           },
           "skillPlanner": {
-            "title": "Planificateur de compétences",
+            "title": "Planificateur de comp\u00e9tences",
             "description": "Simulation des points et multiplicateurs."
           },
           "teamBuilder": {
-            "title": "Constructeur d'équipe",
-            "description": "Analyse des rôles et résistances."
+            "title": "Constructeur d'\u00e9quipe",
+            "description": "Analyse des r\u00f4les et r\u00e9sistances."
           }
         }
       },
       "news": {
-        "title": "Actualités",
+        "title": "Actualit\u00e9s",
         "items": {
           "updates": {
-            "title": "Mises à jour",
+            "title": "Mises \u00e0 jour",
             "description": "Notes de patch traduites."
           },
           "events": {
-            "title": "Événements",
+            "title": "\u00c9v\u00e9nements",
             "description": "Calendrier mondial convertible."
           }
         }
       },
       "community": {
-        "title": "Communauté",
+        "title": "Communaut\u00e9",
         "items": {
           "hub": {
             "title": "Hub",
@@ -87,11 +87,11 @@
           },
           "submit": {
             "title": "Soumettre",
-            "description": "Processus éditorial complet."
+            "description": "Processus \u00e9ditorial complet."
           },
           "discussion": {
             "title": "Discussions",
-            "description": "Débats stratégies et Q/R."
+            "description": "D\u00e9bats strat\u00e9gies et Q/R."
           }
         }
       },
@@ -99,12 +99,12 @@
         "title": "Ressources",
         "items": {
           "prd": {
-            "title": "Plan produit",
-            "description": "PRD intégral et plan SEO."
+            "title": "Contributor Handbook",
+            "description": "Editorial standards, submission workflow, and style guidance."
           },
           "about": {
-            "title": "À propos",
-            "description": "Vision et équipe."
+            "title": "\u00c0 propos",
+            "description": "Vision et \u00e9quipe."
           },
           "contact": {
             "title": "Contact",
@@ -112,7 +112,7 @@
           },
           "blog": {
             "title": "Blog",
-            "description": "Analyses et éditos."
+            "description": "Analyses et \u00e9ditos."
           },
           "docs": {
             "title": "Documentation",
@@ -122,17 +122,17 @@
       }
     },
     "footer": {
-      "tagline": "La référence mondiale pour Digimon Story Time Stranger.",
+      "tagline": "La r\u00e9f\u00e9rence mondiale pour Digimon Story Time Stranger.",
       "guides": {
         "title": "Guides",
         "items": {
-          "beginner": "Début",
+          "beginner": "D\u00e9but",
           "walkthrough": "Soluce",
           "boss": "Boss"
         }
       },
       "database": {
-        "title": "Données",
+        "title": "Donn\u00e9es",
         "items": {
           "digimon": "Digimon",
           "items": "Objets",
@@ -142,18 +142,18 @@
       "tools": {
         "title": "Outils",
         "items": {
-          "evolutionTree": "Évolution",
-          "skillPlanner": "Compétences",
-          "teamBuilder": "Équipe"
+          "evolutionTree": "\u00c9volution",
+          "skillPlanner": "Comp\u00e9tences",
+          "teamBuilder": "\u00c9quipe"
         }
       },
       "community": {
-        "title": "Communauté",
+        "title": "Communaut\u00e9",
         "items": {
           "hub": "Hub",
           "submit": "Soumettre",
           "updates": "Patches",
-          "blueprint": "Blueprint",
+          "blueprint": "Contributor Handbook",
           "contact": "Contact"
         }
       },
@@ -161,7 +161,7 @@
         "title": "Mentions",
         "items": {
           "cookiePolicy": "Cookies",
-          "privacyPolicy": "Confidentialité",
+          "privacyPolicy": "Confidentialit\u00e9",
           "termsOfService": "Conditions"
         }
       }
@@ -169,145 +169,349 @@
     "avatar": {
       "dashboard": "Tableau",
       "billing": "Facturation",
-      "credits": "Crédits",
-      "settings": "Paramètres"
+      "credits": "Cr\u00e9dits",
+      "settings": "Param\u00e8tres"
     }
   },
   "Newsletter": {
     "title": "Digimon Dispatch",
     "subtitle": "Bulletin hebdomadaire",
-    "description": "Recevez les patchs, compositions clés et notes de localisation.",
+    "description": "Recevez les patchs, compositions cl\u00e9s et notes de localisation.",
     "form": {
       "email": "E-mail",
       "subscribe": "S'abonner",
       "subscribing": "Inscription...",
-      "success": "Inscription confirmée",
+      "success": "Inscription confirm\u00e9e",
       "fail": "Erreur d'inscription",
       "emailValidation": "Entrez une adresse valide"
     }
   },
   "DigimonHome": {
     "hero": {
-      "title": "Hub mondial Digimon Story Time Stranger",
-      "subtitle": "Guides, données et outils connectés",
-      "description": "Planifiez chaque arc, évolution et événement depuis une seule plateforme multilingue.",
-      "primaryCta": "Guía débutant",
+      "featureLabel": "For every Time Stranger tamer",
+      "title": "Digimon Story Time Stranger Guide Hub",
+      "description": "Track launch intel, master combat systems, and prep your squad before touching the controller.",
+      "primaryCta": "Start Launch Checklist",
       "primaryHref": "/guides/beginner",
-      "secondaryCta": "Ouvrir le builder d'équipe",
-      "secondaryHref": "/tools/team-builder",
-      "featureLabel": "Pensé pour",
-      "features": [
-        "Complétistes",
-        "Joueurs compétitifs",
-        "Communautés multilingues"
+      "secondaryCta": "Browse Story Guides",
+      "secondaryHref": "/guides/starter-digimon",
+      "audience": [
+        "New tamers planning their opening hours",
+        "Theorycrafters optimizing evolutions and resistances",
+        "Lore fans archiving every timeline branch"
       ],
-      "cardDescription": "Infrastructure globale reliant soluce, base de données et planificateurs.",
-      "footerNote": "Déploiement simultané en anglais, japonais, espagnol et français."
-    },
-    "pillars": {
-      "title": "Quatre piliers pour maîtriser l'aventure",
-      "items": [
+      "stats": [
         {
-          "title": "Guides structurés",
-          "description": "Choisissez la route adaptée à votre profil.",
-          "href": "/guides"
+          "label": "Launch Window",
+          "value": "October 18\u201320, 2025",
+          "helper": "Global release weekend across PS5, Xbox, and PC."
         },
         {
-          "title": "Base de données",
-          "description": "Filtrez Digimon, objets et zones.",
-          "href": "/database/digimon"
+          "label": "Playable Platforms",
+          "value": "PS5 \u2022 Xbox Series \u2022 Steam",
+          "helper": "Cross-save and performance modes confirmed by Bandai Namco previews."
         },
         {
-          "title": "Outils interactifs",
-          "description": "Testez évolutions et builds.",
-          "href": "/tools"
-        },
-        {
-          "title": "Veille temps réel",
-          "description": "Alertes patchs et événements.",
-          "href": "/news/updates"
+          "label": "Latest Intel",
+          "value": "Preview Patch 1.02 Notes",
+          "helper": "Balance tuning and quest tweaks published September 28, 2025."
         }
-      ]
-    },
-    "database": {
-      "title": "Explorez l'archive",
-      "description": "Chaque entrée relie statistiques, conditions et localisation.",
-      "cards": [
+      ],
+      "quickStartHeading": "3 fast steps to get ready",
+      "quickStartDescription": "Hit the highlights in under 15 minutes, then dive deeper where you need.",
+      "quickStart": [
         {
-          "title": "Compendium Digimon",
-          "description": "Filtrez par attribut ou rôle.",
-          "stat": "210+ entrées",
-          "href": "/database/digimon"
+          "title": "Watch the 5-minute story recap",
+          "description": "Catch up on the Time Stranger timeline and the factions driving the campaign.",
+          "href": "/guides/walkthrough/main-arc",
+          "ctaLabel": "Watch now"
         },
         {
-          "title": "Inventaire des objets",
-          "description": "Butins, crafting, marchands.",
-          "stat": "320 objets",
-          "href": "/database/items"
+          "title": "Lock your starter team plan",
+          "description": "Compare starter Digimon roles, affinities, and early digivolution paths.",
+          "href": "/guides/starter-digimon",
+          "ctaLabel": "Plan squad"
         },
         {
-          "title": "Atlas du temps",
-          "description": "Cartes interactives et routes optimisées.",
-          "stat": "18 cartes",
-          "href": "/database/maps"
+          "title": "Bookmark the launch weekend schedule",
+          "description": "Track events, raids, and bonus drop rotations for the first 72 hours.",
+          "href": "/news/events/luminous-tides-briefing",
+          "ctaLabel": "View schedule"
         }
-      ]
-    },
-    "tools": {
-      "title": "Planifiez avant le combat",
-      "cards": [
+      ],
+      "cardHighlights": [
         {
-          "title": "Arbre d'évolution",
-          "description": "Visualisez conditions et coûts.",
-          "href": "/tools/evolution-tree"
+          "title": "What we cover",
+          "description": "Story beats, battle strategies, monetization checklists, and event alerts curated for fast reference."
         },
         {
-          "title": "Planificateur de compétences",
-          "description": "Analysez synergies et délais.",
-          "href": "/tools/skill-planner"
-        },
-        {
-          "title": "Constructeur d'équipe",
-          "description": "Balancez rôles et résistances.",
-          "href": "/tools/team-builder"
+          "title": "Why it matters",
+          "description": "Prep with spoiler-aware clarity so you spend game time executing, not searching."
         }
-      ]
+      ],
+      "card": {
+        "tagline": "Unofficial fan intelligence",
+        "title": "Your spoiler-aware mission control",
+        "description": "Independent coverage built for collectors, meta chasers, and lore archivists.",
+        "metaLabel": "Guide HQ URL",
+        "metaValue": "https://digimonstorytimestranger.com",
+        "metaHelper": "Add to your bookmarks and mobile home screen for instant access.",
+        "footnote": "We are a fan project. All trademarks belong to their respective owners."
+      }
     },
     "updates": {
-      "title": "Toujours informé",
-      "items": [
+      "title": "Stay ahead of launch updates",
+      "tagline": "We distill every preview, patch note, and event timer so you never miss a beat.",
+      "readMoreLabel": "Read more",
+      "alertLabel": "Why subscribe",
+      "ctaLabel": "Open update timeline",
+      "ctaHref": "/news/updates",
+      "timeline": [
         {
-          "title": "Patchs",
-          "description": "Synthèse et impacts clés."
+          "date": "Sep 28",
+          "title": "Preview patch 1.02 balance adjustments",
+          "description": "ATK curve tweaks for rookies, memory cost reductions, and QoL quest markers.",
+          "href": "/news/updates/chronoshift-1-1-2"
         },
         {
-          "title": "Événements",
-          "description": "Horaires adaptés à votre fuseau."
+          "date": "Oct 12",
+          "title": "Launch weekend event schedule",
+          "description": "Global raid rehearsals, bonus login streaks, and retailer early-access drops.",
+          "href": "/news/events/luminous-tides-briefing"
         },
         {
-          "title": "Aperçu futur",
-          "description": "Analyse du roadmap."
+          "date": "Oct 25",
+          "title": "First limited-time collaboration quest",
+          "description": "Datamon investigation featuring exclusive cosmetics and support memory upgrades.",
+          "href": "/news/events"
         }
+      ],
+      "alertPoints": [
+        "Timezone-adjusted reminders for raids and collaboration quests.",
+        "Weekly meta briefs rounding up ladder trends and builds.",
+        "One-click calendar exports for major story beats and rewards windows."
       ]
     },
     "localization": {
-      "title": "Localisation prioritaire",
-      "description": "Quatre langues au lancement, extensible.",
+      "title": "Localization-first rollout",
+      "description": "English, Japanese, Spanish, and French ship day-one with mirrored URLs and metadata.",
       "regions": [
-        "France & Québec",
-        "Japon",
-        "Amériques",
-        "Contributeurs communautaires"
-      ]
+        "\u65e5\u672c\u8a9e\u653b\u7565\u73ed",
+        "North & Latin America",
+        "France & Quebec",
+        "Community-sourced languages"
+      ],
+      "upcomingTitle": "Upcoming language drops",
+      "upcoming": [
+        "Deutsch (Target: Q4 2025)",
+        "\ud55c\uad6d\uc5b4 (Target: Q1 2026)",
+        "Italiano (Community pilot)",
+        "Portugu\u00eas-BR (Volunteer recruitment)"
+      ],
+      "ctaLabel": "Pick your language feed",
+      "ctaHref": "/community/share-guide"
     },
     "cta": {
-      "title": "Prêt à commencer ?",
-      "description": "Ajoutez le hub à vos favoris, choisissez la langue et donnez votre avis.",
-      "primaryCta": "Accéder aux guides",
+      "title": "Bookmark the Time Stranger hub",
+      "description": "Stay looped in with weekly update digests, spoiler-aware guides, and ad-supported freebies.",
+      "primaryCta": "Visit Guides Hub",
       "primaryHref": "/guides",
-      "secondaryCta": "Envoyer un retour",
+      "secondaryCta": "Share feedback",
       "secondaryHref": "/community/share-guide",
-      "meta": "Les notifications suivent votre langue préférée."
+      "meta": "Set your locale preference to receive notifications in your language."
+    },
+    "faq": {
+      "title": "Digimon Story Time Stranger FAQ",
+      "subtitle": "Key answers for strategy planners and new tamers.",
+      "items": [
+        {
+          "question": "How often are guides and database entries updated?",
+          "answer": "Major updates ship within 24 hours of a patch, with community verified notes merged continuously afterward."
+        },
+        {
+          "question": "Can I contribute localized content or corrections?",
+          "answer": "Yes. Use the community submission workflow to send guides, translation fixes, or data corrections for editorial review."
+        },
+        {
+          "question": "Will premium features be required for the planning tools?",
+          "answer": "Evolution, skill, and team builders remain free during MVP while we evaluate optional pro features such as sync and notifications."
+        },
+        {
+          "question": "How do I know if new events affect my squad setup?",
+          "answer": "Track the events calendar for aura recommendations and link jumps to the boss strategy archive for suggested adjustments."
+        }
+      ]
+    },
+    "contentDiscovery": {
+      "eyebrow": "Pick your path",
+      "title": "What do you want to dive into?",
+      "description": "Toggle between curated playlists built from the latest posts and evergreen anchors.",
+      "itemCtaLabel": "Read now",
+      "categories": [
+        {
+          "id": "guides",
+          "label": "Guides",
+          "tagline": "Step-by-step walkthroughs for core chapters, optional quests, and secret endings.",
+          "ctaLabel": "Open guides hub",
+          "ctaHref": "/guides",
+          "items": [
+            {
+              "title": "Main story walkthrough (Act 1)",
+              "description": "Beat-by-beat mission flow with best dialogue responses and reward callouts.",
+              "href": "/guides/walkthrough/main-arc",
+              "meta": "Updated Oct 2025"
+            },
+            {
+              "title": "Side case tracker",
+              "description": "Track every detective request, unlock condition, and missable reward in one sheet.",
+              "href": "/guides/side-quests/expedition-ledger",
+              "meta": "12 min read"
+            },
+            {
+              "title": "Boss prep quick sheets",
+              "description": "Battle summaries, elemental counters, and recommended party layouts for major fights.",
+              "href": "/guides/boss/apex-dossiers",
+              "meta": "Community favorite"
+            }
+          ]
+        },
+        {
+          "id": "progression",
+          "label": "Progression",
+          "tagline": "Leveling, currency farming, and evolution roadmaps to stay ahead of the curve.",
+          "ctaLabel": "Explore progression tips",
+          "ctaHref": "/guides/beginner",
+          "items": [
+            {
+              "title": "Daily resource planner",
+              "description": "Efficient routines for metals, memories, and evolution catalysts across zones.",
+              "href": "/guides/beginner/field-manual",
+              "meta": "Planner download"
+            },
+            {
+              "title": "Evolution breakpoints cheat sheet",
+              "description": "Know the stats and quest gates before you commit to a digivolution branch.",
+              "href": "/guides/starter-digimon",
+              "meta": "5 min read"
+            },
+            {
+              "title": "Affinity & personality combos",
+              "description": "Pair personalities with team roles to squeeze extra bonuses from your roster.",
+              "href": "/guides/personality",
+              "meta": "New"
+            }
+          ]
+        },
+        {
+          "id": "pvp",
+          "label": "PvP & Raids",
+          "tagline": "Meta snapshots, comp ideas, and weekly raid prep in one glance.",
+          "ctaLabel": "Browse meta reports",
+          "ctaHref": "/guides/boss",
+          "items": [
+            {
+              "title": "Opening ladder report",
+              "description": "Top 10 squad archetypes from preview ladders with counter play tips.",
+              "href": "/news/updates/chronoshift-1-1-2",
+              "meta": "Meta watch"
+            },
+            {
+              "title": "Raid prep: Empyrean Singularity",
+              "description": "Consumable checklist, recommended resistances, and timeline for the first raid rotation.",
+              "href": "/guides/boss",
+              "meta": "Team sheet"
+            },
+            {
+              "title": "Link bonus calculator",
+              "description": "Experiment with duo and trio link bonuses before you farm the pieces.",
+              "href": "/tools",
+              "meta": "Interactive"
+            }
+          ]
+        },
+        {
+          "id": "updates",
+          "label": "Updates",
+          "tagline": "Patch intel, dev interviews, and event timelines distilled for quick scanning.",
+          "ctaLabel": "Open news desk",
+          "ctaHref": "/news/updates",
+          "items": [
+            {
+              "title": "Preview patch 1.02 breakdown",
+              "description": "Damage curve adjustments, bug fixes, and new QoL features in plain language.",
+              "href": "/news/updates/chronoshift-1-1-2",
+              "meta": "7 min read"
+            },
+            {
+              "title": "Producer Q&A highlights",
+              "description": "Key takeaways from TGS interviews on endgame systems and monetization.",
+              "href": "/news",
+              "meta": "Interview"
+            },
+            {
+              "title": "Event roadmap tracker",
+              "description": "Calendar of global spotlights, collaboration quests, and limited-time rewards.",
+              "href": "/news/events",
+              "meta": "Live tracker"
+            }
+          ]
+        }
+      ]
+    },
+    "spotlight": {
+      "eyebrow": "Story spotlights",
+      "title": "Deep dives for lore lovers",
+      "description": "Pull quotes from critics and character voice lines to set the tone before you play.",
+      "voiceLinesLabel": "Voice lines to know",
+      "features": [
+        {
+          "id": "story",
+          "title": "Story highlights",
+          "quote": "Time Stranger swings for the fences with temporal twists that actually pay off.",
+          "source": "IGN preview",
+          "sourceUrl": "https://www.ign.com/articles/digimon-story-time-stranger-review",
+          "summary": "Walk through the branching timelines that stitch together the human world and Digital World, complete with spoiler-gated checkpoints.",
+          "ctaLabel": "Explore story atlas",
+          "ctaHref": "/guides/walkthrough",
+          "voiceLines": [
+            {
+              "character": "Ami (Protagonist)",
+              "line": "We only get one shot at stitching this timeline back together."
+            },
+            {
+              "character": "Gankoomon",
+              "line": "Your resolve anchors the Royal Knights\u2014waver and the loop snaps."
+            }
+          ]
+        },
+        {
+          "id": "characters",
+          "title": "Character focus",
+          "quote": "The cast sells the stakes with grounded motivations despite the timey-wimey chaos.",
+          "source": "Game8 impressions",
+          "sourceUrl": "https://game8.co/games/Digimon-Story-Time-Stranger",
+          "summary": "Meet the new tamer squads, their partner Digimon, and how their arcs intertwine with returning Cyber Sleuth alumni.",
+          "ctaLabel": "Meet the cast",
+          "ctaHref": "/guides/patamon",
+          "voiceLines": [
+            {
+              "character": "Minervamon",
+              "line": "Every future you fear has already been written\u2014show me the page you want to keep."
+            },
+            {
+              "character": "Ryuuji",
+              "line": "If destiny is a script, then call me the editor-in-chief."
+            }
+          ]
+        }
+      ]
+    },
+    "videos": {
+      "title": "Digimon Story Time Stranger Video Gallery",
+      "description": "Watch Time Stranger gameplay breakdowns, trailers, and creator deep dives.",
+      "playlistLabel": "More videos",
+      "ctaLabel": "View full video archive",
+      "ctaHref": "/news"
     }
   }
 }

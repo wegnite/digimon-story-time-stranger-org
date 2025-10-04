@@ -26,6 +26,7 @@ export enum Routes {
   GuidesSideQuests = '/guides/side-quests',
   GuidesBoss = '/guides/boss',
   GuidesSecrets = '/guides/secrets',
+  GuidesPersonality = '/guides/personality',
   Database = '/database',
   DatabaseDigimon = '/database/digimon',
   DatabaseItems = '/database/items',
@@ -40,7 +41,7 @@ export enum Routes {
   Community = '/community',
   CommunitySubmit = '/community/share-guide',
   CommunityDiscussion = '/community/discussion',
-  ProductBlueprint = '/docs/digimon-story-time-stranger',
+  ProductBlueprint = '/community/share-guide',
 
   // auth routes
   Login = '/auth/login',

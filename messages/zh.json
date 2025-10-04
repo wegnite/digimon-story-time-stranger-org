@@ -262,9 +262,9 @@
     }
   },
   "BlogPage": {
-    "title": "博客",
-    "description": "Seedream 4.0 教程、提示词、对比与应用案例",
-    "subtitle": "来自我们的团队最新新闻和更新",
+    "title": "攻略博客",
+    "description": "覆盖《数码宝贝时空异客》的版本情报、阵容攻略与社区精选。",
+    "subtitle": "最新攻略、活动拆解与玩家战术速递",
     "author": "作者",
     "categories": "分类",
     "tableOfContents": "目录",
@@ -343,7 +343,7 @@
           "hub": "社区中心",
           "submit": "提交攻略",
           "updates": "补丁追踪",
-          "blueprint": "产品蓝图",
+          "blueprint": "Contributor Handbook",
           "contact": "联系与合作"
         }
       },
@@ -638,6 +638,307 @@
       "email": "邮箱: {email}",
       "message": "消息: {message}",
       "subject": "来自网站的联系消息"
+    }
+  },
+  "DigimonHome": {
+    "hero": {
+      "featureLabel": "适合所有《时空陌客》的驯兽师",
+      "title": "数码宝贝物语：时空陌客 全面攻略中心",
+      "description": "掌握上线情报、熟悉战斗系统，并在开服前完成队伍规划。",
+      "primaryCta": "开启首发清单",
+      "primaryHref": "/guides/beginner",
+      "secondaryCta": "浏览剧情攻略",
+      "secondaryHref": "/guides/starter-digimon",
+      "audience": [
+        "想要规划开服前几小时节奏的新手驯兽师",
+        "研究进化路线与抗性组合的理论玩家",
+        "希望收集所有时间线与支线剧情的故事党"
+      ],
+      "stats": [
+        {
+          "label": "首发窗口",
+          "value": "2025 年 10 月 18–20 日",
+          "helper": "PS5、Xbox 与 PC 全球同步上线的首个周末。"
+        },
+        {
+          "label": "可玩平台",
+          "value": "PS5 • Xbox Series • Steam",
+          "helper": "官方确认支援跨存档与性能模式。"
+        },
+        {
+          "label": "最新情报",
+          "value": "预览补丁 1.02 说明",
+          "helper": "2025 年 9 月 28 日公布的平衡调整与任务优化汇总。"
+        }
+      ],
+      "quickStartHeading": "15 分钟完成的 3 个准备步骤",
+      "quickStartDescription": "先快速吸收重点，再根据需求深入阅读对应攻略。",
+      "quickStart": [
+        {
+          "title": "观看 5 分钟剧情回顾",
+          "description": "补上时空陌客的故事时间线与派系背景。",
+          "href": "/guides/walkthrough/main-arc",
+          "ctaLabel": "立即观看"
+        },
+        {
+          "title": "锁定你的开局队伍",
+          "description": "比较初始搭档的定位、相性与前期进化路线。",
+          "href": "/guides/starter-digimon",
+          "ctaLabel": "规划队伍"
+        },
+        {
+          "title": "收藏首周末时间表",
+          "description": "掌握前三天的活动、团本与登陆奖励节奏。",
+          "href": "/news/events/luminous-tides-briefing",
+          "ctaLabel": "查看行程"
+        }
+      ],
+      "cardHighlights": [
+        {
+          "title": "我们提供什么",
+          "description": "剧情节点、战斗策略、变现提醒与活动速查全部一次整合。"
+        },
+        {
+          "title": "为什么重要",
+          "description": "提前掌握关键情报，线上时间只需要执行，不用边玩边搜索。"
+        }
+      ],
+      "card": {
+        "tagline": "非官方情报站",
+        "title": "剧透友好的任务控制台",
+        "description": "由玩家运营，为收藏家、竞技党与剧情党量身打造的攻略中心。",
+        "metaLabel": "攻略总站网址",
+        "metaValue": "https://digimonstorytimestranger.com",
+        "metaHelper": "加入浏览器书签或手机主屏，随时一键打开。",
+        "footnote": "本网站为粉丝项目，相关商标版权归原权利人所有。"
+      }
+    },
+    "contentDiscovery": {
+      "eyebrow": "先选你的目标",
+      "title": "你现在最需要哪类内容？",
+      "description": "在最新文章与常用攻略之间切换，快速找到对应入口。",
+      "itemCtaLabel": "立即查看",
+      "categories": [
+        {
+          "id": "guides",
+          "label": "攻略",
+          "tagline": "主线章节、支线委托与隐藏结局的逐步指引。",
+          "ctaLabel": "进入攻略中心",
+          "ctaHref": "/guides",
+          "items": [
+            {
+              "title": "主线攻略（第一章）",
+              "description": "逐任务流程、最佳对话选项与奖励提示一次列出。",
+              "href": "/guides/walkthrough/main-arc",
+              "meta": "2025 年 10 月更新"
+            },
+            {
+              "title": "支线委托清单",
+              "description": "掌握触发条件、错过风险与稀有奖励的全收集表。",
+              "href": "/guides/side-quests/expedition-ledger",
+              "meta": "阅读约 12 分钟"
+            },
+            {
+              "title": "Boss 战速查合集",
+              "description": "列出主要战斗的元素弱点、推荐队伍与必要准备。",
+              "href": "/guides/boss/apex-dossiers",
+              "meta": "社区最爱"
+            }
+          ]
+        },
+        {
+          "id": "progression",
+          "label": "养成",
+          "tagline": "升级、资源与进化路线规划，保证节奏领先。",
+          "ctaLabel": "查看养成技巧",
+          "ctaHref": "/guides/beginner",
+          "items": [
+            {
+              "title": "每日资源规划",
+              "description": "统整各地图金属、记忆体与进化素材的高效周回路线。",
+              "href": "/guides/beginner/field-manual",
+              "meta": "含下载表格"
+            },
+            {
+              "title": "进化临界值速查",
+              "description": "提前掌握属性需求与任务门槛，避免走错分支。",
+              "href": "/guides/starter-digimon",
+              "meta": "阅读约 5 分钟"
+            },
+            {
+              "title": "相性与性格组合",
+              "description": "用正确性格搭配定位，榨出队伍额外增益。",
+              "href": "/guides/personality",
+              "meta": "最新更新"
+            }
+          ]
+        },
+        {
+          "id": "pvp",
+          "label": "对战与团本",
+          "tagline": "赛季趋势、阵容思路与周常团本准备一目了然。",
+          "ctaLabel": "查看环境报告",
+          "ctaHref": "/guides/boss",
+          "items": [
+            {
+              "title": "开季天梯趋势报告",
+              "description": "预览赛季前十热门阵容与针对手法。",
+              "href": "/news/updates/chronoshift-1-1-2",
+              "meta": "Meta 观察"
+            },
+            {
+              "title": "团本准备：天穹奇点",
+              "description": "消耗品、抗性要求与首轮团本时间线整理。",
+              "href": "/guides/boss",
+              "meta": "队伍配置"
+            },
+            {
+              "title": "连锁加成模拟器",
+              "description": "动手组合双人／三人加成，先算出最高收益。",
+              "href": "/tools",
+              "meta": "互动工具"
+            }
+          ]
+        },
+        {
+          "id": "updates",
+          "label": "更新",
+          "tagline": "补丁情报、制作人访谈与活动时间轴快速一览。",
+          "ctaLabel": "前往情报台",
+          "ctaHref": "/news/updates",
+          "items": [
+            {
+              "title": "预览补丁 1.02 解读",
+              "description": "攻击曲线、BUG 修复与全新 QoL 功能的中文总结。",
+              "href": "/news/updates/chronoshift-1-1-2",
+              "meta": "阅读约 7 分钟"
+            },
+            {
+              "title": "制作人问答重点",
+              "description": "东京电玩展访谈中提到的终局系统与商业模式亮点。",
+              "href": "/news",
+              "meta": "访谈摘要"
+            },
+            {
+              "title": "活动路线图总表",
+              "description": "全球焦点活动、联动任务与限时奖励的同步日历。",
+              "href": "/news/events",
+              "meta": "实时更新"
+            }
+          ]
+        }
+      ]
+    },
+    "spotlight": {
+      "eyebrow": "剧情专题",
+      "title": "故事党必看的深度解析",
+      "description": "引用媒体评价与角色语音，让你在开打前先进入状态。",
+      "voiceLinesLabel": "代表语音",
+      "features": [
+        {
+          "id": "story",
+          "title": "剧情亮点",
+          "quote": "《时空陌客》大胆玩转时间线，剧情反转真正说得通。",
+          "source": "IGN 评测摘录",
+          "sourceUrl": "https://www.ign.com/articles/digimon-story-time-stranger-review",
+          "summary": "带你预览人类世界与数码世界交织的多条时间线，并提供剧透分级的阅读提示。",
+          "ctaLabel": "进入剧情地图",
+          "ctaHref": "/guides/walkthrough",
+          "voiceLines": [
+            {
+              "character": "主角·亚美",
+              "line": "我们只有一次机会，让这条时间线重新缝合。"
+            },
+            {
+              "character": "剑皇兽",
+              "line": "你的意志支撑着皇家骑士——动摇，循环就会崩溃。"
+            }
+          ]
+        },
+        {
+          "id": "characters",
+          "title": "角色深度",
+          "quote": "即便充满时间悖论，新角色仍凭扎实动机撑起了剧情张力。",
+          "source": "Game8 专题",
+          "sourceUrl": "https://game8.co/games/Digimon-Story-Time-Stranger",
+          "summary": "整理新老驯兽师与搭档数码兽的角色弧线，以及他们如何与旧作角色交汇。",
+          "ctaLabel": "认识登场角色",
+          "ctaHref": "/guides/patamon",
+          "voiceLines": [
+            {
+              "character": "密涅瓦兽",
+              "line": "你害怕的每个未来都写好了——告诉我你想守住的那一页。"
+            },
+            {
+              "character": "龙司",
+              "line": "如果命运是剧本，那就让我来担任总编辑。"
+            }
+          ]
+        }
+      ]
+    },
+    "updates": {
+      "title": "掌握首发与后续更新",
+      "tagline": "我们将预览、补丁与活动时间表全部整理成一眼可读的资讯。",
+      "readMoreLabel": "阅读全文",
+      "alertLabel": "订阅的理由",
+      "ctaLabel": "打开更新时间线",
+      "ctaHref": "/news/updates",
+      "timeline": [
+        {
+          "date": "9 月 28 日",
+          "title": "预览补丁 1.02 平衡调整",
+          "description": "新手攻击成长、记忆消耗与任务标记的全面优化。",
+          "href": "/news/updates/chronoshift-1-1-2"
+        },
+        {
+          "date": "10 月 12 日",
+          "title": "首发周末活动排程",
+          "description": "全球团本彩排、登陆奖励与零售商抢先活动一览。",
+          "href": "/news/events/luminous-tides-briefing"
+        },
+        {
+          "date": "10 月 25 日",
+          "title": "首个限时联动任务",
+          "description": "以数据兽为主题的调查任务，附带独家外观与支援记忆。",
+          "href": "/news/events"
+        }
+      ],
+      "alertPoints": [
+        "提供活动与团本的时区提醒，不再错过关键节点。",
+        "每周环境报告，汇整天梯趋势与热门阵容。",
+        "一键导出重大活动至个人行事历。"
+      ]
+    },
+    "localization": {
+      "title": "多语言同步规划",
+      "description": "英文、日文、西语与法语版本首日上线，URL 与 Meta 完整对应。",
+      "regions": ["日本攻略组", "北美与拉美", "法语区", "社群扩展语言"],
+      "upcomingTitle": "即将上线的语言",
+      "upcoming": [
+        "德语（预计 2025 年 Q4）",
+        "韩语（预计 2026 年 Q1）",
+        "意大利语（社群试营运）",
+        "葡萄牙语-巴西（招募志愿者）"
+      ],
+      "ctaLabel": "选择你的语言资讯流",
+      "ctaHref": "/community/share-guide"
+    },
+    "videos": {
+      "title": "数码宝贝物语：时空陌客 视频馆",
+      "description": "收看玩法解析、官方预告与创作者深度影片。",
+      "playlistLabel": "更多影片",
+      "ctaLabel": "浏览完整视频列表",
+      "ctaHref": "/news"
+    },
+    "cta": {
+      "title": "把攻略总站加入收藏",
+      "description": "每周收到更新摘要、剧透友好攻略与广告支持福利。",
+      "primaryCta": "前往攻略中心",
+      "primaryHref": "/guides",
+      "secondaryCta": "提交意见反馈",
+      "secondaryHref": "/community/share-guide",
+      "meta": "设定偏好语言即可收到对应的通知。"
     }
   }
 }

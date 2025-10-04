@@ -1,7 +1,7 @@
 import { websiteConfig } from '@/config/website';
 import { getLocalePathname } from '@/i18n/navigation';
-import { routing } from '@/i18n/routing';
-import { blogSource, categorySource, source } from '@/lib/source';
+import { DEFAULT_LOCALE, routing } from '@/i18n/routing';
+import { blogSource, source } from '@/lib/source';
 import type { MetadataRoute } from 'next';
 import type { Locale } from 'next-intl';
 import { getBaseUrl } from '../lib/urls/urls';
@@ -23,13 +23,27 @@ const staticRoutes = [
   '/tools/skill-planner',
   '/guides',
   '/guides/beginner',
+  '/guides/beginner/field-manual',
   '/guides/walkthrough',
+  '/guides/walkthrough/main-arc',
   '/guides/boss',
+  '/guides/boss/apex-dossiers',
   '/guides/secrets',
+  '/guides/secrets/lost-chronicle',
   '/guides/side-quests',
+  '/guides/side-quests/expedition-ledger',
+  '/guides/starter-digimon',
+  '/guides/patamon',
+  '/guides/personality',
+  '/guides/crack',
+  '/guides/denuvo',
+  '/guides/metacritic',
+  '/guides/torrent',
   '/news',
   '/news/updates',
+  '/news/updates/chronoshift-1-1-2',
   '/news/events',
+  '/news/events/luminous-tides-briefing',
   '/community',
   '/community/discussion',
   '/community/share-guide',
@@ -38,9 +52,15 @@ const staticRoutes = [
   '/terms',
   '/cookie',
   // optional
+  '/pricing',
+  '/waitlist',
   '/about',
   '/contact',
   '/changelog',
+  '/blog',
+  '/tools/evolution-tree/planner-basics',
+  '/tools/skill-planner/combo-theory',
+  '/tools/team-builder/synergy-matrix',
 ];
 
 /**
@@ -71,22 +91,75 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/tools/skill-planner': { priority: 0.85, changeFrequency: 'monthly' },
     '/guides': { priority: 0.9, changeFrequency: 'weekly' },
     '/guides/beginner': { priority: 0.85, changeFrequency: 'weekly' },
+    '/guides/beginner/field-manual': {
+      priority: 0.8,
+      changeFrequency: 'weekly',
+    },
     '/guides/walkthrough': { priority: 0.85, changeFrequency: 'weekly' },
+    '/guides/walkthrough/main-arc': {
+      priority: 0.8,
+      changeFrequency: 'weekly',
+    },
     '/guides/boss': { priority: 0.85, changeFrequency: 'weekly' },
+    '/guides/boss/apex-dossiers': {
+      priority: 0.8,
+      changeFrequency: 'weekly',
+    },
     '/guides/secrets': { priority: 0.85, changeFrequency: 'weekly' },
+    '/guides/secrets/lost-chronicle': {
+      priority: 0.78,
+      changeFrequency: 'weekly',
+    },
     '/guides/side-quests': { priority: 0.85, changeFrequency: 'weekly' },
+    '/guides/side-quests/expedition-ledger': {
+      priority: 0.8,
+      changeFrequency: 'weekly',
+    },
+    '/guides/starter-digimon': {
+      priority: 0.82,
+      changeFrequency: 'weekly',
+    },
+    '/guides/patamon': { priority: 0.8, changeFrequency: 'weekly' },
+    '/guides/personality': { priority: 0.78, changeFrequency: 'monthly' },
+    '/guides/crack': { priority: 0.7, changeFrequency: 'monthly' },
+    '/guides/denuvo': { priority: 0.7, changeFrequency: 'monthly' },
+    '/guides/metacritic': { priority: 0.7, changeFrequency: 'monthly' },
+    '/guides/torrent': { priority: 0.7, changeFrequency: 'monthly' },
     '/news': { priority: 0.8, changeFrequency: 'daily' },
     '/news/updates': { priority: 0.75, changeFrequency: 'weekly' },
+    '/news/updates/chronoshift-1-1-2': {
+      priority: 0.72,
+      changeFrequency: 'weekly',
+    },
     '/news/events': { priority: 0.75, changeFrequency: 'weekly' },
+    '/news/events/luminous-tides-briefing': {
+      priority: 0.72,
+      changeFrequency: 'weekly',
+    },
     '/community': { priority: 0.7, changeFrequency: 'daily' },
     '/community/discussion': { priority: 0.65, changeFrequency: 'daily' },
     '/community/share-guide': { priority: 0.65, changeFrequency: 'daily' },
     '/privacy': { priority: 0.5, changeFrequency: 'yearly' },
     '/terms': { priority: 0.5, changeFrequency: 'yearly' },
     '/cookie': { priority: 0.5, changeFrequency: 'yearly' },
+    '/pricing': { priority: 0.4, changeFrequency: 'monthly' },
+    '/waitlist': { priority: 0.4, changeFrequency: 'monthly' },
     '/about': { priority: 0.3, changeFrequency: 'yearly' },
     '/contact': { priority: 0.3, changeFrequency: 'yearly' },
     '/changelog': { priority: 0.3, changeFrequency: 'monthly' },
+    '/blog': { priority: 0.2, changeFrequency: 'monthly' },
+    '/tools/evolution-tree/planner-basics': {
+      priority: 0.7,
+      changeFrequency: 'monthly',
+    },
+    '/tools/skill-planner/combo-theory': {
+      priority: 0.7,
+      changeFrequency: 'monthly',
+    },
+    '/tools/team-builder/synergy-matrix': {
+      priority: 0.7,
+      changeFrequency: 'monthly',
+    },
   };
 
   // add static routes
@@ -105,90 +178,26 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // TODO: Re-enable when blog content is ready for Digimon Story Time Stranger
   /*
   if (websiteConfig.blog.enable) {
-    // add categories
-    sitemapList.push(
-      ...categorySource.getPages().flatMap((category) =>
-        routing.locales.map((locale) => ({
-          url: getUrl(`/blog/category/${category.slugs[0]}`, locale),
-          lastModified: new Date(),
-          priority: 0.8,
-          changeFrequency: 'weekly' as const,
-        }))
-      )
-    );
+    const posts = blogSource
+      .getPages()
+      .filter((post) => post.data.published);
 
-    // add paginated blog list pages
-    routing.locales.forEach((locale) => {
-      const posts = blogSource
-        .getPages(locale)
-        .filter((post) => post.data.published);
-      const totalPages = Math.max(
-        1,
-        Math.ceil(posts.length / websiteConfig.blog.paginationSize)
-      );
-      // /blog/page/[page] (from 2)
-      for (let page = 2; page <= totalPages; page++) {
+    posts.forEach((post) => {
+      const locales = post.locale ? [post.locale] : [DEFAULT_LOCALE];
+      locales.forEach((locale) => {
         sitemapList.push({
-          url: getUrl(`/blog/page/${page}`, locale),
-          lastModified: new Date(),
+          url: getUrl(`/blog/${post.slugs.join('/')}`, locale),
+          lastModified: post.data.updated
+            ? new Date(post.data.updated)
+            : post.data.date
+              ? new Date(post.data.date)
+              : new Date(),
           priority: 0.8,
           changeFrequency: 'weekly' as const,
         });
-      }
-    });
-
-    // add paginated category pages
-    routing.locales.forEach((locale) => {
-      const localeCategories = categorySource.getPages(locale);
-      localeCategories.forEach((category) => {
-        // posts in this category and locale
-        const postsInCategory = blogSource
-          .getPages(locale)
-          .filter((post) => post.data.published)
-          .filter((post) =>
-            post.data.categories.some((cat) => cat === category.slugs[0])
-          );
-        const totalPages = Math.max(
-          1,
-          Math.ceil(postsInCategory.length / websiteConfig.blog.paginationSize)
-        );
-        // /blog/category/[slug] (first page)
-        sitemapList.push({
-          url: getUrl(`/blog/category/${category.slugs[0]}`, locale),
-          lastModified: new Date(),
-          priority: 0.8,
-          changeFrequency: 'weekly' as const,
-        });
-        // /blog/category/[slug]/page/[page] (from 2)
-        for (let page = 2; page <= totalPages; page++) {
-          sitemapList.push({
-            url: getUrl(
-              `/blog/category/${category.slugs[0]}/page/${page}`,
-              locale
-            ),
-            lastModified: new Date(),
-            priority: 0.8,
-            changeFrequency: 'weekly' as const,
-          });
-        }
       });
     });
-
-    // add posts (single post pages)
-    sitemapList.push(
-      ...blogSource.getPages().flatMap((post) =>
-        routing.locales
-          .filter((locale) => post.locale === locale)
-          .map((locale) => ({
-            url: getUrl(`/blog/${post.slugs.join('/')}`, locale),
-            lastModified: new Date(),
-            priority: 0.8,
-            changeFrequency: 'weekly' as const,
-          }))
-      )
-    );
   }
-  */
 
   // Docs routes temporarily disabled to avoid 404 pages in sitemap
   // TODO: Re-enable when docs content is relevant for Digimon Story Time Stranger

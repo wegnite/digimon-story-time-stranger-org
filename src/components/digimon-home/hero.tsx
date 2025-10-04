@@ -2,16 +2,39 @@
 
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { LocaleLink } from '@/i18n/navigation';
-import { ArrowRight, CheckCircle, Globe2 } from 'lucide-react';
+import {
+  ArrowRight,
+  CalendarDays,
+  CheckCircle,
+  Gamepad2,
+  Globe2,
+  History,
+} from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 export function DigimonHero() {
   const t = useTranslations('DigimonHome.hero');
-  const features = t.raw('features') as string[];
+  const audience = t.raw('audience') as string[];
+  const stats = t.raw('stats') as Array<{
+    label: string;
+    value: string;
+    helper: string;
+  }>;
+  const quickStart = t.raw('quickStart') as Array<{
+    title: string;
+    description: string;
+    href: string;
+    ctaLabel: string;
+  }>;
+  const cardHighlights = t.raw('cardHighlights') as Array<{
+    title: string;
+    description: string;
+  }>;
   const primaryHref = t('primaryHref');
   const secondaryHref = t('secondaryHref');
+  const statIcons = [CalendarDays, Gamepad2, History];
 
   return (
     <section className="relative overflow-hidden border-b border-blue-500/20 bg-gradient-to-b from-[#0a0f24] via-[#0d1428] to-[#040610] pb-20 pt-24">
@@ -61,72 +84,123 @@ export function DigimonHero() {
           </div>
 
           <div className="grid gap-4 pt-6 sm:grid-cols-2">
-            {features.map((feature, index) => (
+            {audience.map((item, index) => (
               <div
-                key={`${feature}-${index}`}
-                className="group flex items-start gap-3 rounded-xl border border-blue-500/20 bg-gradient-to-br from-blue-500/10 to-purple-500/5 p-4 transition-all duration-300 hover:border-blue-400/40 hover:shadow-[0_0_20px_rgba(59,130,246,0.2)]"
+                key={`${item}-${index}`}
+                className="group flex items-start gap-3 rounded-xl border border-blue-500/25 bg-gradient-to-br from-blue-500/10 to-purple-500/5 p-4 transition-all duration-300 hover:border-blue-400/45 hover:shadow-[0_0_20px_rgba(59,130,246,0.25)]"
               >
-                <CheckCircle className="mt-1 h-5 w-5 flex-none text-blue-400 group-hover:text-blue-300 transition-colors" />
+                <CheckCircle className="mt-1 h-5 w-5 flex-none text-blue-400 group-hover:text-blue-200 transition-colors" />
                 <p className="text-sm text-slate-200 group-hover:text-white transition-colors">
-                  {feature}
+                  {item}
                 </p>
               </div>
             ))}
           </div>
-        </div>
 
-        <Card className="w-full max-w-md border-blue-400/30 bg-gradient-to-br from-blue-500/10 via-purple-500/5 to-pink-500/5 backdrop-blur-xl shadow-[0_0_40px_rgba(59,130,246,0.15)] lg:flex-1">
-          <CardContent className="space-y-4 p-6">
-            <div className="space-y-2">
-              <p className="text-sm uppercase tracking-wider text-blue-300 font-semibold">
-                {t('subtitle')}
+          <div className="grid gap-4 pt-6 sm:grid-cols-3">
+            {stats.map((stat, index) => {
+              const Icon = statIcons[index % statIcons.length];
+              return (
+                <div
+                  key={`${stat.label}-${index}`}
+                  className="rounded-xl border border-blue-400/30 bg-gradient-to-br from-blue-500/10 to-purple-500/10 p-4 shadow-[0_0_20px_rgba(59,130,246,0.1)]"
+                >
+                  <div className="flex items-center gap-3 text-blue-200">
+                    <Icon className="h-5 w-5" />
+                    <p className="text-xs uppercase tracking-wide">
+                      {stat.label}
+                    </p>
+                  </div>
+                  <p className="mt-3 text-lg font-semibold text-white">
+                    {stat.value}
+                  </p>
+                  <p className="mt-2 text-xs text-slate-300">{stat.helper}</p>
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="space-y-4 pt-8">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-wide text-blue-200">
+                {t('quickStartHeading')}
               </p>
-              <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-200 to-purple-200 bg-clip-text text-transparent">
-                Digimon Story Time Stranger Global Guide
-              </h2>
-              <p className="text-sm text-slate-300">
-                {t('cardDescription', { defaultValue: t('description') })}
+              <p className="mt-1 text-sm text-slate-300">
+                {t('quickStartDescription')}
               </p>
             </div>
-            <div className="rounded-lg border border-blue-400/30 bg-gradient-to-br from-blue-500/15 to-purple-500/10 p-4 shadow-inner">
-              <p className="text-sm text-blue-300 font-medium">
-                {t('subtitle')}
-              </p>
-              <p className="mt-2 text-sm text-slate-200 font-mono">
-                https://digimonstorytimestranger.com
-              </p>
-            </div>
-            <p className="text-xs text-slate-400">
-              {t('footerNote', {
-                defaultValue:
-                  'Localized launch coverage with community translation hooks for additional languages.',
-              })}
-            </p>
-          </CardContent>
-        </Card>
-      </div>
-
-      {/* Copyright Disclaimer Banner */}
-      <div className="relative z-10 container mx-auto mt-12 px-4">
-        <div className="rounded-lg border border-amber-500/30 bg-amber-950/30 backdrop-blur-sm p-4 shadow-lg">
-          <div className="flex items-start gap-3">
-            <span className="text-amber-400 text-xl flex-none mt-0.5">⚠️</span>
-            <div className="space-y-1">
-              <p className="text-sm font-semibold text-amber-300">
-                {t('disclaimer.title', {
-                  defaultValue:
-                    'UNOFFICIAL FAN SITE - NOT AFFILIATED WITH BANDAI NAMCO',
-                })}
-              </p>
-              <p className="text-xs text-amber-200/80 leading-relaxed">
-                {t('disclaimer.content', {
-                  defaultValue:
-                    'This is an independent fan-created guide. We are NOT affiliated with Bandai Namco Entertainment or official Digimon entities. We do not distribute game files, ROMs, or cracked versions. This site provides informational content only under fair use for educational purposes.',
-                })}
-              </p>
+            <div className="grid gap-4 lg:grid-cols-3">
+              {quickStart.map((item, index) => (
+                <Card
+                  key={`${item.title}-${index}`}
+                  className="group h-full border-blue-400/30 bg-white/5 backdrop-blur transition hover:border-blue-400/60"
+                >
+                  <CardContent className="flex h-full flex-col justify-between space-y-4 p-5">
+                    <div className="space-y-2">
+                      <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-300">
+                        0{index + 1}
+                      </p>
+                      <h3 className="text-base font-semibold text-white">
+                        {item.title}
+                      </h3>
+                      <p className="text-sm text-slate-300">
+                        {item.description}
+                      </p>
+                    </div>
+                    <Button
+                      asChild
+                      size="sm"
+                      className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:from-blue-600 hover:to-purple-700"
+                    >
+                      <LocaleLink href={item.href}>{item.ctaLabel}</LocaleLink>
+                    </Button>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
           </div>
         </div>
+
+        <Card className="w-full max-w-md border-blue-400/30 bg-gradient-to-br from-blue-500/10 via-purple-500/5 to-pink-500/5 backdrop-blur-xl shadow-[0_0_40px_rgba(59,130,246,0.15)] lg:flex-1">
+          <CardHeader className="space-y-3">
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-blue-300">
+              {t('card.tagline')}
+            </p>
+            <CardTitle className="text-2xl font-bold text-white">
+              {t('card.title')}
+            </CardTitle>
+            <p className="text-sm text-slate-300">{t('card.description')}</p>
+          </CardHeader>
+          <CardContent className="space-y-5">
+            <div className="space-y-4">
+              {cardHighlights.map((highlight, index) => (
+                <div
+                  key={`${highlight.title}-${index}`}
+                  className="rounded-xl border border-white/10 bg-white/5 p-4"
+                >
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-200">
+                    {highlight.title}
+                  </p>
+                  <p className="mt-2 text-sm text-slate-200">
+                    {highlight.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+            <div className="rounded-lg border border-blue-400/30 bg-gradient-to-br from-blue-500/15 to-purple-500/10 p-4 shadow-inner">
+              <p className="text-sm text-blue-300 font-medium">
+                {t('card.metaLabel')}
+              </p>
+              <p className="mt-2 text-sm text-slate-200 font-mono">
+                {t('card.metaValue')}
+              </p>
+              <p className="mt-2 text-xs text-slate-300">
+                {t('card.metaHelper')}
+              </p>
+            </div>
+            <p className="text-xs text-slate-400">{t('card.footnote')}</p>
+          </CardContent>
+        </Card>
       </div>
     </section>
   );

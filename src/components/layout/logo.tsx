@@ -10,7 +10,8 @@ export function Logo({ className }: { className?: string }) {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const logoLight =
-    websiteConfig.metadata.images?.logoLight ?? '/digimon/android-chrome-192x192.png';
+    websiteConfig.metadata.images?.logoLight ??
+    '/digimon/android-chrome-192x192.png';
   const logoDark = websiteConfig.metadata.images?.logoDark ?? logoLight;
 
   // During server-side rendering and initial client render, always use logoLight
@@ -30,6 +31,8 @@ export function Logo({ className }: { className?: string }) {
       width={96}
       height={96}
       className={cn('size-8 rounded-md', className)}
+      priority
+      unoptimized
     />
   );
 }

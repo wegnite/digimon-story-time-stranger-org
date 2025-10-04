@@ -52,7 +52,30 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'service.firecrawl.dev',
       },
+      {
+        protocol: 'https',
+        hostname: 'img.youtube.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.ytimg.com',
+      },
     ],
+  },
+  // Allow YouTube iframe embeds
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'Content-Security-Policy',
+            value:
+              "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com;",
+          },
+        ],
+      },
+    ];
   },
 };
 

@@ -148,3 +148,24 @@ export const freeUsageQuota = pgTable(
 		),
 	}),
 );
+
+export const blogComments = pgTable(
+	"blog_comments",
+	{
+		id: text("id").primaryKey(),
+		postSlug: text("post_slug").notNull(),
+		locale: text("locale"),
+		userId: text("user_id")
+			.notNull()
+			.references(() => user.id, { onDelete: 'cascade' }),
+		displayName: text("display_name").notNull(),
+		content: text("content").notNull(),
+		approved: boolean("approved").notNull().default(true),
+		createdAt: timestamp("created_at").notNull().defaultNow(),
+		updatedAt: timestamp("updated_at").notNull().defaultNow(),
+	},
+	(table) => ({
+		blogCommentsPostSlugIdx: index("blog_comments_post_slug_idx").on(table.postSlug),
+		blogCommentsUserIdIdx: index("blog_comments_user_id_idx").on(table.userId),
+	}),
+);

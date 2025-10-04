@@ -8,17 +8,38 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: '*',
         allow: '/',
         disallow: [
-          '/api/*', // API endpoints
-          '/_next/*', // Next.js internal files
-          '/auth/*', // Authentication pages
-          '/admin/*', // Admin pages (if any)
+          '/api/', // API endpoints
+          '/api/*',
+          '/_next/', // Next.js internal files
+          '/_next/*',
+          '/auth/', // Authentication pages
+          '/auth/*',
+          '/*/auth/',
+          '/*/auth/*',
+          '/admin/',
+          '/admin/*',
+          '/*/admin/',
+          '/*/admin/*',
+          '/dashboard',
+          '/dashboard/*',
+          '/*/dashboard',
+          '/*/dashboard/*',
         ],
       },
       // Optional: More specific rules for different bots
       {
         userAgent: 'Googlebot',
         allow: '/',
-        disallow: ['/api/*', '/_next/*', '/auth/*'],
+        disallow: [
+          '/api/',
+          '/api/*',
+          '/_next/',
+          '/_next/*',
+          '/auth/',
+          '/auth/*',
+          '/*/auth/',
+          '/*/auth/*',
+        ],
       },
     ],
     sitemap: `${getBaseUrl()}/sitemap.xml`,

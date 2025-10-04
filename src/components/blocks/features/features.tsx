@@ -1,7 +1,6 @@
 'use client';
 
 import { HeaderSection } from '@/components/layout/header-section';
-import { BorderBeam } from '@/components/magicui/border-beam';
 import {
   Accordion,
   AccordionContent,
@@ -152,11 +151,6 @@ export default function FeaturesSection() {
                 </motion.div>
               </AnimatePresence>
             </div>
-            <BorderBeam
-              duration={6}
-              size={200}
-              className="from-transparent via-violet-700 to-transparent dark:via-white/50"
-            />
           </div>
         </div>
       </div>

@@ -116,6 +116,13 @@ export function getNavbarLinks(): NestedMenuItem[] {
           href: Routes.GuidesSecrets,
           external: false,
         },
+        {
+          title: t('guides.items.personality.title'),
+          description: t('guides.items.personality.description'),
+          icon: <Users className="size-4 shrink-0" />,
+          href: Routes.GuidesPersonality,
+          external: false,
+        },
       ],
     },
     {

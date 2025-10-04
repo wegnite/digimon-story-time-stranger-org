@@ -1,6 +1,5 @@
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Link from 'next/link';
 
 export type StructuredSection = {
@@ -88,46 +87,51 @@ export function StructuredPage({ data }: StructuredPageProps) {
       <section className="container mx-auto space-y-8 px-4 py-16">
         <div className="grid gap-6 md:grid-cols-2">
           {sections.map((section, index) => (
-            <Card
+            <section
               key={`${section.title}-${index}`}
-              className="border-white/10 bg-white/5 backdrop-blur"
+              className="rounded-2xl border border-white/10 bg-white/5 p-6 text-slate-200 backdrop-blur"
             >
-              <CardHeader>
-                <CardTitle className="text-2xl text-white">
+              <header className="space-y-2">
+                <h2 className="text-2xl font-semibold text-white">
                   {section.title}
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4 text-slate-200">
+                </h2>
                 {section.description ? (
-                  <p className="text-sm text-slate-300">
+                  <h3 className="text-sm font-normal leading-relaxed text-slate-300">
                     {section.description}
-                  </p>
+                  </h3>
                 ) : null}
-                {section.items ? (
-                  <ul className="list-disc space-y-2 pl-5 text-sm text-slate-200">
-                    {section.items.map((item, idx) => (
-                      <li key={`${item}-${idx}`}>{item}</li>
-                    ))}
-                  </ul>
-                ) : null}
-                {section.highlights ? (
-                  <div className="space-y-3">
-                    {section.highlights.map((highlight, idx) => (
-                      <div
-                        key={`${highlight.title}-${idx}`}
-                        className="rounded-lg border border-white/10 bg-white/5 p-3"
-                      >
-                        <h3 className="text-sm font-semibold text-white">
-                          {highlight.title}
-                        </h3>
-                        <p className="text-xs text-slate-300">
-                          {highlight.description}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
-                ) : null}
-                {section.cta ? (
+              </header>
+              {section.items ? (
+                <div className="mt-4 space-y-2 text-sm">
+                  {section.items.map((item, idx) => (
+                    <div
+                      key={`${section.title}-item-${idx}`}
+                      className="rounded-lg border border-white/10 bg-white/5 p-3"
+                    >
+                      <p className="text-sm text-slate-200">{item}</p>
+                    </div>
+                  ))}
+                </div>
+              ) : null}
+              {section.highlights ? (
+                <div className="mt-4 space-y-3">
+                  {section.highlights.map((highlight, idx) => (
+                    <article
+                      key={`${highlight.title}-${idx}`}
+                      className="rounded-lg border border-white/10 bg-white/5 p-3"
+                    >
+                      <h3 className="text-sm font-semibold text-white">
+                        {highlight.title}
+                      </h3>
+                      <p className="text-xs text-slate-300">
+                        {highlight.description}
+                      </p>
+                    </article>
+                  ))}
+                </div>
+              ) : null}
+              {section.cta ? (
+                <div className="mt-4">
                   <Button
                     asChild
                     variant="ghost"
@@ -135,9 +139,9 @@ export function StructuredPage({ data }: StructuredPageProps) {
                   >
                     <Link href={section.cta.href}>{section.cta.label}</Link>
                   </Button>
-                ) : null}
-              </CardContent>
-            </Card>
+                </div>
+              ) : null}
+            </section>
           ))}
         </div>
       </section>
