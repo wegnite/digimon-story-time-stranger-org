@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "name": "数码宝贝故事 时之陌生人 全球指南",
-    "title": "数码宝贝时之陌生人攻略指南 – 通关与工具",
-    "description": "统筹每个章节的攻略路线、数码兽数据库、版本更新情报、阵容模拟、事件提醒与多语言支援工具，为全球《数码宝贝故事 时之陌生人》玩家提供深度支持、队伍协作参考与赛事准备指南。"
+    "name": "Time Stranger 全球通关指南",
+    "title": "Time Stranger Walkthrough 指南 – 章节路线与工具",
+    "description": "集中管理 Time Stranger 每个章节的攻略路线、数据库、版本情报、阵容模拟、活动提醒与多语言支援工具，为全球玩家提供深度支持、协作参考与赛事准备指南。"
   },
   "Common": {
     "login": "登录",
@@ -263,7 +263,7 @@
   },
   "BlogPage": {
     "title": "攻略博客",
-    "description": "覆盖《数码宝贝时空异客》的版本情报、阵容攻略与社区精选。",
+    "description": "覆盖 Time Stranger 的版本情报、阵容攻略与社区精选。",
     "subtitle": "最新攻略、活动拆解与玩家战术速递",
     "author": "作者",
     "categories": "分类",
@@ -311,7 +311,7 @@
       }
     },
     "footer": {
-      "tagline": "全球首个数码宝贝故事时之陌生人策略大全，实时数据更新。",
+      "tagline": "全球首个 Time Stranger 通关策略枢纽，实时数据更新。",
       "guides": {
         "title": "攻略",
         "items": {
@@ -323,7 +323,7 @@
       "database": {
         "title": "数据库",
         "items": {
-          "digimon": "数码宝贝图鉴",
+          "digimon": "Time Stranger 图鉴",
           "items": "道具目录",
           "maps": "地图"
         }
@@ -357,7 +357,7 @@
       },
       "disclaimer": {
         "title": "非官方粉丝网站 - 与万代南梦宫无关联",
-        "content": "这是一个独立的粉丝创建的攻略和社区资源网站。我们与万代南梦宫娱乐、数码宝贝或任何官方数码宝贝特许经营实体没有任何关联、认可或联系。所有游戏内容、名称、标志和商标均为其各自所有者的财产。我们不分发游戏文件、ROM或破解版本。本网站仅根据合理使用原则提供教育和评论用途的信息内容。"
+        "content": "这是一个独立的粉丝创建的攻略和社区资源网站。我们与万代南梦宫娱乐或任何官方 Digimon / Time Stranger 实体没有任何关联、认可或联系。所有游戏内容、名称、标志和商标均为其各自所有者的财产。本网站不分发或链接任何 ROM、破解程序等侵权内容，仅依据合理使用原则提供教学与评论资讯。"
       }
     },
     "avatar": {
@@ -642,188 +642,161 @@
   },
   "DigimonHome": {
     "hero": {
-      "featureLabel": "适合所有《时空陌客》的驯兽师",
-      "title": "数码宝贝物语：时空陌客 全面攻略中心",
-      "description": "掌握上线情报、熟悉战斗系统，并在开服前完成队伍规划。",
-      "primaryCta": "开启首发清单",
-      "primaryHref": "/guides/beginner",
-      "secondaryCta": "浏览剧情攻略",
-      "secondaryHref": "/guides/starter-digimon",
+      "featureLabel": "Time Stranger Walkthrough 中枢",
+      "title": "Time Stranger Walkthrough 中心",
+      "description": "一站式掌握 Time Stranger walkthrough：主线章节、分支选项与隐藏收集在同一条路线上同步提示，寸步不漏。",
+      "primaryCta": "打开通关路线",
+      "primaryHref": "/guides/walkthrough/main-arc",
+      "secondaryCta": "跳到章节索引",
+      "secondaryHref": "/guides/walkthrough",
       "audience": [
-        "想要规划开服前几小时节奏的新手驯兽师",
-        "研究进化路线与抗性组合的理论玩家",
-        "希望收集所有时间线与支线剧情的故事党"
+        "想按节奏推进剧情的驯兽师，依靠 Time Stranger Walkthrough 避免遗漏。",
+        "追求 100% 完成度的玩家，把每一步 Time Stranger Walkthrough 检查表都标记完成。",
+        "竞速或团战队伍，以 Time Stranger Walkthrough 调整补给与战斗节奏。"
       ],
       "stats": [
         {
-          "label": "首发窗口",
-          "value": "2025 年 10 月 18–20 日",
-          "helper": "PS5、Xbox 与 PC 全球同步上线的首个周末。"
+          "label": "整理章节",
+          "value": "12 条 walkthrough 篇章",
+          "helper": "覆盖全部主线章节并标注关键对话与 Boss 准备。"
         },
         {
-          "label": "可玩平台",
-          "value": "PS5 • Xbox Series • Steam",
-          "helper": "官方确认支援跨存档与性能模式。"
+          "label": "记录 Boss",
+          "value": "37 份战斗卡",
+          "helper": "Walkthrough 内嵌属性克制、冷却窗口与队伍建议。"
         },
         {
-          "label": "最新情报",
-          "value": "预览补丁 1.02 说明",
-          "helper": "2025 年 9 月 28 日公布的平衡调整与任务优化汇总。"
+          "label": "同步收集",
+          "value": "142 个可拾取物",
+          "helper": "所有隐藏宝箱与记忆扫描都绑定在 walkthrough 的时间线中。"
         }
       ],
-      "quickStartHeading": "15 分钟完成的 3 个准备步骤",
-      "quickStartDescription": "先快速吸收重点，再根据需求深入阅读对应攻略。",
+      "quickStartHeading": "Time Stranger Walkthrough 快速启动",
+      "quickStartDescription": "三步就能定位到当前需要的 walkthrough 章节。",
       "quickStart": [
         {
-          "title": "观看 5 分钟剧情回顾",
-          "description": "补上时空陌客的故事时间线与派系背景。",
+          "title": "打开主线路线图",
+          "description": "提前查看每一幕的路线分支与重要事件。",
           "href": "/guides/walkthrough/main-arc",
-          "ctaLabel": "立即观看"
+          "ctaLabel": "查看章节地图"
         },
         {
-          "title": "锁定你的开局队伍",
-          "description": "比较初始搭档的定位、相性与前期进化路线。",
-          "href": "/guides/starter-digimon",
-          "ctaLabel": "规划队伍"
+          "title": "核对 Boss 指南卡",
+          "description": "战前先读机制、抗性与推荐阵容，保持 walkthrough 节奏。",
+          "href": "/guides/boss/apex-dossiers",
+          "ctaLabel": "打开 Boss 卡"
         },
         {
-          "title": "收藏首周末时间表",
-          "description": "掌握前三天的活动、团本与登陆奖励节奏。",
-          "href": "/news/events/luminous-tides-briefing",
-          "ctaLabel": "查看行程"
+          "title": "把支线覆盖进路线",
+          "description": "把可选任务与收集同步到当前章节的 walkthrough。",
+          "href": "/guides/side-quests/expedition-ledger",
+          "ctaLabel": "规划支线"
         }
       ],
       "cardHighlights": [
         {
-          "title": "我们提供什么",
-          "description": "剧情节点、战斗策略、变现提醒与活动速查全部一次整合。"
+          "title": "剧透自定义开关",
+          "description": "在 Time Stranger Walkthrough 中自由切换摘要提示或完整步骤，不破坏后续剧情。"
         },
         {
-          "title": "为什么重要",
-          "description": "提前掌握关键情报，线上时间只需要执行，不用边玩边搜索。"
+          "title": "据点提醒",
+          "description": "每次回到数字实验室都附带刷资源、招募与强化的提醒，不必脱离 walkthrough。"
         }
       ],
       "card": {
-        "tagline": "非官方情报站",
-        "title": "剧透友好的任务控制台",
-        "description": "由玩家运营，为收藏家、竞技党与剧情党量身打造的攻略中心。",
-        "metaLabel": "攻略总站网址",
-        "metaValue": "https://digimonstorytimestranger.com",
-        "metaHelper": "加入浏览器书签或手机主屏，随时一键打开。",
-        "footnote": "本网站为粉丝项目，相关商标版权归原权利人所有。"
+        "tagline": "Time Stranger Walkthrough 情报",
+        "title": "一键章节情报",
+        "description": "快速载入当前章节的敌人准备、分支提醒与奖励提示。",
+        "metaLabel": "当前推广章节",
+        "metaValue": "第 4 章 · 量子裂隙追击",
+        "metaHelper": "已根据 1.02 补丁更新路线与奖励。",
+        "footnote": "粉丝自制的 Time Stranger Walkthrough 项目，所有商标均归原权利人所有。"
       }
     },
     "contentDiscovery": {
-      "eyebrow": "先选你的目标",
-      "title": "你现在最需要哪类内容？",
-      "description": "在最新文章与常用攻略之间切换，快速找到对应入口。",
-      "itemCtaLabel": "立即查看",
+      "eyebrow": "选择你的 walkthrough 线路",
+      "title": "Time Stranger Walkthrough 播放列表",
+      "description": "匹配你的剧情进度，直接切换到对应的 Time Stranger walkthrough 模块。",
+      "itemCtaLabel": "打开 walkthrough",
       "categories": [
         {
-          "id": "guides",
-          "label": "攻略",
-          "tagline": "主线章节、支线委托与隐藏结局的逐步指引。",
-          "ctaLabel": "进入攻略中心",
-          "ctaHref": "/guides",
+          "id": "chapters",
+          "label": "主线章节",
+          "tagline": "逐章 Time Stranger walkthrough，附带剧透控制。",
+          "ctaLabel": "浏览章节路线",
+          "ctaHref": "/guides/walkthrough/main-arc",
           "items": [
             {
-              "title": "主线攻略（第一章）",
-              "description": "逐任务流程、最佳对话选项与奖励提示一次列出。",
+              "title": "序章 & 第一幕 walkthrough",
+              "description": "逐步说明任务方向、最佳对话选项与奖励获取。",
               "href": "/guides/walkthrough/main-arc",
               "meta": "2025 年 10 月更新"
             },
             {
-              "title": "支线委托清单",
-              "description": "掌握触发条件、错过风险与稀有奖励的全收集表。",
-              "href": "/guides/side-quests/expedition-ledger",
-              "meta": "阅读约 12 分钟"
+              "title": "分支选择追踪表",
+              "description": "展示跑中所做 Karma 选择如何影响后续 walkthrough。",
+              "href": "/guides/walkthrough",
+              "meta": "分支地图"
             },
             {
-              "title": "Boss 战速查合集",
-              "description": "列出主要战斗的元素弱点、推荐队伍与必要准备。",
+              "title": "二周目节奏指南",
+              "description": "针对多结局重刷的 Walkthrough 快速循环。",
+              "href": "/guides/secrets/lost-chronicle",
+              "meta": "剧透安全"
+            }
+          ]
+        },
+        {
+          "id": "bosses",
+          "label": "Boss 战",
+          "tagline": "Time Stranger Walkthrough 中每场战斗的站位与冷却节奏。",
+          "ctaLabel": "查看 Boss Walkthrough",
+          "ctaHref": "/guides/boss/apex-dossiers",
+          "items": [
+            {
+              "title": "量子骑士 Dossier",
+              "description": "与主线 walkthrough 对应的阶段转换与减益窗口。",
               "href": "/guides/boss/apex-dossiers",
-              "meta": "社区最爱"
+              "meta": "Boss 卡"
+            },
+            {
+              "title": "装甲爆发反制",
+              "description": "为装甲系 Boss 准备的阵容与记忆芯片配置。",
+              "href": "/guides/team-builder/synergy-matrix",
+              "meta": "阵容规划"
+            },
+            {
+              "title": "团本插入步骤",
+              "description": "把首周团本的准备任务嵌入主线 walkthrough。",
+              "href": "/news/events/luminous-tides-briefing",
+              "meta": "活动同步"
             }
           ]
         },
         {
-          "id": "progression",
-          "label": "养成",
-          "tagline": "升级、资源与进化路线规划，保证节奏领先。",
-          "ctaLabel": "查看养成技巧",
-          "ctaHref": "/guides/beginner",
+          "id": "collectibles",
+          "label": "收集与委托",
+          "tagline": "把支线与收集路线覆盖进 walkthrough，节省回头路。",
+          "ctaLabel": "应用完成度路线",
+          "ctaHref": "/guides/side-quests/expedition-ledger",
           "items": [
             {
-              "title": "每日资源规划",
-              "description": "统整各地图金属、记忆体与进化素材的高效周回路线。",
-              "href": "/guides/beginner/field-manual",
-              "meta": "含下载表格"
+              "title": "支线委托队列",
+              "description": "依照 walkthrough 顺序安排所有可选委托。",
+              "href": "/guides/side-quests/expedition-ledger",
+              "meta": "完成度路线"
             },
             {
-              "title": "进化临界值速查",
-              "description": "提前掌握属性需求与任务门槛，避免走错分支。",
+              "title": "图鉴 100% 路线",
+              "description": "把招募与进化条件绑定到 walkthrough 时间线上。",
               "href": "/guides/starter-digimon",
-              "meta": "阅读约 5 分钟"
+              "meta": "队伍同步"
             },
             {
-              "title": "相性与性格组合",
-              "description": "用正确性格搭配定位，榨出队伍额外增益。",
-              "href": "/guides/personality",
-              "meta": "最新更新"
-            }
-          ]
-        },
-        {
-          "id": "pvp",
-          "label": "对战与团本",
-          "tagline": "赛季趋势、阵容思路与周常团本准备一目了然。",
-          "ctaLabel": "查看环境报告",
-          "ctaHref": "/guides/boss",
-          "items": [
-            {
-              "title": "开季天梯趋势报告",
-              "description": "预览赛季前十热门阵容与针对手法。",
-              "href": "/news/updates/chronoshift-1-1-2",
-              "meta": "Meta 观察"
-            },
-            {
-              "title": "团本准备：天穹奇点",
-              "description": "消耗品、抗性要求与首轮团本时间线整理。",
-              "href": "/guides/boss",
-              "meta": "队伍配置"
-            },
-            {
-              "title": "连锁加成模拟器",
-              "description": "动手组合双人／三人加成，先算出最高收益。",
-              "href": "/tools",
-              "meta": "互动工具"
-            }
-          ]
-        },
-        {
-          "id": "updates",
-          "label": "更新",
-          "tagline": "补丁情报、制作人访谈与活动时间轴快速一览。",
-          "ctaLabel": "前往情报台",
-          "ctaHref": "/news/updates",
-          "items": [
-            {
-              "title": "预览补丁 1.02 解读",
-              "description": "攻击曲线、BUG 修复与全新 QoL 功能的中文总结。",
-              "href": "/news/updates/chronoshift-1-1-2",
-              "meta": "阅读约 7 分钟"
-            },
-            {
-              "title": "制作人问答重点",
-              "description": "东京电玩展访谈中提到的终局系统与商业模式亮点。",
-              "href": "/news",
-              "meta": "访谈摘要"
-            },
-            {
-              "title": "活动路线图总表",
-              "description": "全球焦点活动、联动任务与限时奖励的同步日历。",
-              "href": "/news/events",
-              "meta": "实时更新"
+              "title": "宝箱与记忆扫描覆盖",
+              "description": "利用地图层叠查找所有隐藏宝箱，无需折返。",
+              "href": "/database/maps",
+              "meta": "地图覆盖"
             }
           ]
         }
@@ -913,7 +886,12 @@
     "localization": {
       "title": "多语言同步规划",
       "description": "英文、日文、西语与法语版本首日上线，URL 与 Meta 完整对应。",
-      "regions": ["日本攻略组", "北美与拉美", "法语区", "社群扩展语言"],
+      "regions": [
+        "日本攻略组",
+        "北美与拉美",
+        "法语区",
+        "社群扩展语言"
+      ],
       "upcomingTitle": "即将上线的语言",
       "upcoming": [
         "德语（预计 2025 年 Q4）",
@@ -925,7 +903,7 @@
       "ctaHref": "/community/share-guide"
     },
     "videos": {
-      "title": "数码宝贝物语：时空陌客 视频馆",
+      "title": "Time Stranger 视频馆",
       "description": "收看玩法解析、官方预告与创作者深度影片。",
       "playlistLabel": "更多影片",
       "ctaLabel": "浏览完整视频列表",
@@ -939,6 +917,115 @@
       "secondaryCta": "提交意见反馈",
       "secondaryHref": "/community/share-guide",
       "meta": "设定偏好语言即可收到对应的通知。"
+    },
+    "walkthroughRoadmap": {
+      "eyebrow": "章节总览",
+      "title": "Time Stranger Walkthrough 路线图",
+      "description": "提前浏览我们的 Time Stranger Walkthrough 三幕结构，开局就知道下一步。",
+      "ctaLabel": "查看 walkthrough",
+      "timeline": [
+        {
+          "phase": "第一幕",
+          "heading": "霓虹城区序章",
+          "description": "教学任务、初始伙伴选择与首批 Karma 触发点全数标注。",
+          "href": "/guides/walkthrough/main-arc#act-i",
+          "beats": [
+            {
+              "title": "教学节奏",
+              "details": "拿到首套记忆芯片并拾取巷道里的隐藏宝箱。"
+            },
+            {
+              "title": "首次分支提醒",
+              "details": "记录中立与反抗选择，影响第三幕剧情。"
+            },
+            {
+              "title": "Boss：时钟暴君",
+              "details": "Break 窗口与治疗位配置建议。"
+            }
+          ]
+        },
+        {
+          "phase": "第二幕",
+          "heading": "无限熔炉调查",
+          "description": "多城市调查、团本预热与好感度门槛全部嵌入 walkthrough。",
+          "href": "/guides/walkthrough/main-arc#act-ii",
+          "beats": [
+            {
+              "title": "都市路线优化",
+              "details": "把侦探委托排序，减少往返并解锁额外 AP。"
+            },
+            {
+              "title": "团本彩排",
+              "details": "在第 6 章插入帝域奇点团本的前置准备。"
+            },
+            {
+              "title": "Boss：量子骑士",
+              "details": "阶段转换提示与记忆晶体的刷取时机。"
+            }
+          ]
+        },
+        {
+          "phase": "第三幕",
+          "heading": "时间裂隙终章",
+          "description": "最终章节结合隐藏结局、收集扫荡与二周目解锁。",
+          "href": "/guides/walkthrough/main-arc#act-iii",
+          "beats": [
+            {
+              "title": "结局分歧表",
+              "details": "逐项确认中立、抵抗、重聚结局的必要条件。"
+            },
+            {
+              "title": "收集扫荡",
+              "details": "在无法回头前清空记忆扫描与特殊奖励。"
+            },
+            {
+              "title": "最终 Boss 连战",
+              "details": "两阶段战斗的行动顺序与爆发阈值。"
+            }
+          ]
+        }
+      ]
+    },
+    "walkthroughSupport": {
+      "eyebrow": "辅助 Walkthrough 的工具",
+      "title": "支撑 Time Stranger Walkthrough 的资源",
+      "description": "这些工具让 Time Stranger Walkthrough 更高效、更安全。",
+      "pillarLabel": "Walkthrough 增益",
+      "pillars": [
+        {
+          "title": "路线管理叠图",
+          "description": "把 walkthrough 与地图、清单叠加显示。",
+          "bullets": [
+            "互动地图实时跟随 walkthrough 步骤。",
+            "可勾选的收集与好感清单。",
+            "多语言注释，方便跨区组队。"
+          ],
+          "href": "/database/maps",
+          "cta": "查看地图叠层"
+        },
+        {
+          "title": "Boss 战前实验室",
+          "description": "在 walkthrough 路线内快速吸收每场战斗情报。",
+          "bullets": [
+            "战斗视频与 walkthrough 节点互相跳转。",
+            "依据当前队伍的伤害区间计算表。",
+            "线下联机可打印的战斗速查表。"
+          ],
+          "href": "/guides/boss/apex-dossiers",
+          "cta": "打开 Boss 实验室"
+        },
+        {
+          "title": "章节后勤补给包",
+          "description": "在不打乱 walkthrough 节奏的前提下完成补给与养成。",
+          "bullets": [
+            "章节间推荐的素材刷法。",
+            "下一章节需要的记忆芯片与插件采购清单。",
+            "社区 Verified Walkthrough 的精选提醒。"
+          ],
+          "href": "/community/discussion",
+          "cta": "分享你的路线"
+        }
+      ]
     }
   }
 }

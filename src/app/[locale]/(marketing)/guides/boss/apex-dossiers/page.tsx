@@ -6,7 +6,7 @@ import { getTranslations } from 'next-intl/server';
 
 const TITLE = 'Apex Threat Dossiers';
 const DESCRIPTION =
-  'Comprehensive boss strategy guide for Digimon Story Time Stranger, featuring mechanic breakdowns, suggested squads, and timeline counterplay for late-game encounters.';
+  'Comprehensive boss strategy guide for Time Stranger, featuring mechanic breakdowns, suggested squads, and timeline counterplay for late-game encounters.';
 
 export async function generateMetadata({
   params,

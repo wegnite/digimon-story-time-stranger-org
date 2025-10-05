@@ -4,11 +4,15 @@ import { DigimonHero } from './hero';
 import { SpotlightFeaturesSection } from './spotlight-features';
 import { UpdatesAndLocalization } from './updates-localization';
 import { VideoShowcaseSection } from './video-showcase';
+import { WalkthroughRoadmapSection } from './walkthrough-roadmap';
+import { WalkthroughSupportSection } from './walkthrough-support';
 
 export function DigimonHomepage() {
   return (
     <div className="min-h-screen bg-[#020314] text-white">
       <DigimonHero />
+      <WalkthroughRoadmapSection />
+      <WalkthroughSupportSection />
       <VideoShowcaseSection />
       <ContentDiscoverySection />
       <SpotlightFeaturesSection />

@@ -1,5 +1,4 @@
 import BlogImage from '@/components/blog/blog-image';
-import { getMDXComponents } from '@/components/docs/mdx-components';
 import Container from '@/components/layout/container';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
@@ -7,25 +6,19 @@ import { LocaleLink } from '@/i18n/navigation';
 import { formatDate } from '@/lib/formatter';
 import { constructMetadata } from '@/lib/metadata';
 import {
-  type BlogType,
   authorSource,
   blogSource,
   categorySource,
+  type BlogType,
 } from '@/lib/source';
 import { getUrlWithLocale } from '@/lib/urls/urls';
-import { ArrowLeft, CalendarIcon, Clock } from 'lucide-react';
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import type { Locale } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
-import dynamic from 'next/dynamic';
-import { notFound } from 'next/navigation';
-
-const CommentsSection = dynamic(
-  () => import('@/components/blog/comments/comments-section'),
-  {
-    ssr: false,
-  }
-);
+import { ArrowLeft, CalendarIcon, Clock } from 'lucide-react';
+import { getMDXComponents } from '@/components/docs/mdx-components';
+import CommentsSection from '@/components/blog/comments/comments-section';
 
 interface BlogPostParams {
   locale: Locale;
@@ -64,12 +57,14 @@ interface BlogPostPageProps {
 }
 
 function getReadingTime(post: BlogType): number | undefined {
-  if (typeof post.data.readingTime === 'number') {
-    return post.data.readingTime;
+  const data = post.data as any;
+
+  if (typeof data.readingTime === 'number') {
+    return data.readingTime;
   }
 
-  if (typeof post.data.readTime === 'number') {
-    return post.data.readTime;
+  if (typeof data.readTime === 'number') {
+    return data.readTime;
   }
 
   return undefined;

@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "name": "Digimon Story Time Stranger Global Guide",
-    "title": "Digimon Story Time Stranger Guide \u2013 Walkthroughs & Tools",
+    "name": "Time Stranger Global Guide",
+    "title": "Time Stranger Guide – Walkthroughs & Tools",
     "description": "Command the timeline with structured walkthroughs, Digimon databases, patch intel, and planning tools built for dedicated Story Time Stranger tamers worldwide."
   },
   "Common": {
@@ -146,7 +146,7 @@
     "description": "Thwordle is a daily word puzzle game that challenges your vocabulary and deduction skills.",
     "authorName": "Thwordle",
     "authorBio": "Word Puzzle Game",
-    "introduction": "\ud83d\udc4b Welcome to Thwordle! Challenge yourself with our daily word puzzle game that tests your vocabulary and problem-solving skills. If you have any questions or feedback, feel free to contact us.",
+    "introduction": "👋 Welcome to Thwordle! Challenge yourself with our daily word puzzle game that tests your vocabulary and problem-solving skills. If you have any questions or feedback, feel free to contact us.",
     "talkWithMe": "Talk with me",
     "followMe": "Follow me on X"
   },
@@ -272,7 +272,7 @@
   },
   "BlogPage": {
     "title": "Digimon Strategy Blog",
-    "description": "Patch intel, team builds, and community spotlights for Digimon Story Time Stranger.",
+    "description": "Patch intel, team builds, and community spotlights for Time Stranger.",
     "subtitle": "Latest guides, event breakdowns, and meta reports",
     "author": "Author",
     "categories": "Categories",
@@ -417,7 +417,7 @@
       }
     },
     "footer": {
-      "tagline": "World-first Digimon Story Time Stranger strategy compendium with live data updates.",
+      "tagline": "World-first Time Stranger strategy compendium with live data updates.",
       "guides": {
         "title": "Guides",
         "items": {
@@ -721,7 +721,7 @@
   "Mail": {
     "common": {
       "team": "{name} Team",
-      "copyright": "\u00a9\ufe0f {year} All Rights Reserved."
+      "copyright": "©️ {year} All Rights Reserved."
     },
     "verifyEmail": {
       "title": "Hi, {name}.",
@@ -747,11 +747,11 @@
     }
   },
   "HomePage": {
-    "title": "Digimon Story Time Stranger Guide \u2013 Walkthroughs & Tools",
+    "title": "Time Stranger Guide – Walkthroughs & Tools",
     "description": "Command the timeline with structured walkthroughs, Digimon databases, patch intel, and planning tools built for dedicated Story Time Stranger tamers worldwide.",
     "hero": {
       "badge": "Global Digimon strategy hub",
-      "title": "Crack every mystery in Digimon Story Time Stranger",
+      "title": "Crack every mystery in Time Stranger",
       "description": "Access structured walkthroughs, evolution planning tools, and live update coverage built for explorers from Tokyo to Paris.",
       "primaryCta": "Explore Guides",
       "secondaryCta": "Launch Team Builder"
@@ -829,17 +829,17 @@
         {
           "name": "Mira Takahashi",
           "role": "JP community strategist",
-          "quote": "\u201cThe bilingual arc dashboards save me hours every patch. Our Discord wouldn\u2019t raid without them anymore.\u201d"
+          "quote": "“The bilingual arc dashboards save me hours every patch. Our Discord wouldn’t raid without them anymore.”"
         },
         {
-          "name": "Leo Mart\u00ednez",
+          "name": "Leo Martínez",
           "role": "LATAM event host",
-          "quote": "\u201cEvolution Planner plus localized loot tables keeps our weekend marathons smooth and spoiler-free.\u201d"
+          "quote": "“Evolution Planner plus localized loot tables keeps our weekend marathons smooth and spoiler-free.”"
         },
         {
           "name": "Claire Moreau",
           "role": "FR guide writer",
-          "quote": "\u201cBeing able to submit updates and see them cross-linked to maps instantly changed our workflow.\u201d"
+          "quote": "“Being able to submit updates and see them cross-linked to maps instantly changed our workflow.”"
         }
       ]
     },
@@ -974,75 +974,75 @@
   },
   "DigimonHome": {
     "hero": {
-      "featureLabel": "For every Time Stranger tamer",
-      "title": "Digimon Story Time Stranger Guide Hub",
-      "description": "Track launch intel, master combat systems, and prep your squad before touching the controller.",
-      "primaryCta": "Start Launch Checklist",
-      "primaryHref": "/guides/beginner",
-      "secondaryCta": "Browse Story Guides",
-      "secondaryHref": "/guides/starter-digimon",
+      "featureLabel": "Time Stranger walkthrough HQ",
+      "title": "Time Stranger Walkthrough",
+      "description": "Follow the definitive Time Stranger walkthrough across every chapter branch, boss encounter, and missable collectible without losing pace.",
+      "primaryCta": "Launch the walkthrough",
+      "primaryHref": "/guides/walkthrough/main-arc",
+      "secondaryCta": "Skip to chapter select",
+      "secondaryHref": "/guides/walkthrough",
       "audience": [
-        "New tamers planning their opening hours",
-        "Theorycrafters optimizing evolutions and resistances",
-        "Lore fans archiving every timeline branch"
+        "Story-focused tamers relying on a spoiler-aware Time Stranger walkthrough roadmap.",
+        "Completionists checking each Time Stranger walkthrough checklist before advancing.",
+        "Speedrunners syncing Time Stranger walkthrough optimizations with event timers."
       ],
       "stats": [
         {
-          "label": "Launch Window",
-          "value": "October 18\u201320, 2025",
-          "helper": "Global release weekend across PS5, Xbox, and PC."
+          "label": "Chapters mapped",
+          "value": "12 walkthrough arcs",
+          "helper": "Every main act annotated with dialogue flags and boss prep."
         },
         {
-          "label": "Playable Platforms",
-          "value": "PS5 \u2022 Xbox Series \u2022 Steam",
-          "helper": "Cross-save and performance modes confirmed by Bandai Namco previews."
+          "label": "Boss counters logged",
+          "value": "37 encounter sheets",
+          "helper": "Walkthrough tactics tagged with elemental counters and turn cues."
         },
         {
-          "label": "Latest Intel",
-          "value": "Preview Patch 1.02 Notes",
-          "helper": "Balance tuning and quest tweaks published September 28, 2025."
+          "label": "Collectibles routed",
+          "value": "142 pickups synced",
+          "helper": "Missable treasures folded into the active walkthrough path."
         }
       ],
-      "quickStartHeading": "3 fast steps to get ready",
-      "quickStartDescription": "Hit the highlights in under 15 minutes, then dive deeper where you need.",
+      "quickStartHeading": "Time Stranger walkthrough quick launch",
+      "quickStartDescription": "Three steps to jump straight into the walkthrough segment you need right now.",
       "quickStart": [
         {
-          "title": "Watch the 5-minute story recap",
-          "description": "Catch up on the Time Stranger timeline and the factions driving the campaign.",
+          "title": "Open the campaign walkthrough map",
+          "description": "Preview the act-by-act flow before stepping into the Digital World.",
           "href": "/guides/walkthrough/main-arc",
-          "ctaLabel": "Watch now"
+          "ctaLabel": "View act map"
         },
         {
-          "title": "Lock your starter team plan",
-          "description": "Compare starter Digimon roles, affinities, and early digivolution paths.",
-          "href": "/guides/starter-digimon",
-          "ctaLabel": "Plan squad"
+          "title": "Check the boss walkthrough cards",
+          "description": "Review mechanics, resistances, and counter picks ahead of each fight.",
+          "href": "/guides/boss/apex-dossiers",
+          "ctaLabel": "Open boss cards"
         },
         {
-          "title": "Bookmark the launch weekend schedule",
-          "description": "Track events, raids, and bonus drop rotations for the first 72 hours.",
-          "href": "/news/events/luminous-tides-briefing",
-          "ctaLabel": "View schedule"
+          "title": "Sync side objectives to the route",
+          "description": "Layer optional cases and collectibles onto your active chapter.",
+          "href": "/guides/side-quests/expedition-ledger",
+          "ctaLabel": "Plan optional runs"
         }
       ],
       "cardHighlights": [
         {
-          "title": "What we cover",
-          "description": "Story beats, battle strategies, monetization checklists, and event alerts curated for fast reference."
+          "title": "Spoiler-aware walkthrough toggles",
+          "description": "Swap between high-level cues and full step-by-step details without revealing future twists."
         },
         {
-          "title": "Why it matters",
-          "description": "Prep with spoiler-aware clarity so you spend game time executing, not searching."
+          "title": "Checkpoint-based reminders",
+          "description": "Every Digilab break includes craft, farm, and recruit prompts baked into the walkthrough."
         }
       ],
       "card": {
-        "tagline": "Unofficial fan intelligence",
-        "title": "Your spoiler-aware mission control",
-        "description": "Independent coverage built for collectors, meta chasers, and lore archivists.",
-        "metaLabel": "Guide HQ URL",
-        "metaValue": "https://digimonstorytimestranger.com",
-        "metaHelper": "Add to your bookmarks and mobile home screen for instant access.",
-        "footnote": "We are a fan project. All trademarks belong to their respective owners."
+        "tagline": "Time Stranger walkthrough intelligence",
+        "title": "One-click chapter briefing",
+        "description": "Load condensed enemy prep, branching choice alerts, and loot reminders for the chapter you are playing.",
+        "metaLabel": "Current walkthrough focus",
+        "metaValue": "Chapter 04 • Quantum Rift Pursuit",
+        "metaHelper": "Updated for patch 1.02 timeline adjustments and new rewards.",
+        "footnote": "Fan-made Time Stranger walkthrough project. All trademarks belong to their owners."
       }
     },
     "updates": {
@@ -1082,7 +1082,7 @@
       "title": "Localization-first rollout",
       "description": "English, Japanese, Spanish, and French ship day-one with mirrored URLs and metadata.",
       "regions": [
-        "\u65e5\u672c\u8a9e\u653b\u7565\u73ed",
+        "日本語攻略班",
         "North & Latin America",
         "France & Quebec",
         "Community-sourced languages"
@@ -1090,9 +1090,9 @@
       "upcomingTitle": "Upcoming language drops",
       "upcoming": [
         "Deutsch (Target: Q4 2025)",
-        "\ud55c\uad6d\uc5b4 (Target: Q1 2026)",
+        "한국어 (Target: Q1 2026)",
         "Italiano (Community pilot)",
-        "Portugu\u00eas-BR (Volunteer recruitment)"
+        "Português-BR (Volunteer recruitment)"
       ],
       "ctaLabel": "Pick your language feed",
       "ctaHref": "/community/share-guide"
@@ -1107,7 +1107,7 @@
       "meta": "Set your locale preference to receive notifications in your language."
     },
     "faq": {
-      "title": "Digimon Story Time Stranger FAQ",
+      "title": "Time Stranger FAQ",
       "subtitle": "Key answers for strategy planners and new tamers.",
       "items": [
         {
@@ -1129,116 +1129,89 @@
       ]
     },
     "contentDiscovery": {
-      "eyebrow": "Pick your path",
-      "title": "What do you want to dive into?",
-      "description": "Toggle between curated playlists built from the latest posts and evergreen anchors.",
-      "itemCtaLabel": "Read now",
+      "eyebrow": "Choose your walkthrough lane",
+      "title": "Time Stranger walkthrough playlists",
+      "description": "Jump straight to the Time Stranger walkthrough queue that matches your campaign progress.",
+      "itemCtaLabel": "Open walkthrough",
       "categories": [
         {
-          "id": "guides",
-          "label": "Guides",
-          "tagline": "Step-by-step walkthroughs for core chapters, optional quests, and secret endings.",
-          "ctaLabel": "Open guides hub",
-          "ctaHref": "/guides",
+          "id": "chapters",
+          "label": "Main Chapters",
+          "tagline": "Chapter-by-chapter Time Stranger walkthrough notes with spoiler controls.",
+          "ctaLabel": "Browse chapter walkthroughs",
+          "ctaHref": "/guides/walkthrough/main-arc",
           "items": [
             {
-              "title": "Main story walkthrough (Act 1)",
-              "description": "Beat-by-beat mission flow with best dialogue responses and reward callouts.",
+              "title": "Prologue & Act I walkthrough",
+              "description": "Beat-by-beat story directions, dialogue picks, and quest unlocks.",
               "href": "/guides/walkthrough/main-arc",
               "meta": "Updated Oct 2025"
             },
             {
-              "title": "Side case tracker",
-              "description": "Track every detective request, unlock condition, and missable reward in one sheet.",
-              "href": "/guides/side-quests/expedition-ledger",
-              "meta": "12 min read"
+              "title": "Timeline branch tracker",
+              "description": "See how Karma choices ripple through later walkthrough chapters.",
+              "href": "/guides/walkthrough",
+              "meta": "Branch map"
             },
             {
-              "title": "Boss prep quick sheets",
-              "description": "Battle summaries, elemental counters, and recommended party layouts for major fights.",
+              "title": "New Game+ pacing guide",
+              "description": "Optimized walkthrough loop for replays chasing alternate endings.",
+              "href": "/guides/secrets/lost-chronicle",
+              "meta": "Spoiler safe"
+            }
+          ]
+        },
+        {
+          "id": "bosses",
+          "label": "Boss Encounters",
+          "tagline": "Encounter-specific Time Stranger walkthrough breakdowns with positioning and cooldown cues.",
+          "ctaLabel": "Inspect boss walkthroughs",
+          "ctaHref": "/guides/boss/apex-dossiers",
+          "items": [
+            {
+              "title": "Apex dossier: Quantum Knight",
+              "description": "Timeline, phase shifts, and debuff windows aligned with the main walkthrough.",
               "href": "/guides/boss/apex-dossiers",
-              "meta": "Community favorite"
+              "meta": "Boss sheet"
+            },
+            {
+              "title": "Armor burst counterstrats",
+              "description": "Recommended party cores and memory setups for anti-armor bosses.",
+              "href": "/guides/team-builder/synergy-matrix",
+              "meta": "Team planner"
+            },
+            {
+              "title": "Raid prep walkthrough inserts",
+              "description": "Insertable steps for week-one raids layered onto story chapters.",
+              "href": "/news/events/luminous-tides-briefing",
+              "meta": "Event sync"
             }
           ]
         },
         {
-          "id": "progression",
-          "label": "Progression",
-          "tagline": "Leveling, currency farming, and evolution roadmaps to stay ahead of the curve.",
-          "ctaLabel": "Explore progression tips",
-          "ctaHref": "/guides/beginner",
+          "id": "collectibles",
+          "label": "Collectibles & Cases",
+          "tagline": "Side-case and collectible walkthrough overlays to keep runs efficient.",
+          "ctaLabel": "Apply completion route",
+          "ctaHref": "/guides/side-quests/expedition-ledger",
           "items": [
             {
-              "title": "Daily resource planner",
-              "description": "Efficient routines for metals, memories, and evolution catalysts across zones.",
-              "href": "/guides/beginner/field-manual",
-              "meta": "Planner download"
+              "title": "Side case walkthrough queue",
+              "description": "Order every optional request alongside the main chapter itinerary.",
+              "href": "/guides/side-quests/expedition-ledger",
+              "meta": "Completion route"
             },
             {
-              "title": "Evolution breakpoints cheat sheet",
-              "description": "Know the stats and quest gates before you commit to a digivolution branch.",
+              "title": "Field guide 100% route",
+              "description": "Bind recruitment and evolution requirements to the walkthrough timeline.",
               "href": "/guides/starter-digimon",
-              "meta": "5 min read"
+              "meta": "Roster sync"
             },
             {
-              "title": "Affinity & personality combos",
-              "description": "Pair personalities with team roles to squeeze extra bonuses from your roster.",
-              "href": "/guides/personality",
-              "meta": "New"
-            }
-          ]
-        },
-        {
-          "id": "pvp",
-          "label": "PvP & Raids",
-          "tagline": "Meta snapshots, comp ideas, and weekly raid prep in one glance.",
-          "ctaLabel": "Browse meta reports",
-          "ctaHref": "/guides/boss",
-          "items": [
-            {
-              "title": "Opening ladder report",
-              "description": "Top 10 squad archetypes from preview ladders with counter play tips.",
-              "href": "/news/updates/chronoshift-1-1-2",
-              "meta": "Meta watch"
-            },
-            {
-              "title": "Raid prep: Empyrean Singularity",
-              "description": "Consumable checklist, recommended resistances, and timeline for the first raid rotation.",
-              "href": "/guides/boss",
-              "meta": "Team sheet"
-            },
-            {
-              "title": "Link bonus calculator",
-              "description": "Experiment with duo and trio link bonuses before you farm the pieces.",
-              "href": "/tools",
-              "meta": "Interactive"
-            }
-          ]
-        },
-        {
-          "id": "updates",
-          "label": "Updates",
-          "tagline": "Patch intel, dev interviews, and event timelines distilled for quick scanning.",
-          "ctaLabel": "Open news desk",
-          "ctaHref": "/news/updates",
-          "items": [
-            {
-              "title": "Preview patch 1.02 breakdown",
-              "description": "Damage curve adjustments, bug fixes, and new QoL features in plain language.",
-              "href": "/news/updates/chronoshift-1-1-2",
-              "meta": "7 min read"
-            },
-            {
-              "title": "Producer Q&A highlights",
-              "description": "Key takeaways from TGS interviews on endgame systems and monetization.",
-              "href": "/news",
-              "meta": "Interview"
-            },
-            {
-              "title": "Event roadmap tracker",
-              "description": "Calendar of global spotlights, collaboration quests, and limited-time rewards.",
-              "href": "/news/events",
-              "meta": "Live tracker"
+              "title": "Treasure & memory scan overlay",
+              "description": "Find encrypted chests and memory scans without backtracking.",
+              "href": "/database/maps",
+              "meta": "Map overlay"
             }
           ]
         }
@@ -1266,7 +1239,7 @@
             },
             {
               "character": "Gankoomon",
-              "line": "Your resolve anchors the Royal Knights\u2014waver and the loop snaps."
+              "line": "Your resolve anchors the Royal Knights—waver and the loop snaps."
             }
           ]
         },
@@ -1282,7 +1255,7 @@
           "voiceLines": [
             {
               "character": "Minervamon",
-              "line": "Every future you fear has already been written\u2014show me the page you want to keep."
+              "line": "Every future you fear has already been written—show me the page you want to keep."
             },
             {
               "character": "Ryuuji",
@@ -1293,16 +1266,125 @@
       ]
     },
     "videos": {
-      "title": "Digimon Story Time Stranger Video Gallery",
+      "title": "Time Stranger Video Gallery",
       "description": "Watch Time Stranger gameplay breakdowns, trailers, and creator deep dives.",
       "playlistLabel": "More videos",
       "ctaLabel": "View full video archive",
       "ctaHref": "/news"
+    },
+    "walkthroughRoadmap": {
+      "eyebrow": "Chapter roadmap",
+      "title": "Time Stranger walkthrough roadmap",
+      "description": "Preview the three-act structure of our Time Stranger walkthrough before you dive in.",
+      "ctaLabel": "Open walkthrough",
+      "timeline": [
+        {
+          "phase": "Act I",
+          "heading": "Neon District prologue",
+          "description": "Tutorial missions, partner selection, and early Karma triggers mapped beat by beat.",
+          "href": "/guides/walkthrough/main-arc#act-i",
+          "beats": [
+            {
+              "title": "Tutorial sync",
+              "details": "Secure the starter lineup and grab the missable Memory Set from the alley chest."
+            },
+            {
+              "title": "First branch warning",
+              "details": "Flag the neutral vs. rebel choice that shifts dialogue in Act III."
+            },
+            {
+              "title": "Boss: Clockwork Tyrant",
+              "details": "Stun windows, resistances, and recommended healer loadout."
+            }
+          ]
+        },
+        {
+          "phase": "Act II",
+          "heading": "Infinity Cauldron escalation",
+          "description": "Cross-city investigations, raid prep inserts, and affinity locks embedded into the walkthrough flow.",
+          "href": "/guides/walkthrough/main-arc#act-ii",
+          "beats": [
+            {
+              "title": "City hub reroutes",
+              "details": "Sequence detective cases to minimize backtracking and unlock bonus AP nodes."
+            },
+            {
+              "title": "Raid rehearsal",
+              "details": "Optional insert for the Empyrean Singularity raid primer tied to chapter 6."
+            },
+            {
+              "title": "Boss: Quantum Knight",
+              "details": "Phase shift cues and memory crystal timing to secure the S-rank reward."
+            }
+          ]
+        },
+        {
+          "phase": "Act III",
+          "heading": "Temporal fracture finale",
+          "description": "Final chapters layering secret endings, collectible sweeps, and New Game+ unlocks.",
+          "href": "/guides/walkthrough/main-arc#act-iii",
+          "beats": [
+            {
+              "title": "Branch resolution",
+              "details": "Checklist to lock Neutral, Resistance, or Reconvergence endings."
+            },
+            {
+              "title": "Collectible sweep",
+              "details": "Route every remaining memory scan before the point of no return."
+            },
+            {
+              "title": "Final boss gauntlet",
+              "details": "Turn order cheat sheet and burst thresholds for the dual-phase finale."
+            }
+          ]
+        }
+      ]
+    },
+    "walkthroughSupport": {
+      "eyebrow": "Walkthrough support layers",
+      "title": "Tools that power the Time Stranger walkthrough",
+      "description": "Everything surrounding the Time Stranger walkthrough to keep your run efficient and spoiler-safe.",
+      "pillarLabel": "Walkthrough boost",
+      "pillars": [
+        {
+          "title": "Route management overlay",
+          "description": "Overlay the walkthrough with live maps and checklist syncing.",
+          "bullets": [
+            "Interactive maps that mirror every step of the walkthrough timeline.",
+            "Checklist mode for collectibles, memories, and affinity gates.",
+            "Localized notes so multi-language squads stay aligned."
+          ],
+          "href": "/database/maps",
+          "cta": "Browse the map overlay"
+        },
+        {
+          "title": "Boss briefing lab",
+          "description": "Quickly absorb each encounter before it interrupts your walkthrough flow.",
+          "bullets": [
+            "Condensed encounter videos linked to the walkthrough chapters.",
+            "Damage range calculators mapped to your current roster.",
+            "Printable cheat sheets for offline co-op sessions."
+          ],
+          "href": "/guides/boss/apex-dossiers",
+          "cta": "Open boss lab"
+        },
+        {
+          "title": "Post-chapter recovery kit",
+          "description": "Reset, farm, and prep the next section without derailing the walkthrough pacing.",
+          "bullets": [
+            "Recommended farming loops slotted between walkthrough checkpoints.",
+            "Memory and plugin shopping lists for the next chapter entry.",
+            "Community tips curated from verified walkthrough submissions."
+          ],
+          "href": "/community/discussion",
+          "cta": "Share your route"
+        }
+      ]
     }
   },
   "GuidesOverview": {
-    "title": "Digimon Story Time Stranger Guides Hub",
-    "description": "Guides Hub for Digimon Story Time Stranger unites walkthroughs, quest maps, optimization tips, and onboarding plans so tamers pace progression and rewards.",
+    "title": "Time Stranger Guides Hub",
+    "description": "Guides Hub for Time Stranger unites walkthroughs, quest maps, optimization tips, and onboarding plans so tamers pace progression and rewards.",
     "page": {
       "hero": {
         "badge": "Guides Hub",
@@ -1386,45 +1468,45 @@
         },
         {
           "title": "Personality lab playbook",
-          "description": "Build the Digimon Story Time Stranger Personality page with testing steps, data sources, and conversion CTAs.",
+          "description": "Build the Time Stranger Personality page with testing steps, data sources, and conversion CTAs.",
           "href": "/guides/personality"
         },
         {
           "title": "Metacritic intelligence center",
-          "description": "Transform Digimon Story Time Stranger Metacritic scores into commerce-ready dashboards and reports.",
+          "description": "Transform Time Stranger Metacritic scores into commerce-ready dashboards and reports.",
           "href": "/guides/metacritic"
         },
         {
           "title": "Security caution: Crack risks",
-          "description": "Educate audiences about Digimon Story Time Stranger Crack dangers while routing them to official offers.",
+          "description": "Educate audiences about Time Stranger Crack dangers while routing them to official offers.",
           "href": "/guides/crack"
         },
         {
           "title": "Torrent safety briefing",
-          "description": "Deconstruct every Digimon Story Time Stranger Torrent hazard and showcase legitimate alternatives.",
+          "description": "Deconstruct every Time Stranger Torrent hazard and showcase legitimate alternatives.",
           "href": "/guides/torrent"
         },
         {
           "title": "Starter Digimon blueprint",
-          "description": "Craft on-boarding content focused on Digimon Story Time Stranger Starter Digimon team architecture.",
+          "description": "Craft on-boarding content focused on Time Stranger Starter Digimon team architecture.",
           "href": "/guides/starter-digimon"
         },
         {
           "title": "Denuvo diagnostics lab",
-          "description": "Publish benchmark-driven analysis covering Digimon Story Time Stranger Denuvo effects and optimizations.",
+          "description": "Publish benchmark-driven analysis covering Time Stranger Denuvo effects and optimizations.",
           "href": "/guides/denuvo"
         },
         {
           "title": "Patamon spotlight kit",
-          "description": "Assemble lore, stats, evolutions, and merchandising ideas for Patamon in Digimon Story Time Stranger.",
+          "description": "Assemble lore, stats, evolutions, and merchandising ideas for Patamon in Time Stranger.",
           "href": "/guides/patamon"
         }
       ]
     }
   },
   "GuidesBeginner": {
-    "title": "Beginner Compass \u2013 Digimon Story Time Stranger",
-    "description": "Onboarding guide covering partner selection, combat basics, resource loops, and evolution prep so new Digimon Story Time Stranger tamers thrive early.",
+    "title": "Beginner Compass – Time Stranger",
+    "description": "Onboarding guide covering partner selection, combat basics, resource loops, and evolution prep so new Time Stranger tamers thrive early.",
     "page": {
       "hero": {
         "badge": "Onboarding",
@@ -1482,8 +1564,8 @@
     }
   },
   "GuidesWalkthrough": {
-    "title": "Story Walkthrough \u2013 Digimon Story Time Stranger",
-    "description": "Mission-by-mission log tracking branching choices, boss prep checklists, and reward milestones in Digimon Story Time Stranger so story players miss nothing.",
+    "title": "Story Walkthrough – Time Stranger",
+    "description": "Mission-by-mission log tracking branching choices, boss prep checklists, and reward milestones in Time Stranger so story players miss nothing.",
     "page": {
       "hero": {
         "badge": "Main Story",
@@ -1548,8 +1630,8 @@
     }
   },
   "GuidesSideQuests": {
-    "title": "Side Quests & Favors \u2013 Digimon Story Time Stranger",
-    "description": "Catalog Digimon Story Time Stranger side quests with unlock windows, affinity gains, loot rotations, and rewards so completionists plan optional paths smoothly.",
+    "title": "Side Quests & Favors – Time Stranger",
+    "description": "Catalog Time Stranger side quests with unlock windows, affinity gains, loot rotations, and rewards so completionists plan optional paths smoothly.",
     "page": {
       "hero": {
         "badge": "Completion",
@@ -1599,8 +1681,8 @@
     }
   },
   "GuidesBoss": {
-    "title": "Boss Strategies \u2013 Digimon Story Time Stranger",
-    "description": "Combat dossiers detailing mechanics, turn orders, resist charts, and counterplay kits for every Digimon Story Time Stranger boss so squads script safe clears.",
+    "title": "Boss Strategies – Time Stranger",
+    "description": "Combat dossiers detailing mechanics, turn orders, resist charts, and counterplay kits for every Time Stranger boss so squads script safe clears.",
     "page": {
       "hero": {
         "badge": "Combat Lab",
@@ -1652,12 +1734,12 @@
     }
   },
   "GuidesSecrets": {
-    "title": "Secrets & Collectibles \u2013 Digimon Story Time Stranger",
-    "description": "Catalog hidden Digimon, collectible chains, alternate endings, and post-game unlock routes in Digimon Story Time Stranger with spoiler-safe guidance for fans.",
+    "title": "Secrets & Collectibles – Time Stranger",
+    "description": "Catalog hidden Digimon, collectible chains, alternate endings, and post-game unlock routes in Time Stranger with spoiler-safe guidance for fans.",
     "page": {
       "hero": {
         "badge": "Exploration",
-        "title": "Unlock the Stranger\u2019s deepest secrets",
+        "title": "Unlock the Stranger’s deepest secrets",
         "description": "Map-driven checklists covering memory shards, secret bosses, hidden dialogue, and alternate endings."
       },
       "sections": [
@@ -1703,8 +1785,8 @@
     }
   },
   "DatabaseOverview": {
-    "title": "Database Hub \u2013 Digimon Story Time Stranger",
-    "description": "Database Hub for Digimon Story Time Stranger centralizes Digimon, item, and map datasets with cross-linked relationships and filters for multilingual planning.",
+    "title": "Database Hub – Time Stranger",
+    "description": "Database Hub for Time Stranger centralizes Digimon, item, and map datasets with cross-linked relationships and filters for multilingual planning.",
     "page": {
       "hero": {
         "badge": "Database",
@@ -1747,8 +1829,8 @@
     }
   },
   "DatabaseDigimon": {
-    "title": "Digimon Index \u2013 Digimon Story Time Stranger",
-    "description": "Explore a searchable Digimon Story Time Stranger encyclopedia with stats, traits, skills, and evolution routes to plan balanced rosters and upgrades.",
+    "title": "Digimon Index – Time Stranger",
+    "description": "Explore a searchable Time Stranger encyclopedia with stats, traits, skills, and evolution routes to plan balanced rosters and upgrades.",
     "page": {
       "hero": {
         "badge": "Data Vault",
@@ -1788,8 +1870,8 @@
     }
   },
   "DatabaseItems": {
-    "title": "Item & Craft Archive \u2013 Digimon Story Time Stranger",
-    "description": "Manage Digimon Story Time Stranger farming with an item catalog covering drop sources, crafting formulas, vendor schedules, and upgrade priorities in one hub.",
+    "title": "Item & Craft Archive – Time Stranger",
+    "description": "Manage Time Stranger farming with an item catalog covering drop sources, crafting formulas, vendor schedules, and upgrade priorities in one hub.",
     "page": {
       "hero": {
         "badge": "Economy",
@@ -1835,8 +1917,8 @@
     }
   },
   "DatabaseMaps": {
-    "title": "Atlas of Time \u2013 Digimon Story Time Stranger",
-    "description": "Navigate Digimon Story Time Stranger with interactive maps layered with collectibles, NPC routes, enemy habitats, and fast-travel intel for efficient runs.",
+    "title": "Atlas of Time – Time Stranger",
+    "description": "Navigate Time Stranger with interactive maps layered with collectibles, NPC routes, enemy habitats, and fast-travel intel for efficient runs.",
     "page": {
       "hero": {
         "badge": "Exploration",
@@ -1876,8 +1958,8 @@
     }
   },
   "ToolsOverview": {
-    "title": "Planning Tools \u2013 Digimon Story Time Stranger",
-    "description": "Planning tools hub for Digimon Story Time Stranger launches the evolution tree, skill planner, and team builder so squads script strategies before combat.",
+    "title": "Planning Tools – Time Stranger",
+    "description": "Planning tools hub for Time Stranger launches the evolution tree, skill planner, and team builder so squads script strategies before combat.",
     "page": {
       "hero": {
         "badge": "Toolkit",
@@ -1923,13 +2005,13 @@
     }
   },
   "ToolsEvolutionTree": {
-    "title": "Evolution Tree Planner \u2013 Digimon Story Time Stranger",
-    "description": "Model Digimon Story Time Stranger evolution branches with requirement tracking, resource costs, stat projections, and exportable plans for coordinated growth.",
+    "title": "Evolution Tree Planner – Time Stranger",
+    "description": "Model Time Stranger evolution branches with requirement tracking, resource costs, stat projections, and exportable plans for coordinated growth.",
     "page": {
       "hero": {
         "badge": "Planner",
         "title": "Trace every possible evolution path",
-        "description": "Simulate your roster\u2019s future to avoid dead ends, manage resources, and unlock hidden Digimon efficiently."
+        "description": "Simulate your roster’s future to avoid dead ends, manage resources, and unlock hidden Digimon efficiently."
       },
       "sections": [
         {
@@ -1970,8 +2052,8 @@
     }
   },
   "ToolsSkillPlanner": {
-    "title": "Skill Planner \u2013 Digimon Story Time Stranger",
-    "description": "Optimize Digimon Story Time Stranger ability investments with live multipliers, cooldown analysis, synergy notes, and exportable builds for smooth progression.",
+    "title": "Skill Planner – Time Stranger",
+    "description": "Optimize Time Stranger ability investments with live multipliers, cooldown analysis, synergy notes, and exportable builds for smooth progression.",
     "page": {
       "hero": {
         "badge": "Planner",
@@ -2021,8 +2103,8 @@
     }
   },
   "ToolsTeamBuilder": {
-    "title": "Team Builder \u2013 Digimon Story Time Stranger",
-    "description": "Construct Digimon Story Time Stranger squads with resistance matrices, role coverage, synergy scoring, and shareable loadouts to prepare for every encounter.",
+    "title": "Team Builder – Time Stranger",
+    "description": "Construct Time Stranger squads with resistance matrices, role coverage, synergy scoring, and shareable loadouts to prepare for every encounter.",
     "page": {
       "hero": {
         "badge": "Planner",
@@ -2072,8 +2154,8 @@
     }
   },
   "NewsOverview": {
-    "title": "News Center \u2013 Digimon Story Time Stranger",
-    "description": "News center for Digimon Story Time Stranger delivering patch notes, event announcements, and editorial briefs so players stay aligned across regions.",
+    "title": "News Center – Time Stranger",
+    "description": "News center for Time Stranger delivering patch notes, event announcements, and editorial briefs so players stay aligned across regions.",
     "page": {
       "hero": {
         "badge": "Newsroom",
@@ -2115,8 +2197,8 @@
     }
   },
   "NewsUpdates": {
-    "title": "Patch Tracker \u2013 Digimon Story Time Stranger",
-    "description": "Live digest of Digimon Story Time Stranger patch notes with localized highlights, balance tables, meta implications, and recommended reactions for squads.",
+    "title": "Patch Tracker – Time Stranger",
+    "description": "Live digest of Time Stranger patch notes with localized highlights, balance tables, meta implications, and recommended reactions for squads.",
     "page": {
       "hero": {
         "badge": "Patches",
@@ -2154,8 +2236,8 @@
     }
   },
   "NewsEvents": {
-    "title": "Events Calendar \u2013 Digimon Story Time Stranger",
-    "description": "Time-zone aware calendar covering Digimon Story Time Stranger raids, collaborations, promotions, and prep checklists so teams never miss timed content.",
+    "title": "Events Calendar – Time Stranger",
+    "description": "Time-zone aware calendar covering Time Stranger raids, collaborations, promotions, and prep checklists so teams never miss timed content.",
     "page": {
       "hero": {
         "badge": "Events",
@@ -2197,8 +2279,8 @@
     }
   },
   "CommunityHub": {
-    "title": "Community Hub \u2013 Digimon Story Time Stranger",
-    "description": "Community hub for Digimon Story Time Stranger hosts discussions, meetup coordination, moderation policies, and creator spotlights so tamers stay connected.",
+    "title": "Community Hub – Time Stranger",
+    "description": "Community hub for Time Stranger hosts discussions, meetup coordination, moderation policies, and creator spotlights so tamers stay connected.",
     "page": {
       "hero": {
         "badge": "Community",
@@ -2248,8 +2330,8 @@
     }
   },
   "CommunitySubmit": {
-    "title": "Submit a Guide \u2013 Digimon Story Time Stranger",
-    "description": "Contributor workflow for Digimon Story Time Stranger fans to submit guides, data corrections, and translations with clear review milestones and publishing help.",
+    "title": "Submit a Guide – Time Stranger",
+    "description": "Contributor workflow for Time Stranger fans to submit guides, data corrections, and translations with clear review milestones and publishing help.",
     "page": {
       "hero": {
         "badge": "Contribute",
@@ -2295,8 +2377,8 @@
     }
   },
   "CommunityDiscussion": {
-    "title": "Strategy Discussion \u2013 Digimon Story Time Stranger",
-    "description": "Discussion boards for Digimon Story Time Stranger covering meta analysis, Q&A, theorycrafting, and locale-specific strategy debates with spoiler tagging tools.",
+    "title": "Strategy Discussion – Time Stranger",
+    "description": "Discussion boards for Time Stranger covering meta analysis, Q&A, theorycrafting, and locale-specific strategy debates with spoiler tagging tools.",
     "page": {
       "hero": {
         "badge": "Discussion",

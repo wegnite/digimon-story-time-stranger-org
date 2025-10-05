@@ -9,7 +9,7 @@ import { getBaseUrl } from '../lib/urls/urls';
 type Href = Parameters<typeof getLocalePathname>[0]['href'];
 
 /**
- * Static routes for Digimon Story Time Stranger
+ * Static routes for Time Stranger
  */
 const staticRoutes = [
   '/',
@@ -175,7 +175,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   );
 
   // Blog routes temporarily disabled to avoid 404 pages in sitemap
-  // TODO: Re-enable when blog content is ready for Digimon Story Time Stranger
+  // TODO: Re-enable when blog content is ready for Time Stranger
   /*
   if (websiteConfig.blog.enable) {
     const posts = blogSource
@@ -200,7 +200,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
   // Docs routes temporarily disabled to avoid 404 pages in sitemap
-  // TODO: Re-enable when docs content is relevant for Digimon Story Time Stranger
+  // TODO: Re-enable when docs content is relevant for Time Stranger
   /*
   if (websiteConfig.docs.enable) {
     const docsParams = source.generateParams();

@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "name": "Gu\u00eda Global Digimon Story Time Stranger",
-    "title": "Gu\u00eda Digimon Story Time Stranger \u2013 Rutas y Herramientas",
-    "description": "Coordina rutas de historia, bases de datos de Digimon, avisos de parches y planificadores con soporte multiling\u00fce para jugadores de Digimon Story Time Stranger."
+    "name": "Gu\u00eda Global Time Stranger",
+    "title": "Gu\u00eda Time Stranger \u2013 Rutas y Herramientas",
+    "description": "Coordina rutas de historia, bases de datos de Digimon, avisos de parches y planificadores con soporte multiling\u00fce para jugadores de Time Stranger."
   },
   "Marketing": {
     "navbar": {
@@ -122,7 +122,7 @@
       }
     },
     "footer": {
-      "tagline": "La base estrat\u00e9gica mundial para Digimon Story Time Stranger.",
+      "tagline": "La base estrat\u00e9gica mundial para Time Stranger.",
       "guides": {
         "title": "Gu\u00edas",
         "items": {
@@ -189,7 +189,7 @@
   "DigimonHome": {
     "hero": {
       "featureLabel": "For every Time Stranger tamer",
-      "title": "Digimon Story Time Stranger Guide Hub",
+      "title": "Time Stranger Guide Hub",
       "description": "Track launch intel, master combat systems, and prep your squad before touching the controller.",
       "primaryCta": "Start Launch Checklist",
       "primaryHref": "/guides/beginner",
@@ -321,7 +321,7 @@
       "meta": "Set your locale preference to receive notifications in your language."
     },
     "faq": {
-      "title": "Digimon Story Time Stranger FAQ",
+      "title": "Time Stranger FAQ",
       "subtitle": "Key answers for strategy planners and new tamers.",
       "items": [
         {
@@ -507,7 +507,7 @@
       ]
     },
     "videos": {
-      "title": "Digimon Story Time Stranger Video Gallery",
+      "title": "Time Stranger Video Gallery",
       "description": "Watch Time Stranger gameplay breakdowns, trailers, and creator deep dives.",
       "playlistLabel": "More videos",
       "ctaLabel": "View full video archive",

@@ -8,18 +8,18 @@ import type { Locale } from 'next-intl';
 const patamonPageData: StructuredPageData = {
   hero: {
     badge: 'Character Spotlight',
-    title: 'Patamon Strategy Atlas for Digimon Story Time Stranger',
+    title: 'Patamon Strategy Atlas for Time Stranger',
     description:
-      'Curate the definitive Patamon experience inside Digimon Story Time Stranger with lore context, battle math, and collectable showcases.',
+      'Curate the definitive Patamon experience inside Time Stranger with lore context, battle math, and collectable showcases.',
   },
   sections: [
     {
       title: 'Patamon Narrative Positioning',
       description:
-        'Frame Patamon within the Digimon Story Time Stranger storyline to hook lore-focused readers.',
+        'Frame Patamon within the Time Stranger storyline to hook lore-focused readers.',
       items: [
-        'Research: Summarize Patamon’s quest triggers, cutscene appearances, and relationship arcs in Digimon Story Time Stranger.',
-        'Visual Spec: Use a split-layout hero card featuring key art of Patamon alongside a timeline labeled “Patamon in Digimon Story Time Stranger”.',
+        'Research: Summarize Patamon’s quest triggers, cutscene appearances, and relationship arcs in Time Stranger.',
+        'Visual Spec: Use a split-layout hero card featuring key art of Patamon alongside a timeline labeled “Patamon in Time Stranger”.',
         'CTA: Include a button “Follow Patamon Story Path” linking to chapter walkthroughs.',
       ],
     },
@@ -28,26 +28,26 @@ const patamonPageData: StructuredPageData = {
       description:
         'Deliver competitive-ready data so Patamon fans can evaluate performance at a glance.',
       items: [
-        'Data Source: Extract Patamon base stats, growth rates, and resistances from Digimon Story Time Stranger game files or official guides.',
+        'Data Source: Extract Patamon base stats, growth rates, and resistances from Time Stranger game files or official guides.',
         'Visual Spec: Build a responsive table plus radar chart; each axis caption repeats Patamon to reinforce keyword density.',
-        'Downloadable: Offer CSV and PNG exports labeled “Patamon Digimon Story Time Stranger Stats”.',
+        'Downloadable: Offer CSV and PNG exports labeled “Patamon Time Stranger Stats”.',
       ],
     },
     {
       title: 'Skill & Ability Matrix',
       description: 'Break down Patamon’s moveset and synergistic combos.',
       items: [
-        'Data Source: Catalogue Patamon skills, cooldowns, and effects from Digimon Story Time Stranger combat logs.',
+        'Data Source: Catalogue Patamon skills, cooldowns, and effects from Time Stranger combat logs.',
         'Visual Spec: Present a matrix mapping Patamon abilities to recommended allies and enemy archetypes.',
-        'Narrative: Add paragraphs clarifying how Patamon contributes to specific battle scenarios in Digimon Story Time Stranger.',
+        'Narrative: Add paragraphs clarifying how Patamon contributes to specific battle scenarios in Time Stranger.',
       ],
     },
     {
       title: 'Evolution Pathways',
       description:
-        'Show every evolution line branching out from Patamon within Digimon Story Time Stranger.',
+        'Show every evolution line branching out from Patamon within Time Stranger.',
       items: [
-        'Research: Document requirements to evolve Patamon into Angemon, MagnaAngemon, and Seraphimon inside Digimon Story Time Stranger.',
+        'Research: Document requirements to evolve Patamon into Angemon, MagnaAngemon, and Seraphimon inside Time Stranger.',
         'Visual Spec: Build a flowchart with clickable nodes; tooltips should mention Patamon repeatedly to maintain keyword saturation.',
         'CTA: Provide a button “Track Patamon Evolution Progress” linking to `/tools/evolution-tree`.',
       ],
@@ -58,14 +58,14 @@ const patamonPageData: StructuredPageData = {
         'Inspire players with top squads emphasizing Patamon synergy.',
       items: [
         'Data Source: Pull high-ranking teams from community leaderboards where Patamon is core.',
-        'Visual Spec: Present carousel cards with portraits and role tags, describing how Patamon anchors each Digimon Story Time Stranger strategy.',
+        'Visual Spec: Present carousel cards with portraits and role tags, describing how Patamon anchors each Time Stranger strategy.',
         'CTA: Include “Copy Patamon Squad Code” buttons piping into the team builder.',
       ],
     },
     {
       title: 'Media & Merch Gallery',
       description:
-        'Celebrate Patamon’s cultural footprint beyond Digimon Story Time Stranger.',
+        'Celebrate Patamon’s cultural footprint beyond Time Stranger.',
       items: [
         'Assets: Gather official Patamon renders, plush photos, and fan art with permissions clearly noted.',
         'Visual Spec: Build a masonry gallery with hover captions repeating Patamon plus the merchandise source.',
@@ -77,7 +77,7 @@ const patamonPageData: StructuredPageData = {
       description:
         'Keep Patamon fans engaged with active dialogue and quick answers.',
       items: [
-        'Community Spotlight: Embed Discord highlights or Twitter threads discussing Patamon tactics in Digimon Story Time Stranger.',
+        'Community Spotlight: Embed Discord highlights or Twitter threads discussing Patamon tactics in Time Stranger.',
         'FAQ: Answer common questions like “Where to recruit Patamon?” with structured paragraphs referencing the character name.',
         'Schema: Wrap the FAQ in JSON-LD to secure Patamon SERP enhancements.',
       ],
@@ -87,7 +87,7 @@ const patamonPageData: StructuredPageData = {
       description: 'Ensure the Patamon resource stays fresh.',
       items: [
         'Metrics: Track GA4 dashboards for Patamon page scroll depth, video plays, and CTA interactions.',
-        'Feedback: Prompt a survey asking how helpful the Patamon guidance was for Digimon Story Time Stranger progression.',
+        'Feedback: Prompt a survey asking how helpful the Patamon guidance was for Time Stranger progression.',
         'Changelog: Record updates whenever new Patamon balancing patches roll out.',
       ],
     },
@@ -102,7 +102,7 @@ const patamonPageData: StructuredPageData = {
     {
       title: 'Evolution Tracker Template',
       description:
-        'Monitor every Patamon evolution requirement inside Digimon Story Time Stranger.',
+        'Monitor every Patamon evolution requirement inside Time Stranger.',
       href: '/guides/beginner',
     },
     {

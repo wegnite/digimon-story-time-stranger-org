@@ -6,7 +6,7 @@ import { getTranslations } from 'next-intl/server';
 
 const TITLE = 'Patch Notes – Chronoshift Update 1.1.2';
 const DESCRIPTION =
-  'Balance changes, bug fixes, and quality-of-life upgrades delivered in Digimon Story Time Stranger patch 1.1.2.';
+  'Balance changes, bug fixes, and quality-of-life upgrades delivered in Time Stranger patch 1.1.2.';
 
 export async function generateMetadata({
   params,

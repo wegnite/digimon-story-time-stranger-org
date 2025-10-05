@@ -25,7 +25,7 @@ dotenv.config();
 
 // 从环境变量或默认值获取配置
 const CONFIG = {
-  siteName: 'Digimon Story Time Stranger Global Guide',
+  siteName: 'Time Stranger Global Guide',
   url:
     process.env.NEXT_PUBLIC_BASE_URL || 'https://digimonstorytimestranger.com',
   timezone: 'Asia/Shanghai',

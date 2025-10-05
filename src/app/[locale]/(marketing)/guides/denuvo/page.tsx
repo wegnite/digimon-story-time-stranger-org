@@ -8,7 +8,7 @@ import type { Locale } from 'next-intl';
 const denuvoPageData: StructuredPageData = {
   hero: {
     badge: 'Performance Lab',
-    title: 'Understanding Digimon Story Time Stranger’s Denuvo build',
+    title: 'Understanding Time Stranger’s Denuvo build',
     description:
       'See what this DRM actually does, how to benchmark responsibly, and how to keep your system running smoothly.',
   },

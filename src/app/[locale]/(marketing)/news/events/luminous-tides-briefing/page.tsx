@@ -6,7 +6,7 @@ import { getTranslations } from 'next-intl/server';
 
 const TITLE = 'Event Briefing – Luminous Tides Festival';
 const DESCRIPTION =
-  'Schedule, rewards, and preparation checklist for the limited-time Luminous Tides event in Digimon Story Time Stranger.';
+  'Schedule, rewards, and preparation checklist for the limited-time Luminous Tides event in Time Stranger.';
 
 export async function generateMetadata({
   params,

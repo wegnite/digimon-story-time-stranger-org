@@ -10,7 +10,7 @@ const torrentPageData: StructuredPageData = {
     badge: 'Security Advisory',
     title: 'Why torrent downloads put your adventure at risk',
     description:
-      'Torrent bundles are a common source of malware and lost progress. Learn the red flags and see the safer ways to play Digimon Story Time Stranger.',
+      'Torrent bundles are a common source of malware and lost progress. Learn the red flags and see the safer ways to play Time Stranger.',
   },
   sections: [
     {

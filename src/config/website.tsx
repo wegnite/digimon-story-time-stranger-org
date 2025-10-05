@@ -62,6 +62,10 @@ export const websiteConfig: WebsiteConfig = {
         flag: '🇺🇸',
         name: 'English',
       },
+      zh: {
+        flag: '🇨🇳',
+        name: '简体中文',
+      },
       ja: {
         flag: '🇯🇵',
         name: '日本語',
@@ -87,9 +91,9 @@ export const websiteConfig: WebsiteConfig = {
   mail: {
     provider: 'resend',
     fromEmail:
-      'Digimon Story Time Stranger Guide <support@digimonstorytimestranger.com>',
+      'Time Stranger Guide <support@digimonstorytimestranger.com>',
     supportEmail:
-      'Digimon Story Time Stranger Guide <support@digimonstorytimestranger.com>',
+      'Time Stranger Guide <support@digimonstorytimestranger.com>',
   },
   newsletter: {
     enable: true,

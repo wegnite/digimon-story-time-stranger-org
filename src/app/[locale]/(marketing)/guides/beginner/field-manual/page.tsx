@@ -6,7 +6,7 @@ import { getTranslations } from 'next-intl/server';
 
 const TITLE = 'Beginner Field Manual – Launch Protocols';
 const DESCRIPTION =
-  'Detailed onboarding blueprint for new tamers entering Digimon Story Time Stranger, covering starter partners, resource routes, and early combat fundamentals.';
+  'Detailed onboarding blueprint for new tamers entering Time Stranger, covering starter partners, resource routes, and early combat fundamentals.';
 
 export async function generateMetadata({
   params,
@@ -50,7 +50,7 @@ export default async function FieldManualPage({
       <section className="space-y-3">
         <h2 className="text-2xl">Mission Brief</h2>
         <p>
-          The opening three hours of <em>Digimon Story Time Stranger</em> are
+          The opening three hours of <em>Time Stranger</em> are
           intentionally dense: systems unlock in quick succession, affinity
           choices lock major narrative paths, and the Chrono Grid tutorial is
           unforgiving if you approach it like a traditional turn-based RPG. This

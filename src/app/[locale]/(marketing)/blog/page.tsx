@@ -1,5 +1,5 @@
-import { BlogCategoryFilter } from '@/components/blog/blog-category-filter';
 import BlogGrid from '@/components/blog/blog-grid';
+import { BlogCategoryFilter } from '@/components/blog/blog-category-filter';
 import Container from '@/components/layout/container';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -8,10 +8,10 @@ import { constructMetadata } from '@/lib/metadata';
 import { blogSource, categorySource } from '@/lib/source';
 import { getUrlWithLocale } from '@/lib/urls/urls';
 import { Routes } from '@/routes';
-import type { BlogCategory } from '@/types';
 import type { Metadata } from 'next';
 import type { Locale } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
+import type { BlogCategory } from '@/types';
 
 export async function generateMetadata({
   params,
@@ -23,11 +23,11 @@ export async function generateMetadata({
 
   return constructMetadata({
     title: t('title', {
-      defaultValue: 'Blog - Digimon Story Time Stranger Guide',
+      defaultValue: 'Blog - Time Stranger Guide',
     }),
     description: t('description', {
       defaultValue:
-        'Latest news, guides, tips, and strategies for Digimon Story Time Stranger. Stay updated with game updates, evolution guides, and community content.',
+        'Latest news, guides, tips, and strategies for Time Stranger. Stay updated with game updates, evolution guides, and community content.',
     }),
     canonicalUrl: getUrlWithLocale(Routes.Blog, locale),
     noIndex: false,
@@ -42,15 +42,6 @@ export default async function BlogPage({ params }: BlogPageProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'BlogPage' });
 
-  const categories: BlogCategory[] = categorySource
-    .getPages()
-    .map((category) => ({
-      slug: category.slugs[0] ?? '',
-      name: category.data.name,
-      description: category.data.description ?? '',
-    }))
-    .filter((category) => category.slug && category.name);
-
   const posts = blogSource
     .getPages(locale)
     .filter((post) => post.data.published)
@@ -58,6 +49,20 @@ export default async function BlogPage({ params }: BlogPageProps) {
       (a, b) =>
         new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
     );
+
+  const activeCategorySlugs = new Set(
+    posts.flatMap((post) => post.data.categories ?? [])
+  );
+
+  const categories: BlogCategory[] = categorySource
+    .getPages()
+    .map((category) => ({
+      slug: category.slugs[0] ?? '',
+      name: category.data.name,
+      description: category.data.description ?? '',
+    }))
+    .filter((category) => category.slug && category.name)
+    .filter((category) => activeCategorySlugs.has(category.slug));
 
   const latestPosts = posts.slice(0, 3);
 
@@ -82,7 +87,7 @@ export default async function BlogPage({ params }: BlogPageProps) {
               Editorial Relaunch
             </Badge>
             <h1 className="mb-6 text-4xl font-bold bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent md:text-5xl">
-              Digimon Story Blog
+              Time Stranger Walkthrough Blog
             </h1>
             <p className="text-lg text-slate-300">
               We’re refreshing our editorial hub with deep-dive patches,

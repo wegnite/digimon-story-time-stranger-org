@@ -6,7 +6,7 @@ import { getTranslations } from 'next-intl/server';
 
 const TITLE = 'Skill Planner Combo Theory';
 const DESCRIPTION =
-  'Advanced usage guide for the Digimon Story Time Stranger Skill Planner, focusing on combo rotations, cooldown management, and burst sequencing.';
+  'Advanced usage guide for the Time Stranger Skill Planner, focusing on combo rotations, cooldown management, and burst sequencing.';
 
 export async function generateMetadata({
   params,

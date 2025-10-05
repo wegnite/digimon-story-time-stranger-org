@@ -75,10 +75,10 @@ export function Navbar({ scroll }: NavBarProps) {
               <Logo className="group-hover:scale-110 transition-transform duration-200" />
               <div className="flex flex-col">
                 <span className="text-base font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                  Digimon Story
+                  Time Stranger
                 </span>
                 <span className="text-xs text-slate-300 -mt-0.5">
-                  Time Stranger Guide
+                  Walkthrough Hub
                 </span>
               </div>
             </LocaleLink>

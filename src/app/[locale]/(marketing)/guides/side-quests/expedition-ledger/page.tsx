@@ -6,7 +6,7 @@ import { getTranslations } from 'next-intl/server';
 
 const TITLE = 'Side Quest Expedition Ledger';
 const DESCRIPTION =
-  'Region-by-region checklist for Digimon Story Time Stranger side quests, including affinity rewards, time-limited objectives, and recommended squad compositions.';
+  'Region-by-region checklist for Time Stranger side quests, including affinity rewards, time-limited objectives, and recommended squad compositions.';
 
 export async function generateMetadata({
   params,

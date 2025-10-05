@@ -1,17 +1,18 @@
-import { randomUUID } from 'node:crypto';
 import { getDb } from '@/db';
 import { blogComments } from '@/db/schema';
 import { auth } from '@/lib/auth';
 import { and, desc, eq } from 'drizzle-orm';
+import { randomUUID } from 'node:crypto';
 import type { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
 
 const commentInputSchema = z.object({
   content: z
-    .string({ required_error: 'content is required' })
-    .transform((value) => value.trim())
-    .pipe(z.string().min(1, 'content is required').max(1000)),
+    .string()
+    .trim()
+    .min(1, { message: 'content is required' })
+    .max(1000, { message: 'content must be 1000 characters or less' }),
   locale: z.string().optional(),
 });
 

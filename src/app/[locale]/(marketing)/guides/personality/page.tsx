@@ -9,15 +9,15 @@ const personalityPageDataEn: StructuredPageData = {
   hero: {
     badge: 'Personality System',
     title:
-      'Digimon Story Time Stranger Personality System Complete Guide: 16 Types, Skills & Stat Bonuses',
+      'Time Stranger Personality System Complete Guide: 16 Types, Skills & Stat Bonuses',
     description:
-      'Master the personality system in Digimon Story Time Stranger with our complete guide covering all 16 personalities, bond types, stat bonuses, and exclusive skills to optimize your team.',
+      'Master the personality system in Time Stranger with our complete guide covering all 16 personalities, bond types, stat bonuses, and exclusive skills to optimize your team.',
   },
   sections: [
     {
       title: 'System Overview',
       description:
-        'The personality system is one of the most complex mechanics in Digimon Story Time Stranger. Understanding bonds, personalities, and their effects is crucial for building the strongest team.',
+        'The personality system is one of the most complex mechanics in Time Stranger. Understanding bonds, personalities, and their effects is crucial for building the strongest team.',
       items: [
         '4 Bond Types: Valor, Philanthropy, Amicability, and Wisdom - each providing different stat bonuses',
         '16 Total Personalities: 4 unique personalities per bond type, each with exclusive skills and attribute bonuses',

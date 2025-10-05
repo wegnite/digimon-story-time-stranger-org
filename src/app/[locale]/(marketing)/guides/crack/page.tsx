@@ -10,7 +10,7 @@ const crackPageData: StructuredPageData = {
     badge: 'Player Safety',
     title: 'Why cracked copies are never worth the risk',
     description:
-      'Understand the legal, security, and community downsides of unlicensed builds and learn the safe ways to enjoy Digimon Story Time Stranger.',
+      'Understand the legal, security, and community downsides of unlicensed builds and learn the safe ways to enjoy Time Stranger.',
   },
   sections: [
     {
@@ -42,7 +42,7 @@ const crackPageData: StructuredPageData = {
       items: [
         'Disconnect the affected PC from the network and run a full scan with a trusted antivirus or Microsoft Defender Offline.',
         'Remove unknown startup entries, browser extensions, and scheduled tasks that appeared after the install.',
-        'Reinstall Digimon Story Time Stranger from an official source and change credentials for any services used on the compromised machine.',
+        'Reinstall Time Stranger from an official source and change credentials for any services used on the compromised machine.',
       ],
     },
   ],

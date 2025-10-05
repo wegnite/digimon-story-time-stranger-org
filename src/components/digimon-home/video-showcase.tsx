@@ -7,6 +7,16 @@ import { ChevronLeft, ChevronRight, Play } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 
+type VideoPlatform = 'youtube' | 'bilibili';
+
+interface Video {
+  id: string;
+  platform: VideoPlatform;
+  title: string;
+  description: string;
+  thumbnail: string;
+}
+
 interface VideoShowcaseProps {
   title?: string;
   description?: string;
@@ -26,88 +36,114 @@ export function VideoShowcaseSection({
   const [currentPage, setCurrentPage] = useState(0);
   const videosPerPage = 4;
 
-  const videos = [
+  const videos: Video[] = [
     {
       id: 'alb_t8TikNI',
-      platform: 'youtube' as const,
-      title: 'Digimon Story: Cyber Sleuth - Official Trailer',
+      platform: 'youtube',
+      title: 'Cyber Sleuth Legacy Trailer (Time Stranger Timeline)',
       description:
         'Experience the thrilling detective story in the Digital World',
-      thumbnail: 'https://img.youtube.com/vi/alb_t8TikNI/maxresdefault.jpg',
+      thumbnail: 'https://i.ytimg.com/vi/alb_t8TikNI/hqdefault.jpg',
     },
     {
       id: 'QZyoZTcUtSo',
-      platform: 'youtube' as const,
-      title: 'Digimon Story: Cyber Sleuth Complete Edition Trailer',
+      platform: 'youtube',
+      title: 'Cyber Sleuth Complete Edition Recap',
       description:
         'Join the Digital World and discover the truth in this epic RPG adventure',
-      thumbnail: 'https://img.youtube.com/vi/QZyoZTcUtSo/maxresdefault.jpg',
+      thumbnail: 'https://i.ytimg.com/vi/QZyoZTcUtSo/hqdefault.jpg',
     },
     {
       id: 'CmUr-47IQlc',
-      platform: 'youtube' as const,
-      title: 'Digimon Story: Cyber Sleuth Gameplay',
+      platform: 'youtube',
+      title: 'Cyber Sleuth Gameplay Overview for Time Stranger Fans',
       description:
-        'Complete guide to battles, evolution system, and story progression',
-      thumbnail: 'https://img.youtube.com/vi/CmUr-47IQlc/maxresdefault.jpg',
+        'Complete guide to battles, evolution systems, and story progression basics',
+      thumbnail: 'https://i.ytimg.com/vi/CmUr-47IQlc/hqdefault.jpg',
     },
     {
       id: 'qBVq2Zq-Pac',
-      platform: 'youtube' as const,
-      title: "Digimon Story: Cyber Sleuth Hacker's Memory",
+      platform: 'youtube',
+      title: "Cyber Sleuth Hacker's Memory Story Recap",
       description: 'Discover the untold side story of Cyber Sleuth',
-      thumbnail: 'https://img.youtube.com/vi/qBVq2Zq-Pac/maxresdefault.jpg',
+      thumbnail: 'https://i.ytimg.com/vi/qBVq2Zq-Pac/hqdefault.jpg',
     },
     {
-      id: 'W6GVzFWd-78',
-      platform: 'youtube' as const,
-      title: 'Digimon Story: Time Stranger - Beginner Guide',
+      id: 'BV1QMHjzqEws',
+      platform: 'bilibili',
+      title: 'Time Stranger 4K Complete Walkthrough',
       description:
-        'Essential tips and tricks for starting your Digimon adventure',
-      thumbnail: 'https://img.youtube.com/vi/W6GVzFWd-78/maxresdefault.jpg',
+        'Comprehensive mission and story guide captured in native 4K quality.',
+      thumbnail:
+        'https://i1.hdslb.com/bfs/archive/dac63b29518630242f4fa9f2ee0a81d05f7d5c45.jpg',
     },
     {
-      id: 'R4qH_JHmxC8',
-      platform: 'youtube' as const,
-      title: 'Digimon Evolution System Explained',
-      description: 'Master digivolution mechanics and build the perfect team',
-      thumbnail: 'https://img.youtube.com/vi/R4qH_JHmxC8/maxresdefault.jpg',
-    },
-    {
-      id: 'LcV7vSfaE1o',
-      platform: 'youtube' as const,
-      title: 'Digimon Story: Complete Walkthrough Part 1',
+      id: 'iDVaI2Yaj0A',
+      platform: 'youtube',
+      title: 'Time Stranger Gameplay Walkthrough (4K 60FPS)',
       description:
-        'Full gameplay walkthrough from the beginning of your journey',
-      thumbnail: 'https://img.youtube.com/vi/LcV7vSfaE1o/maxresdefault.jpg',
+        'Full no-commentary run that covers every story chapter and battle.',
+      thumbnail: 'https://i.ytimg.com/vi/iDVaI2Yaj0A/hqdefault.jpg',
     },
     {
-      id: 'gvWqI8ayYYs',
-      platform: 'youtube' as const,
-      title: 'Best Digimon Team Compositions Guide',
-      description: 'Learn how to build powerful teams for different situations',
-      thumbnail: 'https://img.youtube.com/vi/gvWqI8ayYYs/maxresdefault.jpg',
+      id: 'h-hSEyniRxQ',
+      platform: 'youtube',
+      title: 'Time Stranger - Full Game Walkthrough',
+      description:
+        'Normal and Hard mode routes with key boss advice and party planning.',
+      thumbnail: 'https://i.ytimg.com/vi/h-hSEyniRxQ/hqdefault.jpg',
     },
     {
-      id: 'U8Virpv7nxY',
-      platform: 'youtube' as const,
-      title: 'All Royal Knights Locations',
-      description: 'How to find and obtain all Royal Knights Digimon',
-      thumbnail: 'https://img.youtube.com/vi/U8Virpv7nxY/maxresdefault.jpg',
+      id: '0rF90u7GOPQ',
+      platform: 'youtube',
+      title: 'Time Stranger - All 459 Digimon Showcase (Field Guide 100%)',
+      description:
+        'Complete Field Guide tour to plan your collection and training goals.',
+      thumbnail: 'https://i.ytimg.com/vi/0rF90u7GOPQ/hqdefault.jpg',
     },
     {
-      id: 'XH5tn_7aDE8',
-      platform: 'youtube' as const,
-      title: 'Digimon Story: Advanced Battle Strategies',
-      description: 'Master combat mechanics and defeat tough bosses',
-      thumbnail: 'https://img.youtube.com/vi/XH5tn_7aDE8/maxresdefault.jpg',
+      id: 'Hen3i4DfrXw',
+      platform: 'youtube',
+      title: 'Time Stranger Part 1 Gameplay Walkthrough',
+      description:
+        'Prologue walkthrough highlighting exploration beats and early combat tips.',
+      thumbnail: 'https://i.ytimg.com/vi/Hen3i4DfrXw/hqdefault.jpg',
+    },
+    {
+      id: 'eb5moYtygAA',
+      platform: 'youtube',
+      title: 'How to Armor Digivolve Fast | Time Stranger Guide',
+      description:
+        'Fast-track methods to unlock Armor Digivolutions and source key items.',
+      thumbnail: 'https://i.ytimg.com/vi/eb5moYtygAA/hqdefault.jpg',
+    },
+    {
+      id: 'cIubWcWTTuc',
+      platform: 'youtube',
+      title: 'A Quick Guide to Time Stranger',
+      description:
+        'New-player overview covering the core systems and essential mechanics.',
+      thumbnail: 'https://i.ytimg.com/vi/cIubWcWTTuc/hqdefault.jpg',
+    },
+    {
+      id: '4PtrXjn7H7E',
+      platform: 'youtube',
+      title: "Don't Miss These Free Digimon! Time Stranger Tips",
+      description:
+        'Highlights hidden and free Digimon that power up early teams.',
+      thumbnail: 'https://i.ytimg.com/vi/4PtrXjn7H7E/hqdefault.jpg',
     },
   ];
 
-  const getEmbedUrl = (video: (typeof videos)[0]) => {
+  const getEmbedUrl = (video: Video) => {
     if (video.platform === 'youtube') {
       return `https://www.youtube.com/embed/${video.id}?autoplay=0&rel=0`;
     }
+
+    if (video.platform === 'bilibili') {
+      return `https://player.bilibili.com/player.html?bvid=${video.id}&page=1&as_wide=1&high_quality=1&autoplay=0&danmaku=0`;
+    }
+
     return '';
   };
 
@@ -135,16 +171,21 @@ export function VideoShowcaseSection({
     name: heading,
     description: lead,
     numberOfItems: videos.length,
-    itemListElement: videos.map((video, index) => ({
-      '@type': 'VideoObject',
-      position: index + 1,
-      name: video.title,
-      description: video.description,
-      thumbnailUrl: video.thumbnail,
-      embedUrl: `https://www.youtube.com/embed/${video.id}`,
-      uploadDate: '2025-01-01',
-      contentUrl: `https://www.youtube.com/watch?v=${video.id}`,
-    })),
+    itemListElement: videos.map((video, index) => {
+      const isYoutube = video.platform === 'youtube';
+      return {
+        '@type': 'VideoObject',
+        position: index + 1,
+        name: video.title,
+        description: video.description,
+        thumbnailUrl: video.thumbnail,
+        embedUrl: getEmbedUrl(video),
+        uploadDate: '2025-01-01',
+        contentUrl: isYoutube
+          ? `https://www.youtube.com/watch?v=${video.id}`
+          : `https://www.bilibili.com/video/${video.id}`,
+      };
+    }),
   };
 
   return (

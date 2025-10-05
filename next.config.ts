@@ -60,6 +60,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'i.ytimg.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'i1.hdslb.com',
+      },
     ],
   },
   // Allow YouTube iframe embeds
@@ -71,7 +75,7 @@ const nextConfig: NextConfig = {
           {
             key: 'Content-Security-Policy',
             value:
-              "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com;",
+              "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://player.bilibili.com;",
           },
         ],
       },

@@ -6,7 +6,7 @@ import { getTranslations } from 'next-intl/server';
 
 const TITLE = 'Team Builder Synergy Matrix';
 const DESCRIPTION =
-  'Guide to maximizing aura links, resistance coverage, and bench swaps using the Digimon Story Time Stranger Team Builder.';
+  'Guide to maximizing aura links, resistance coverage, and bench swaps using the Time Stranger Team Builder.';
 
 export async function generateMetadata({
   params,

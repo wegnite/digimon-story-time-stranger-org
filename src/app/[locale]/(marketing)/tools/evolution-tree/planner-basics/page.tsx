@@ -6,7 +6,7 @@ import { getTranslations } from 'next-intl/server';
 
 const TITLE = 'Evolution Tree Planner Basics';
 const DESCRIPTION =
-  'Hands-on tutorial for the Digimon Story Time Stranger Evolution Tree tool, covering branch requirements, currency budgeting, and share-code collaboration.';
+  'Hands-on tutorial for the Time Stranger Evolution Tree tool, covering branch requirements, currency budgeting, and share-code collaboration.';
 
 export async function generateMetadata({
   params,

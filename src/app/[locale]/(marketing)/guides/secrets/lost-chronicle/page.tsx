@@ -6,7 +6,7 @@ import { getTranslations } from 'next-intl/server';
 
 const TITLE = 'Lost Chronicle Compendium';
 const DESCRIPTION =
-  'Hidden Digimon recruits, alternate endings, and collectible routes for Digimon Story Time Stranger, including step-by-step puzzle solutions and missable windows.';
+  'Hidden Digimon recruits, alternate endings, and collectible routes for Time Stranger, including step-by-step puzzle solutions and missable windows.';
 
 export async function generateMetadata({
   params,

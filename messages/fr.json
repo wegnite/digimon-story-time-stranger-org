@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "name": "Guide Mondial Digimon Story Time Stranger",
-    "title": "Guide Digimon Story Time Stranger \u2013 Parcours & Outils",
-    "description": "Coordonnez parcours narratifs, bases de donn\u00e9es Digimon, alertes de mises \u00e0 jour et outils tactiques bilingues pour les joueurs de Digimon Story Time Stranger."
+    "name": "Guide Mondial Time Stranger",
+    "title": "Guide Time Stranger \u2013 Parcours & Outils",
+    "description": "Coordonnez parcours narratifs, bases de donn\u00e9es Digimon, alertes de mises \u00e0 jour et outils tactiques bilingues pour les joueurs de Time Stranger."
   },
   "Marketing": {
     "navbar": {
@@ -122,7 +122,7 @@
       }
     },
     "footer": {
-      "tagline": "La r\u00e9f\u00e9rence mondiale pour Digimon Story Time Stranger.",
+      "tagline": "La r\u00e9f\u00e9rence mondiale pour Time Stranger.",
       "guides": {
         "title": "Guides",
         "items": {
@@ -189,7 +189,7 @@
   "DigimonHome": {
     "hero": {
       "featureLabel": "For every Time Stranger tamer",
-      "title": "Digimon Story Time Stranger Guide Hub",
+      "title": "Time Stranger Guide Hub",
       "description": "Track launch intel, master combat systems, and prep your squad before touching the controller.",
       "primaryCta": "Start Launch Checklist",
       "primaryHref": "/guides/beginner",
@@ -321,7 +321,7 @@
       "meta": "Set your locale preference to receive notifications in your language."
     },
     "faq": {
-      "title": "Digimon Story Time Stranger FAQ",
+      "title": "Time Stranger FAQ",
       "subtitle": "Key answers for strategy planners and new tamers.",
       "items": [
         {
@@ -507,7 +507,7 @@
       ]
     },
     "videos": {
-      "title": "Digimon Story Time Stranger Video Gallery",
+      "title": "Time Stranger Video Gallery",
       "description": "Watch Time Stranger gameplay breakdowns, trailers, and creator deep dives.",
       "playlistLabel": "More videos",
       "ctaLabel": "View full video archive",

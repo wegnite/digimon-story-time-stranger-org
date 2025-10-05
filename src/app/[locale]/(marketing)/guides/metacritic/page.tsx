@@ -8,7 +8,7 @@ import type { Locale } from 'next-intl';
 const metacriticPageData: StructuredPageData = {
   hero: {
     badge: 'Review intelligence',
-    title: 'Tracking Digimon Story Time Stranger on Metacritic',
+    title: 'Tracking Time Stranger on Metacritic',
     description:
       'Get a quick overview of critic scores, community reactions, and where to read full reviews in your language.',
   },

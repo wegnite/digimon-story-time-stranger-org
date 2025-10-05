@@ -6,7 +6,7 @@ import { getTranslations } from 'next-intl/server';
 
 const TITLE = 'Main Story Logbook – Shattered Timeline Arc';
 const DESCRIPTION =
-  'Step-by-step mission walkthrough for Digimon Story Time Stranger chapters 1–4, including affinity checkpoints, boss rotation breakdowns, and loot routing.';
+  'Step-by-step mission walkthrough for Time Stranger chapters 1–4, including affinity checkpoints, boss rotation breakdowns, and loot routing.';
 
 export async function generateMetadata({
   params,
